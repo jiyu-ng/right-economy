@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="380" viewBox="0 0 740 380" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="740" height="380" fill="#ffffff"/>
+  <text x="40" y="34" font-size="20" font-weight="700" fill="#1a1a1a">'디지털 금'? — 금과 비트코인, 닮은 점과 다른 점</text>
+  <text x="40" y="56" font-size="13" fill="#6b7280">희소성이라는 공통점은 있지만, 성격은 꽤 달라요</text>
+
+  <!-- 공통점 띠 -->
+  <rect x="48" y="80" width="644" height="42" rx="10" fill="#f5f3ff" stroke="#c4b5fd"/>
+  <text x="370" y="106" font-size="13.5" font-weight="700" fill="#6d28d9" text-anchor="middle">🤝 공통점: 공급이 제한적(희소) · 특정 국가·중앙기관이 찍어내지 않음 · '가치 저장' 기대</text>
+
+  <!-- 금 카드 -->
+  <rect x="48" y="136" width="315" height="200" rx="14" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="205" y="166" font-size="17" font-weight="700" fill="#b45309" text-anchor="middle">금 (金)</text>
+  <text x="70" y="198" font-size="13.5" fill="#78350f">· 실물 — 만질 수 있음</text>
+  <text x="70" y="224" font-size="13.5" fill="#78350f">· 수천 년의 신뢰 역사</text>
+  <text x="70" y="250" font-size="13.5" fill="#78350f">· 변동성 상대적으로 낮음</text>
+  <text x="70" y="276" font-size="13.5" fill="#78350f">· 위기 때 '피난처'로 검증됨</text>
+  <text x="70" y="302" font-size="13.5" fill="#78350f">· 보관·거래 방식 성숙</text>
+
+  <!-- 비트코인 카드 -->
+  <rect x="377" y="136" width="315" height="200" rx="14" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+  <text x="534" y="166" font-size="17" font-weight="700" fill="#c2410c" text-anchor="middle">비트코인</text>
+  <text x="399" y="198" font-size="13.5" fill="#7c2d12">· 디지털 — 실물 없음</text>
+  <text x="399" y="224" font-size="13.5" fill="#7c2d12">· 2009년 등장, 역사 짧음</text>
+  <text x="399" y="250" font-size="13.5" fill="#7c2d12">· 변동성 매우 큼</text>
+  <text x="399" y="276" font-size="13.5" fill="#7c2d12">· 위기 때 함께 급락하기도</text>
+  <text x="399" y="302" font-size="13.5" fill="#7c2d12">· 규제·기술 불확실성 존재</text>
+
+  <text x="370" y="362" font-size="11.5" fill="#9ca3af" text-anchor="middle">개념 비교 · 특정 자산의 매수·매도를 권유하지 않아요 · 옳은경제 정리</text>
+</svg>
