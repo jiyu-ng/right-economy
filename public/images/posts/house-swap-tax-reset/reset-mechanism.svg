@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect width="640" height="380" fill="#ffffff"/>
+  <text x="32" y="42" font-size="21" font-weight="700" fill="#1f2937">취득가 '출발선 리셋'의 원리 (예시)</text>
+
+  <!-- before -->
+  <text x="32" y="80" font-size="15" font-weight="700" fill="#991b1b">① 맞교환 전 — 취득가가 낮아 차익이 큼</text>
+  <rect x="32" y="94" width="120" height="34" rx="6" fill="#e5e7eb"/>
+  <text x="92" y="116" font-size="13" fill="#374151" text-anchor="middle">취득가 16억</text>
+  <rect x="152" y="94" width="424" height="34" rx="6" fill="#fecaca"/>
+  <text x="364" y="116" font-size="13" font-weight="700" fill="#991b1b" text-anchor="middle">차익 40억  (현재 시세 56억)</text>
+
+  <!-- arrow -->
+  <text x="320" y="164" font-size="14" font-weight="700" fill="#6b7280" text-anchor="middle">↓ 비슷한 집끼리 맞교환 = 취득가를 현재 시세로 리셋</text>
+
+  <!-- after -->
+  <text x="32" y="206" font-size="15" font-weight="700" fill="#065f46">② 맞교환 후 — 취득가가 올라 미래 차익이 작아짐</text>
+  <rect x="32" y="220" width="470" height="34" rx="6" fill="#e5e7eb"/>
+  <text x="267" y="242" font-size="13" fill="#374151" text-anchor="middle">새 취득가 56억 (현재 시세로 세팅)</text>
+  <rect x="502" y="220" width="74" height="34" rx="6" fill="#bbf7d0"/>
+  <text x="539" y="242" font-size="12" font-weight="700" fill="#065f46" text-anchor="middle">차익 ↓</text>
+
+  <!-- note box -->
+  <rect x="32" y="286" width="544" height="72" rx="10" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="52" y="313" font-size="13" font-weight="700" fill="#92400e">단, '리셋'은 세금을 없애는 게 아니에요</text>
+  <text x="52" y="336" font-size="13" fill="#b45309">교환 시점에 지금까지의 차익에 대한 양도세를 '지금' 냅니다.</text>
+  <text x="52" y="353" font-size="13" fill="#b45309">취득세·중개비도 새로 들고, 실익은 케이스별로 따져야 해요.</text>
+</svg>
