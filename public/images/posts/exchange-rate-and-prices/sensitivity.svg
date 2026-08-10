@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="330" viewBox="0 0 740 330" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="740" height="330" fill="#ffffff"/>
+  <text x="40" y="34" font-size="20" font-weight="700" fill="#1a1a1a">어떤 값이 환율에 민감할까 — 수입 의존도로 갈린다</text>
+  <text x="40" y="56" font-size="13" fill="#6b7280">해외에서 사 오는 비중이 클수록 환율 오르면 값도 빨리 따라 올라요</text>
+
+  <!-- 민감 카드 -->
+  <rect x="48" y="80" width="315" height="220" rx="14" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="205" y="110" font-size="16" font-weight="700" fill="#b91c1c" text-anchor="middle">🔺 환율에 민감 (수입 비중 큼)</text>
+  <text x="70" y="144" font-size="13.5" fill="#7f1d1d">· 휘발유·경유 등 에너지</text>
+  <text x="70" y="172" font-size="13.5" fill="#7f1d1d">· 밀가루·식용유·커피 등 수입 식품</text>
+  <text x="70" y="200" font-size="13.5" fill="#7f1d1d">· 전자제품·수입차·부품</text>
+  <text x="70" y="228" font-size="13.5" fill="#7f1d1d">· 해외여행·해외 직구</text>
+  <text x="70" y="256" font-size="13.5" fill="#7f1d1d">· 명품·수입 브랜드</text>
+  <text x="205" y="286" font-size="12" fill="#ef4444" text-anchor="middle">→ 환율 오르면 값이 먼저 반응</text>
+
+  <!-- 둔감 카드 -->
+  <rect x="377" y="80" width="315" height="220" rx="14" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="534" y="110" font-size="16" font-weight="700" fill="#15803d" text-anchor="middle">🟢 상대적으로 둔감 (국내 비중 큼)</text>
+  <text x="399" y="144" font-size="13.5" fill="#166534">· 쌀 등 국산 농산물</text>
+  <text x="399" y="172" font-size="13.5" fill="#166534">· 대중교통·공공요금(단기)</text>
+  <text x="399" y="200" font-size="13.5" fill="#166534">· 미용·외식 등 국내 서비스</text>
+  <text x="399" y="228" font-size="13.5" fill="#166534">· 국산 원료 비중 큰 제품</text>
+  <text x="399" y="256" font-size="13.5" fill="#166534">· 인건비 위주 서비스</text>
+  <text x="534" y="286" font-size="12" fill="#22c55e" text-anchor="middle">→ 환율보다 다른 요인에 더 좌우</text>
+</svg>
