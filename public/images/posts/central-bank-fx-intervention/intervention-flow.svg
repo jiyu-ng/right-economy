@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="330" viewBox="0 0 740 330" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="740" height="330" fill="#ffffff"/>
+  <text x="40" y="34" font-size="20" font-weight="700" fill="#1a1a1a">환율이 급등할 때 — 외환 당국의 '개입' 원리</text>
+  <text x="40" y="56" font-size="13" fill="#6b7280">원화가 급하게 약해지면(환율 급등), 당국이 보유 달러를 풀어 속도를 늦춰요</text>
+
+  <!-- 1 -->
+  <rect x="48" y="84" width="644" height="46" rx="10" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="70" y="112" font-size="14.5" font-weight="700" fill="#b91c1c">① 원/달러 환율 급등 (원화 급속 약세)</text>
+  <text x="440" y="112" font-size="13" fill="#7f1d1d">달러 수요 몰림 · 변동성 커짐</text>
+
+  <text x="370" y="150" font-size="17" fill="#f87171" text-anchor="middle">▼</text>
+
+  <!-- 2 -->
+  <rect x="48" y="160" width="644" height="46" rx="10" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="70" y="188" font-size="14.5" font-weight="700" fill="#1d4ed8">② 외환 당국이 보유 '달러 매도' + '원화 매수'</text>
+  <text x="440" y="188" font-size="13" fill="#1e40af">시장에 달러 공급 ↑ · 외환보유고 활용</text>
+
+  <text x="370" y="224" font-size="17" fill="#60a5fa" text-anchor="middle">▼</text>
+
+  <!-- 3 -->
+  <rect x="48" y="234" width="644" height="46" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="70" y="262" font-size="14.5" font-weight="700" fill="#15803d">③ 달러 공급 늘어 환율 상승 속도 진정</text>
+  <text x="440" y="262" font-size="13" fill="#166534">급변동 완화(방향 자체를 바꾸긴 어려움)</text>
+
+  <text x="370" y="304" font-size="12" fill="#9ca3af" text-anchor="middle">* 환율이 급락(원화 급강세)할 땐 반대로 '달러 매수·원화 매도'로 개입 · 출처: 옳은경제 정리</text>
+</svg>
