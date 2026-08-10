@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect width="640" height="360" fill="#ffffff"/>
+  <text x="32" y="44" font-size="21" font-weight="700" fill="#1f2937">깡통전세는 이렇게 생겨요 (예시)</text>
+
+  <!-- step 1 -->
+  <rect x="32" y="70" width="576" height="66" rx="12" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="52" y="98" font-size="15" font-weight="700" fill="#374151">① 계약 시점</text>
+  <text x="52" y="122" font-size="14" fill="#4b5563">매매가 5억 · 전세보증금 4억  →  전세가율 80%</text>
+
+  <!-- arrow -->
+  <text x="320" y="160" font-size="13" fill="#9ca3af" text-anchor="middle">집값이 하락하면 ▼</text>
+
+  <!-- step 2 -->
+  <rect x="32" y="170" width="576" height="66" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="52" y="198" font-size="15" font-weight="700" fill="#92400e">② 집값 하락</text>
+  <text x="52" y="222" font-size="14" fill="#b45309">매매가 5억 → 3.5억으로 하락 (전세보증금은 그대로 4억)</text>
+
+  <!-- arrow -->
+  <text x="320" y="260" font-size="13" fill="#9ca3af" text-anchor="middle">집을 팔아도 ▼</text>
+
+  <!-- step 3 -->
+  <rect x="32" y="270" width="576" height="72" rx="12" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="52" y="300" font-size="15" font-weight="700" fill="#991b1b">③ 보증금 미반환</text>
+  <text x="52" y="325" font-size="14" fill="#b91c1c">매각대금 3.5억 &lt; 보증금 4억  →  5,000만 원을 못 돌려받아요</text>
+</svg>
