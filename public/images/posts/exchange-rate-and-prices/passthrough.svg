@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="330" viewBox="0 0 740 330" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="740" height="330" fill="#ffffff"/>
+  <text x="40" y="34" font-size="20" font-weight="700" fill="#1a1a1a">환율이 물가를 밀어올리는 길 — '수입물가' 경로</text>
+  <text x="40" y="56" font-size="13" fill="#6b7280">원화 값이 떨어지면(환율↑) 수입품 값이 올라 결국 장바구니 물가까지 번져요</text>
+
+  <!-- 단계 박스 4개 세로 흐름 -->
+  <!-- 1 -->
+  <rect x="48" y="86" width="644" height="46" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+  <text x="70" y="114" font-size="14.5" font-weight="700" fill="#c2410c">① 원/달러 환율 ↑ (원화 약세)</text>
+  <text x="430" y="114" font-size="13" fill="#7c2d12">같은 1달러를 더 많은 원화로 바꿔야 함</text>
+
+  <text x="370" y="150" font-size="17" fill="#fb923c" text-anchor="middle">▼</text>
+
+  <!-- 2 -->
+  <rect x="48" y="160" width="644" height="46" rx="10" fill="#fefce8" stroke="#fde047" stroke-width="1.5"/>
+  <text x="70" y="188" font-size="14.5" font-weight="700" fill="#a16207">② 수입 원자재·완제품 값 ↑ (원화 환산)</text>
+  <text x="430" y="188" font-size="13" fill="#713f12">원유·곡물·부품 수입단가가 원화로 올라감</text>
+
+  <text x="370" y="224" font-size="17" fill="#facc15" text-anchor="middle">▼</text>
+
+  <!-- 3 -->
+  <rect x="48" y="234" width="644" height="46" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="70" y="262" font-size="14.5" font-weight="700" fill="#15803d">③ 생산·수입·유통 비용 ↑</text>
+  <text x="430" y="262" font-size="13" fill="#166534">기업이 원가 상승분을 판매가에 반영</text>
+
+  <text x="370" y="298" font-size="17" fill="#4ade80" text-anchor="middle">▼</text>
+
+  <!-- 4 -->
+  <rect x="220" y="300" width="300" height="24" rx="8" fill="#dc2626"/>
+  <text x="370" y="317" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">④ 소비자물가(장바구니) ↑ 🛒</text>
+</svg>
