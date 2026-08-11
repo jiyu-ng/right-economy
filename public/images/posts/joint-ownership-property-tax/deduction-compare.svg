@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="360" viewBox="0 0 740 360" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="740" height="360" fill="#ffffff"/>
+  <text x="40" y="34" font-size="20" font-weight="700" fill="#1a1a1a">부부 공동명의 1주택 — '거주 여부'에 따라 갈리는 공제</text>
+  <text x="40" y="56" font-size="13" fill="#6b7280">공동명의라서가 아니라, 그 집에 실제 사느냐가 종부세 기본공제를 가른다 (개편안 기준)</text>
+
+  <!-- 표 헤더 -->
+  <rect x="40" y="76" width="660" height="40" fill="#f1f5f9"/>
+  <line x1="300" y1="76" x2="300" y2="320" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="500" y1="76" x2="500" y2="320" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="60" y="101" font-size="13.5" font-weight="700" fill="#334155">과세 방식</text>
+  <text x="320" y="101" font-size="13.5" font-weight="700" fill="#15803d">실거주 (그 집에 삶)</text>
+  <text x="520" y="101" font-size="13.5" font-weight="700" fill="#b91c1c">비거주 (안 삶)</text>
+
+  <!-- 행1: 개별과세 -->
+  <text x="60" y="150" font-size="13.5" font-weight="700" fill="#1e293b">개별과세</text>
+  <text x="60" y="170" font-size="11.5" fill="#94a3b8">(부부 각자 지분 신고)</text>
+  <text x="320" y="150" font-size="15" font-weight="700" fill="#15803d">각 9억 = 합 18억</text>
+  <text x="320" y="170" font-size="11.5" fill="#64748b">현행과 동일</text>
+  <text x="520" y="150" font-size="15" font-weight="700" fill="#b91c1c">각 4억 = 합 8억</text>
+  <text x="520" y="170" font-size="11.5" fill="#64748b">18억→8억 축소</text>
+
+  <line x1="40" y1="190" x2="700" y2="190" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- 행2: 1세대1주택 특례 -->
+  <text x="60" y="234" font-size="13.5" font-weight="700" fill="#1e293b">1세대 1주택</text>
+  <text x="60" y="252" font-size="13.5" font-weight="700" fill="#1e293b">특례</text>
+  <text x="60" y="272" font-size="11.5" fill="#94a3b8">(한 명이 보유한 셈)</text>
+  <text x="320" y="240" font-size="15" font-weight="700" fill="#15803d">14억</text>
+  <text x="320" y="260" font-size="11.5" fill="#64748b">12억→14억 확대</text>
+  <text x="520" y="240" font-size="15" font-weight="700" fill="#b91c1c">9억</text>
+  <text x="520" y="260" font-size="11.5" fill="#64748b">12억→9억 축소</text>
+
+  <line x1="40" y1="292" x2="700" y2="292" stroke="#e2e8f0" stroke-width="1"/>
+
+  <text x="40" y="315" font-size="11.5" fill="#94a3b8">* 실제 세액은 지분·연령·주택가격에 따라 개별과세·특례 유불리가 달라짐 · 국회 통과 시 확정 · 출처: 재정경제부 2026년 세제개편안·조세일보</text>
+</svg>
