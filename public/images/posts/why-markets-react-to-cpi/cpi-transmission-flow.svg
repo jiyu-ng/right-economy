@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img"
+     aria-label="CPI 발표에서 시장 반응까지의 흐름 도식. 물가 지표가 나오면 시장이 중앙은행 금리 결정을 예상하고, 그 예상이 바뀌면서 주식과 환율이 반응한다.">
+  <style>
+    .t   { font-family: Pretendard, system-ui, sans-serif; }
+    .ttl { font-weight: 800; }
+    .lbl { font-weight: 700; }
+    .sub { font-weight: 500; }
+  </style>
+  <rect x="0" y="0" width="760" height="300" fill="#ffffff"/>
+
+  <text x="380" y="40" text-anchor="middle" class="t ttl" font-size="21" fill="#1f2a44">CPI 숫자 하나가 시장까지 닿는 길</text>
+
+  <!-- 박스 1 -->
+  <rect x="30" y="110" width="150" height="90" rx="12" fill="#fff4ee" stroke="#f0b499" stroke-width="1.5"/>
+  <text x="105" y="148" text-anchor="middle" class="t lbl" font-size="16" fill="#c14e1f">① CPI 발표</text>
+  <text x="105" y="172" text-anchor="middle" class="t sub" font-size="12" fill="#7a4a34">물가가 예상보다</text>
+  <text x="105" y="188" text-anchor="middle" class="t sub" font-size="12" fill="#7a4a34">높은가 / 낮은가</text>
+
+  <!-- 화살표 -->
+  <path d="M185 155 L215 155" stroke="#94a3b8" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- 박스 2 -->
+  <rect x="220" y="110" width="150" height="90" rx="12" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="295" y="148" text-anchor="middle" class="t lbl" font-size="16" fill="#334155">② 금리 예상</text>
+  <text x="295" y="172" text-anchor="middle" class="t sub" font-size="12" fill="#475569">중앙은행이 금리를</text>
+  <text x="295" y="188" text-anchor="middle" class="t sub" font-size="12" fill="#475569">어떻게 할지 재계산</text>
+
+  <path d="M375 155 L405 155" stroke="#94a3b8" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- 박스 3 -->
+  <rect x="410" y="110" width="150" height="90" rx="12" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="485" y="148" text-anchor="middle" class="t lbl" font-size="16" fill="#334155">③ 기대 변화</text>
+  <text x="485" y="172" text-anchor="middle" class="t sub" font-size="12" fill="#475569">시장의 금리 전망이</text>
+  <text x="485" y="188" text-anchor="middle" class="t sub" font-size="12" fill="#475569">즉시 조정됨</text>
+
+  <path d="M565 155 L595 155" stroke="#94a3b8" stroke-width="3" marker-end="url(#a)"/>
+
+  <!-- 박스 4 -->
+  <rect x="600" y="110" width="150" height="90" rx="12" fill="#fff4ee" stroke="#f0b499" stroke-width="1.5"/>
+  <text x="675" y="148" text-anchor="middle" class="t lbl" font-size="16" fill="#c14e1f">④ 시장 반응</text>
+  <text x="675" y="172" text-anchor="middle" class="t sub" font-size="12" fill="#7a4a34">주가·환율·채권이</text>
+  <text x="675" y="188" text-anchor="middle" class="t sub" font-size="12" fill="#7a4a34">함께 움직임</text>
+
+  <text x="380" y="255" text-anchor="middle" class="t sub" font-size="13" fill="#64748b">핵심: 시장이 반응하는 건 물가 자체가 아니라, 물가가 바꾸는 '금리 예상'이다</text>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>
