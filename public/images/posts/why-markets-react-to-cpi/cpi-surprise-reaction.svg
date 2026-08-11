@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img"
+     aria-label="예상보다 높은 물가와 낮은 물가일 때 시장이 반대로 반응하는 것을 정리한 도식. 물가가 예상보다 높으면 금리 인하 기대가 줄어 위험자산에 부담, 예상보다 낮으면 금리 인하 기대가 늘어 위험자산에 호재로 작용하는 경향.">
+  <style>
+    .t   { font-family: Pretendard, system-ui, sans-serif; }
+    .ttl { font-weight: 800; }
+    .lbl { font-weight: 700; }
+    .sub { font-weight: 500; }
+  </style>
+  <rect x="0" y="0" width="760" height="340" fill="#ffffff"/>
+
+  <text x="380" y="40" text-anchor="middle" class="t ttl" font-size="21" fill="#1f2a44">'예상보다'가 방향을 가른다</text>
+  <text x="380" y="64" text-anchor="middle" class="t sub" font-size="13" fill="#64748b">시장이 보는 건 절대 수치가 아니라 '예상 대비 얼마나 벗어났나'</text>
+
+  <!-- 왼쪽: 예상보다 높음 -->
+  <rect x="40" y="95" width="330" height="205" rx="14" fill="#fff4ee" stroke="#f0b499" stroke-width="1.5"/>
+  <text x="205" y="128" text-anchor="middle" class="t lbl" font-size="17" fill="#c14e1f">물가가 예상보다 높으면</text>
+  <text x="205" y="164" text-anchor="middle" class="t sub" font-size="14" fill="#7a4a34">금리 인하 기대 ↓ (긴축 우려)</text>
+  <line x1="80" y1="182" x2="330" y2="182" stroke="#f0b499" stroke-width="1"/>
+  <text x="205" y="212" text-anchor="middle" class="t sub" font-size="14" fill="#334155">주식·위험자산에 부담 (▼ 경향)</text>
+  <text x="205" y="240" text-anchor="middle" class="t sub" font-size="14" fill="#334155">채권 금리 ▲ · 통화 강세 경향</text>
+  <text x="205" y="278" text-anchor="middle" class="t sub" font-size="12" fill="#94a3b8">"금리 오래 높게 갈 수도" → 조심 모드</text>
+
+  <!-- 오른쪽: 예상보다 낮음 -->
+  <rect x="390" y="95" width="330" height="205" rx="14" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="555" y="128" text-anchor="middle" class="t lbl" font-size="17" fill="#334155">물가가 예상보다 낮으면</text>
+  <text x="555" y="164" text-anchor="middle" class="t sub" font-size="14" fill="#475569">금리 인하 기대 ↑ (완화 기대)</text>
+  <line x1="430" y1="182" x2="680" y2="182" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="555" y="212" text-anchor="middle" class="t sub" font-size="14" fill="#334155">주식·위험자산에 호재 (▲ 경향)</text>
+  <text x="555" y="240" text-anchor="middle" class="t sub" font-size="14" fill="#334155">채권 금리 ▼ · 통화 약세 경향</text>
+  <text x="555" y="278" text-anchor="middle" class="t sub" font-size="12" fill="#94a3b8">"금리 곧 내릴 수도" → 안도 랠리</text>
+</svg>
