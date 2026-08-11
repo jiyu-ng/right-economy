@@ -2,7 +2,10 @@
   --bg: #fdfaf4;
   --surface: #ffffff;
   --ink: #2a2521;
-  --muted: #7a7066;
+  /* 보조 텍스트(날짜·읽기시간·설명 등). WCAG AA(4.5:1) 충족하도록 약간 진하게
+     조정(구 #7a7066은 accent-soft 배경 위 4.42·bg 위 4.65로 미달). 대비:
+     on-bg 5.40, on-surface(흰) 5.63, on-accent-soft 5.14 */
+  --muted: #6f665c;
   --line: #ece4d6;
   /* 브랜드 오렌지. WCAG AA(4.5:1) 충족하도록 약간 진하게 조정(구 #e8612c).
      흰/연오렌지 배경 위 텍스트·링크 대비: on-white 5.18, on-bg 4.97, 흰글씨-on 5.18 */
