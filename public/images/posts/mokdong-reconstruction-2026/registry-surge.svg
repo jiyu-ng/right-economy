@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Pretendard, 'Apple SD Gothic Neo', sans-serif">
+  <rect width="640" height="380" fill="#ffffff"/>
+  <text x="320" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">목동 재건축, 거래가 살아났다</text>
+  <text x="320" y="62" text-anchor="middle" font-size="13" fill="#6b7280">양천구 아파트 상반기 매매등기 신청 건수 · 출처: 이투데이(2026.7.19 보도)</text>
+
+  <line x1="90" y1="300" x2="560" y2="300" stroke="#d1d5db" stroke-width="1.5"/>
+
+  <!-- 2025 상반기 1,081 -->
+  <rect x="150" y="171" width="110" height="129" rx="4" fill="#a7f3d0"/>
+  <text x="205" y="159" text-anchor="middle" font-size="18" font-weight="700" fill="#065f46">1,081건</text>
+  <text x="205" y="322" text-anchor="middle" font-size="14" fill="#374151">2025년 상반기</text>
+
+  <!-- 2026 상반기 1,687 -->
+  <rect x="390" y="99" width="110" height="201" rx="4" fill="#059669"/>
+  <text x="445" y="87" text-anchor="middle" font-size="18" font-weight="700" fill="#065f46">1,687건</text>
+  <text x="445" y="322" text-anchor="middle" font-size="14" fill="#374151">2026년 상반기</text>
+
+  <text x="320" y="150" text-anchor="middle" font-size="16" font-weight="700" fill="#dc2626">▲ +56.1%</text>
+
+  <text x="320" y="360" text-anchor="middle" font-size="11" fill="#9ca3af">※ 매매등기 신청 = 실제 손바뀜(거래)이 늘었다는 신호예요.</text>
+</svg>
