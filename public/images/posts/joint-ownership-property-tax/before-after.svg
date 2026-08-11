@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="300" viewBox="0 0 740 300" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="740" height="300" fill="#ffffff"/>
+  <text x="40" y="34" font-size="20" font-weight="700" fill="#1a1a1a">무엇이 바뀌었나 — '몇 채'에서 '얼마 + 어디 사느냐'로</text>
+  <text x="40" y="56" font-size="13" fill="#6b7280">종부세 판단 기준의 축이 옮겨갔어요 (2026년 세제개편안)</text>
+
+  <!-- BEFORE -->
+  <rect x="48" y="80" width="290" height="180" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="193" y="110" font-size="15" font-weight="700" fill="#475569" text-anchor="middle">기존</text>
+  <text x="70" y="146" font-size="13.5" fill="#334155">· 기준 축 = <tspan font-weight="700">주택 수</tspan></text>
+  <text x="70" y="174" font-size="13.5" fill="#334155">· 다주택이면 중과세</text>
+  <text x="70" y="202" font-size="13.5" fill="#334155">· 1주택 공제 12억</text>
+  <text x="70" y="230" font-size="13.5" fill="#334155">· 거주 여부는 큰 영향 X</text>
+
+  <!-- 화살표 -->
+  <text x="370" y="180" font-size="26" fill="#f59e0b" text-anchor="middle">→</text>
+
+  <!-- AFTER -->
+  <rect x="402" y="80" width="290" height="180" rx="14" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="547" y="110" font-size="15" font-weight="700" fill="#b45309" text-anchor="middle">개편안</text>
+  <text x="424" y="146" font-size="13.5" fill="#78350f">· 기준 축 = <tspan font-weight="700">가액 + 거주</tspan></text>
+  <text x="424" y="174" font-size="13.5" fill="#78350f">· 주택 수 중과 완화</text>
+  <text x="424" y="202" font-size="13.5" fill="#78350f">· 실거주 1주택 공제 14억</text>
+  <text x="424" y="230" font-size="13.5" fill="#78350f">· 안 사는 집은 공제 축소</text>
+
+  <text x="370" y="288" font-size="11.5" fill="#94a3b8" text-anchor="middle">아직 개편안 단계 — 국회 논의로 세부 수치는 달라질 수 있어요 · 출처: 재정경제부 2026년 세제개편안</text>
+</svg>
