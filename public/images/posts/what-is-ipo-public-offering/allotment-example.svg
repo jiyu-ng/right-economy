@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img"
+     aria-label="비례 배정 방식에서 청약 경쟁률이 높을수록 청약 증거금 대비 실제 배정받는 주식 수가 줄어드는 원리를 보여주는 예시 도식.">
+  <style>
+    .t   { font-family: Pretendard, system-ui, sans-serif; }
+    .ttl { font-weight: 800; }
+    .lbl { font-weight: 700; }
+    .sub { font-weight: 500; }
+  </style>
+  <rect x="0" y="0" width="760" height="320" fill="#ffffff"/>
+
+  <text x="380" y="40" text-anchor="middle" class="t ttl" font-size="21" fill="#1f2a44">경쟁률이 높으면 배정 수량은 줄어든다</text>
+  <text x="380" y="66" text-anchor="middle" class="t sub" font-size="13.5" fill="#64748b">이해를 돕기 위한 가상의 예시 — 같은 금액을 넣어도 경쟁률에 따라 받는 주식이 달라진다</text>
+
+  <!-- Case A -->
+  <rect x="50" y="92" width="320" height="188" rx="16" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="210" y="126" text-anchor="middle" class="t lbl" font-size="16" fill="#334155">경쟁률이 낮을 때</text>
+  <text x="210" y="164" text-anchor="middle" class="t ttl" font-size="34" fill="#475569">경쟁률 100:1</text>
+  <line x1="85" y1="188" x2="335" y2="188" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="210" y="218" text-anchor="middle" class="t sub" font-size="14" fill="#334155">같은 증거금을 넣어도</text>
+  <text x="210" y="244" text-anchor="middle" class="t ttl" font-size="22" fill="#334155">더 많은 주식 배정</text>
+  <text x="210" y="268" text-anchor="middle" class="t sub" font-size="12.5" fill="#64748b">비례배정: 넣은 만큼 ÷ 경쟁률</text>
+
+  <!-- Case B (emphasis) -->
+  <rect x="390" y="92" width="320" height="188" rx="16" fill="#fff4ee" stroke="#e8612c" stroke-width="3"/>
+  <text x="550" y="126" text-anchor="middle" class="t lbl" font-size="16" fill="#c14e1f">경쟁률이 높을 때</text>
+  <text x="550" y="164" text-anchor="middle" class="t ttl" font-size="34" fill="#e8612c">경쟁률 1000:1</text>
+  <line x1="425" y1="188" x2="675" y2="188" stroke="#f0b499" stroke-width="1.5"/>
+  <text x="550" y="218" text-anchor="middle" class="t sub" font-size="14" fill="#7c3a1c">같은 증거금을 넣어도</text>
+  <text x="550" y="244" text-anchor="middle" class="t ttl" font-size="22" fill="#e8612c">받는 주식은 확 줄어듦</text>
+  <text x="550" y="268" text-anchor="middle" class="t sub" font-size="12.5" fill="#9a5a3c">경쟁률 10배 → 배정 대략 1/10</text>
+
+  <text x="380" y="306" text-anchor="middle" class="t sub" font-size="11.5" fill="#94a3b8">※ 균등·비례 배정 비율, 증거금률(보통 50%)은 종목·증권사마다 다르며 실제 결과와 차이가 있을 수 있음</text>
+</svg>
