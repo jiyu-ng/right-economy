@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <text x="40" y="44" font-size="22" font-weight="700" fill="#1f2937">세제개편안은 '발표'일 뿐, 시행은 아직 멀었어요</text>
+  <text x="40" y="70" font-size="14" fill="#6b7280">지금 당장 세금이 바뀌는 게 아니라, 국회 문턱을 넘어야 확정돼요</text>
+
+  <!-- timeline line -->
+  <line x1="90" y1="170" x2="650" y2="170" stroke="#d1d5db" stroke-width="3"/>
+
+  <!-- node 1: 발표 -->
+  <circle cx="150" cy="170" r="14" fill="#f59e0b"/>
+  <text x="150" y="130" font-size="15" font-weight="700" fill="#b45309" text-anchor="middle">2026.8.3</text>
+  <text x="150" y="210" font-size="14" fill="#374151" text-anchor="middle">세제개편안</text>
+  <text x="150" y="230" font-size="14" fill="#374151" text-anchor="middle">발표(확정 아님)</text>
+
+  <!-- node 2: 국회 -->
+  <circle cx="370" cy="170" r="14" fill="#9ca3af"/>
+  <text x="370" y="130" font-size="15" font-weight="700" fill="#4b5563" text-anchor="middle">2026 하반기</text>
+  <text x="370" y="210" font-size="14" fill="#374151" text-anchor="middle">국회 심의</text>
+  <text x="370" y="230" font-size="14" fill="#374151" text-anchor="middle">수정 가능</text>
+
+  <!-- node 3: 시행 -->
+  <circle cx="590" cy="170" r="14" fill="#6b7280"/>
+  <text x="590" y="130" font-size="15" font-weight="700" fill="#374151" text-anchor="middle">2027~2028</text>
+  <text x="590" y="210" font-size="14" fill="#374151" text-anchor="middle">주요 조항</text>
+  <text x="590" y="230" font-size="14" fill="#374151" text-anchor="middle">단계 시행</text>
+
+  <text x="90" y="278" font-size="12" fill="#9ca3af">출처: 재정경제부 '2026년 세제개편안'(2026.8.3 세제발전심의위 확정) · 국회 심의 후 최종 확정 예정</text>
+</svg>
