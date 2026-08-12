@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="720" height="420" fill="#ffffff"/>
+  <text x="40" y="44" font-size="22" font-weight="700" fill="#1f2937">서울 자치구별 아파트값 주간 상승률</text>
+  <text x="40" y="70" font-size="14" fill="#6b7280">강북권 상위 5개구 vs 서울 평균 · 상승률 높을수록 강세</text>
+
+  <!-- axis baseline -->
+  <line x1="150" y1="360" x2="690" y2="360" stroke="#d1d5db" stroke-width="1"/>
+  <!-- gridlines at 0.2,0.4,0.6 -->
+  <line x1="150" y1="360" x2="150" y2="110" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- scale: 0.60% -> 500px width. x per %: 540/0.6 = 900 px per 1% -->
+  <!-- 중구 0.54 -->
+  <rect x="150" y="120" width="486" height="30" rx="4" fill="#f59e0b"/>
+  <text x="132" y="140" font-size="14" fill="#374151" text-anchor="end">중구</text>
+  <text x="646" y="140" font-size="14" font-weight="700" fill="#b45309">0.54%</text>
+
+  <!-- 중랑구 0.52 -->
+  <rect x="150" y="160" width="468" height="30" rx="4" fill="#f59e0b"/>
+  <text x="132" y="180" font-size="14" fill="#374151" text-anchor="end">중랑구</text>
+  <text x="628" y="180" font-size="14" font-weight="700" fill="#b45309">0.52%</text>
+
+  <!-- 성북구 0.49 -->
+  <rect x="150" y="200" width="441" height="30" rx="4" fill="#fbbf24"/>
+  <text x="132" y="220" font-size="14" fill="#374151" text-anchor="end">성북구</text>
+  <text x="601" y="220" font-size="14" font-weight="700" fill="#b45309">0.49%</text>
+
+  <!-- 노원구 0.46 -->
+  <rect x="150" y="240" width="414" height="30" rx="4" fill="#fbbf24"/>
+  <text x="132" y="260" font-size="14" fill="#374151" text-anchor="end">노원구</text>
+  <text x="574" y="260" font-size="14" font-weight="700" fill="#b45309">0.46%</text>
+
+  <!-- 서대문구 0.43 -->
+  <rect x="150" y="280" width="387" height="30" rx="4" fill="#fbbf24"/>
+  <text x="132" y="300" font-size="14" fill="#374151" text-anchor="end">서대문구</text>
+  <text x="547" y="300" font-size="14" font-weight="700" fill="#b45309">0.43%</text>
+
+  <!-- 서울 평균 0.26 -->
+  <rect x="150" y="320" width="234" height="30" rx="4" fill="#9ca3af"/>
+  <text x="132" y="340" font-size="14" fill="#374151" text-anchor="end">서울 평균</text>
+  <text x="394" y="340" font-size="14" font-weight="700" fill="#4b5563">0.26%</text>
+
+  <text x="150" y="392" font-size="12" fill="#9ca3af">기준: 2026.8.1주(8/3) · 단위: % · 출처: 한국부동산원 주간 아파트 가격 동향</text>
+</svg>
