@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { SITE_NAME } from '../../consts';
+import { SITE_NAME, SITE_DESCRIPTION, SITE_INSTAGRAM } from '../../consts';
 import { withBase } from '../../lib/url';
 import { readingMinutes } from '../../lib/reading';
 
@@ -65,10 +65,22 @@ const olderPost = idx >= 0 && idx < chrono.length - 1 ? chrono[idx + 1] : null; 
 const categorySlug = encodeURIComponent(post.data.category);
 const categoryUrl = new URL(withBase(`/category/${categorySlug}/`), Astro.site).href;
 
-// 검색결과 리치 표시용 구조화 데이터: Article + BreadcrumbList (@graph)
+// 검색결과 리치 표시용 구조화 데이터: Organization + Article + BreadcrumbList (@graph)
+// 발행 주체를 홈페이지와 같은 @id(#organization)로 참조 → 검색엔진이 사이트 전체를
+// 단일 발행 엔티티로 통합 인식(E-E-A-T 신호). author·publisher가 같은 노드를 가리킨다.
+const orgId = `${siteUrl}#organization`;
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': orgId,
+      name: SITE_NAME,
+      url: siteUrl,
+      description: SITE_DESCRIPTION,
+      logo: { '@type': 'ImageObject', url: ogImage },
+      sameAs: [SITE_INSTAGRAM],
+    },
     {
       '@type': 'Article',
       headline: post.data.title,
@@ -82,12 +94,8 @@ const jsonLd = {
       wordCount,
       timeRequired,
       mainEntityOfPage: { '@type': 'WebPage', '@id': canonical.href },
-      author: { '@type': 'Organization', name: SITE_NAME },
-      publisher: {
-        '@type': 'Organization',
-        name: SITE_NAME,
-        logo: { '@type': 'ImageObject', url: ogImage },
-      },
+      author: { '@id': orgId },
+      publisher: { '@id': orgId },
     },
     {
       '@type': 'BreadcrumbList',
