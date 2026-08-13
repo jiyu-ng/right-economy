@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="왜 물가 목표가 2%인지: 0% 근처는 디플레이션 위험, 2% 안팎은 안정 완충 구간, 너무 높으면 불안정이라는 3구간 도식">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">왜 0%가 아니라 '2%'일까</text>
+
+  <!-- 3구간 바 -->
+  <g>
+    <rect x="60" y="90" width="180" height="80" rx="10" fill="#dce8f2" stroke="#6b93b8"/>
+    <rect x="240" y="90" width="200" height="80" rx="10" fill="#e6f2ea" stroke="#4a9c73"/>
+    <rect x="440" y="90" width="220" height="80" rx="10" fill="#fde3d3" stroke="#e8703a"/>
+
+    <text x="150" y="120" text-anchor="middle" font-size="15" font-weight="800" fill="#3d6488">0% 근처</text>
+    <text x="150" y="144" text-anchor="middle" font-size="12.5" fill="#3d6488">조금만 삐끗해도</text>
+    <text x="150" y="160" text-anchor="middle" font-size="12.5" fill="#3d6488">디플레이션 추락</text>
+
+    <text x="340" y="120" text-anchor="middle" font-size="15" font-weight="800" fill="#2f7d54">2% 안팎 ✓</text>
+    <text x="340" y="144" text-anchor="middle" font-size="12.5" fill="#2f7d54">디플레와 거리 두는</text>
+    <text x="340" y="160" text-anchor="middle" font-size="12.5" fill="#2f7d54">'안전 완충' 구간</text>
+
+    <text x="550" y="120" text-anchor="middle" font-size="15" font-weight="800" fill="#c2410c">너무 높음</text>
+    <text x="550" y="144" text-anchor="middle" font-size="12.5" fill="#8a4a2c">돈 가치·기대심리</text>
+    <text x="550" y="160" text-anchor="middle" font-size="12.5" fill="#8a4a2c">불안정해짐</text>
+  </g>
+
+  <!-- 온도 눈금 느낌 -->
+  <line x1="60" y1="185" x2="660" y2="185" stroke="#eaddd3" stroke-width="2"/>
+  <text x="360" y="222" text-anchor="middle" font-size="13.5" fill="#7c2d12" font-weight="700">2%는 '완만한 상승'을 유지해 디플레이션이라는 더 큰 위험을 피하는 완충 지대</text>
+  <text x="360" y="252" text-anchor="middle" font-size="12" fill="#9a6b4f">한국은행·미국 연준(Fed) 등 주요국이 채택한 물가안정 목표 수준</text>
+  <text x="360" y="280" text-anchor="middle" font-size="11" fill="#b08968">개념 도식 · 출처: 한국은행 물가안정목표 운영 설명 기반 재구성</text>
+</svg>
