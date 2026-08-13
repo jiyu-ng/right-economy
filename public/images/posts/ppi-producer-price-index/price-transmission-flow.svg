@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="원자재 비용에서 생산자물가(PPI)를 거쳐 소비자물가(CPI)로 이어지는 물가 전달 경로 도식">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">물가는 '위에서 아래로' 흐른다</text>
+  <text x="360" y="62" text-anchor="middle" font-size="13" fill="#9a6b4f">공장 문턱의 가격(PPI)이 먼저 움직이고, 시차를 두고 소비자 가격(CPI)에 도달</text>
+
+  <!-- 단계 박스 -->
+  <g font-size="14">
+    <rect x="40" y="110" width="160" height="90" rx="12" fill="#fef3ec" stroke="#f4a97f"/>
+    <text x="120" y="145" text-anchor="middle" font-size="15" font-weight="700" fill="#7c2d12">원자재·부품</text>
+    <text x="120" y="170" text-anchor="middle" fill="#9a6b4f">원유·금속·곡물</text>
+    <text x="120" y="188" text-anchor="middle" fill="#9a6b4f">임금·물류비</text>
+
+    <rect x="280" y="110" width="160" height="90" rx="12" fill="#fde3d3" stroke="#e8703a"/>
+    <text x="360" y="140" text-anchor="middle" font-size="15" font-weight="800" fill="#c2410c">생산자물가 · PPI</text>
+    <text x="360" y="164" text-anchor="middle" fill="#8a4a2c">공장이 내다 파는</text>
+    <text x="360" y="182" text-anchor="middle" fill="#8a4a2c">'출하 단계' 가격</text>
+
+    <rect x="520" y="110" width="160" height="90" rx="12" fill="#fef3ec" stroke="#f4a97f"/>
+    <text x="600" y="140" text-anchor="middle" font-size="15" font-weight="800" fill="#7c2d12">소비자물가 · CPI</text>
+    <text x="600" y="164" text-anchor="middle" fill="#9a6b4f">우리가 매장에서</text>
+    <text x="600" y="182" text-anchor="middle" fill="#9a6b4f">최종 지불하는 가격</text>
+  </g>
+
+  <!-- 화살표 -->
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#e8703a"/>
+    </marker>
+  </defs>
+  <line x1="205" y1="155" x2="273" y2="155" stroke="#e8703a" stroke-width="2.5" marker-end="url(#ah)"/>
+  <line x1="445" y1="155" x2="513" y2="155" stroke="#e8703a" stroke-width="2.5" marker-end="url(#ah)"/>
+
+  <text x="360" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#c2410c">← 대체로 PPI가 몇 달 앞서 움직여 CPI의 '예고편'이 된다 →</text>
+  <text x="360" y="280" text-anchor="middle" font-size="11" fill="#b08968">개념 도식 · 출처: 한국은행·통계청 물가통계 설명 자료 기반 재구성</text>
+</svg>
