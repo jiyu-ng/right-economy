@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="720" height="360" fill="#ffffff"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="#1f2937">유찰될 때마다 최저가는 계단처럼 내려가요</text>
+  <text x="40" y="68" font-size="14" fill="#6b7280">감정가 3억 · 한 번 유찰마다 20% 저감 가정(예시)</text>
+
+  <!-- steps: 신건 3.0 / 유1 2.4 / 유2 1.92 / 유3 1.54 -->
+  <!-- baseline y=300 -->
+  <!-- 신건 -->
+  <rect x="90" y="120" width="120" height="180" rx="4" fill="#f59e0b"/>
+  <text x="150" y="110" font-size="14" font-weight="700" fill="#b45309" text-anchor="middle">3.0억</text>
+  <text x="150" y="322" font-size="14" fill="#374151" text-anchor="middle">신건(유찰0)</text>
+
+  <!-- 유1 -->
+  <rect x="240" y="156" width="120" height="144" rx="4" fill="#fbbf24"/>
+  <text x="300" y="146" font-size="14" font-weight="700" fill="#b45309" text-anchor="middle">2.4억</text>
+  <text x="300" y="322" font-size="14" fill="#374151" text-anchor="middle">1회 유찰</text>
+
+  <!-- 유2 -->
+  <rect x="390" y="185" width="120" height="115" rx="4" fill="#fcd34d"/>
+  <text x="450" y="175" font-size="14" font-weight="700" fill="#b45309" text-anchor="middle">1.92억</text>
+  <text x="450" y="322" font-size="14" fill="#374151" text-anchor="middle">2회 유찰</text>
+
+  <!-- 유3 -->
+  <rect x="540" y="208" width="120" height="92" rx="4" fill="#9ca3af"/>
+  <text x="600" y="198" font-size="14" font-weight="700" fill="#6b7280" text-anchor="middle">1.54억</text>
+  <text x="600" y="322" font-size="13" fill="#b91c1c" text-anchor="middle">3회+ ⚠️위험</text>
+
+  <text x="90" y="348" font-size="12" fill="#9ca3af">저감률은 법원·물건마다 달라요(통상 20~30%). 위 수치는 이해를 돕기 위한 예시예요.</text>
+</svg>
