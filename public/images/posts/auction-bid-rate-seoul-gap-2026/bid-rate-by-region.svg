@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="720" height="380" fill="#ffffff"/>
+  <text x="40" y="42" font-size="22" font-weight="700" fill="#1f2937">아파트 경매 낙찰가율 — 서울만 감정가 넘겨요</text>
+  <text x="40" y="68" font-size="14" fill="#6b7280">낙찰가율 100% = 감정가만큼 주고 낙찰 · 100% 넘으면 웃돈</text>
+
+  <!-- 100% reference line -->
+  <!-- scale: value% * 2.4 px, baseline y=300, x start 120 -->
+  <!-- 100% line at x = 120 + 100*3.6 = 480 -->
+  <line x1="480" y1="100" x2="480" y2="320" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="480" y="94" font-size="12" fill="#ef4444" text-anchor="middle">감정가(100%)</text>
+
+  <!-- 전국 85.4 -> width 85.4*3.6=307 -->
+  <rect x="120" y="120" width="307" height="34" rx="4" fill="#9ca3af"/>
+  <text x="112" y="142" font-size="15" fill="#374151" text-anchor="end">전국</text>
+  <text x="437" y="142" font-size="15" font-weight="700" fill="#4b5563">85.4%</text>
+
+  <!-- 서울 101.0 -> 364 -->
+  <rect x="120" y="170" width="364" height="34" rx="4" fill="#f59e0b"/>
+  <text x="112" y="192" font-size="15" fill="#374151" text-anchor="end">서울</text>
+  <text x="494" y="192" font-size="15" font-weight="700" fill="#b45309">101.0%</text>
+
+  <!-- 인천 80.4 -> 289 -->
+  <rect x="120" y="220" width="289" height="34" rx="4" fill="#9ca3af"/>
+  <text x="112" y="242" font-size="15" fill="#374151" text-anchor="end">인천</text>
+  <text x="419" y="242" font-size="15" font-weight="700" fill="#4b5563">80.4%</text>
+
+  <text x="120" y="300" font-size="13" fill="#6b7280">서울은 4개월 연속 100% 상회 · 전국은 1년 4개월 만에 최저</text>
+  <text x="120" y="352" font-size="12" fill="#9ca3af">기준: 2026.7 월간 · 단위: % · 출처: 지지옥션(뉴스핌 2026.8.6 보도 재구성)</text>
+</svg>
