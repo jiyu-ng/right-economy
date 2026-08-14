@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <text x="40" y="40" font-size="22" font-weight="700" fill="#1f2937">재개발 단계 — '조합설립'이 첫 깔딱고개예요</text>
+  <text x="40" y="66" font-size="14" fill="#6b7280">착공까지 여러 관문 중, 주민 동의를 처음 크게 모으는 곳이 조합설립</text>
+
+  <!-- 6 stage boxes -->
+  <!-- stage 1 -->
+  <rect x="30" y="110" width="96" height="70" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="78" y="140" font-size="13" fill="#374151" text-anchor="middle">구역</text>
+  <text x="78" y="159" font-size="13" fill="#374151" text-anchor="middle">지정</text>
+
+  <rect x="146" y="110" width="96" height="70" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="194" y="140" font-size="13" fill="#374151" text-anchor="middle">추진</text>
+  <text x="194" y="159" font-size="13" fill="#374151" text-anchor="middle">위원회</text>
+
+  <!-- stage 3 highlighted -->
+  <rect x="262" y="102" width="110" height="86" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="317" y="132" font-size="14" font-weight="700" fill="#b45309" text-anchor="middle">조합설립</text>
+  <text x="317" y="154" font-size="12" fill="#b45309" text-anchor="middle">동의율</text>
+  <text x="317" y="171" font-size="12" font-weight="700" fill="#b45309" text-anchor="middle">75%→70%</text>
+
+  <rect x="392" y="110" width="96" height="70" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="440" y="133" font-size="13" fill="#374151" text-anchor="middle">사업시행</text>
+  <text x="440" y="152" font-size="13" fill="#374151" text-anchor="middle">인가</text>
+
+  <rect x="508" y="110" width="96" height="70" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="556" y="133" font-size="13" fill="#374151" text-anchor="middle">관리처분</text>
+  <text x="556" y="152" font-size="13" fill="#374151" text-anchor="middle">인가</text>
+
+  <rect x="624" y="110" width="72" height="70" rx="8" fill="#e5edff" stroke="#93b4f5"/>
+  <text x="660" y="149" font-size="13" font-weight="700" fill="#2b53a0" text-anchor="middle">착공</text>
+
+  <!-- arrows -->
+  <g fill="#9ca3af" font-size="16">
+    <text x="134" y="150">›</text><text x="250" y="150">›</text><text x="378" y="150">›</text><text x="494" y="150">›</text><text x="610" y="150">›</text>
+  </g>
+
+  <text x="30" y="228" font-size="13" fill="#6b7280">조합설립 동의율이 높으면 초기부터 사업이 멈춰 서요. 8·13 대책이 이 문턱을 낮췄어요.</text>
+  <text x="30" y="278" font-size="12" fill="#9ca3af">참고: 재개발 절차 개요 · 출처: 도시 및 주거환경정비법 체계 · 동의율은 2026.8.13 개편안 발표 기준</text>
+</svg>
