@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="미국 FOMC와 한국 금융통화위원회를 주관·개최 빈도·결정 대상·특징으로 비교한 표">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">FOMC vs 금통위, 나란히 보기</text>
+
+  <g font-size="15" font-weight="800">
+    <rect x="40" y="60" width="180" height="44" fill="#f6ede6"/>
+    <rect x="220" y="60" width="240" height="44" fill="#fde3d3"/>
+    <rect x="460" y="60" width="220" height="44" fill="#fef3ec"/>
+    <text x="130" y="88" text-anchor="middle" fill="#7c2d12">구분</text>
+    <text x="340" y="88" text-anchor="middle" fill="#c2410c">미국 FOMC</text>
+    <text x="570" y="88" text-anchor="middle" fill="#7c2d12">한국 금통위</text>
+  </g>
+
+  <g font-size="13.5">
+    <text x="52" y="134" font-weight="700" fill="#7c2d12">주관</text>
+    <text x="340" y="134" text-anchor="middle" fill="#8a4a2c">미 연방준비제도(Fed)</text>
+    <text x="570" y="134" text-anchor="middle" fill="#5a4636">한국은행</text>
+
+    <text x="52" y="176" font-weight="700" fill="#7c2d12">개최</text>
+    <text x="340" y="176" text-anchor="middle" fill="#8a4a2c">연 8회 (약 6주마다)</text>
+    <text x="570" y="176" text-anchor="middle" fill="#5a4636">연 8회 (통화정책방향)</text>
+
+    <text x="52" y="218" font-weight="700" fill="#7c2d12">결정</text>
+    <text x="340" y="218" text-anchor="middle" fill="#8a4a2c">기준금리(정책금리) 목표</text>
+    <text x="570" y="218" text-anchor="middle" fill="#5a4636">기준금리</text>
+
+    <text x="52" y="260" font-weight="700" fill="#7c2d12">특징 신호</text>
+    <text x="340" y="260" text-anchor="middle" font-weight="700" fill="#c2410c">점도표·기자회견</text>
+    <text x="570" y="260" text-anchor="middle" fill="#5a4636">의사록·총재 회견</text>
+  </g>
+
+  <g stroke="#eaddd3" stroke-width="1">
+    <line x1="40" y1="104" x2="680" y2="104"/>
+    <line x1="40" y1="150" x2="680" y2="150"/>
+    <line x1="40" y1="192" x2="680" y2="192"/>
+    <line x1="40" y1="234" x2="680" y2="234"/>
+    <line x1="220" y1="60" x2="220" y2="276"/>
+    <line x1="460" y1="60" x2="460" y2="276"/>
+  </g>
+  <rect x="40" y="60" width="640" height="216" fill="none" stroke="#eaddd3"/>
+</svg>

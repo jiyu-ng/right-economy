@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="금리 결정 회의의 흐름: 물가·고용·성장 등 지표를 입력으로 회의에서 논의해 기준금리 결정과 시그널을 내놓는 도식">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">금리는 '한 사람'이 아니라 '회의'가 정한다</text>
+
+  <!-- 입력 지표 -->
+  <text x="120" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#9a6b4f">보는 것 (입력)</text>
+  <g font-size="13">
+    <rect x="40" y="92" width="160" height="34" rx="8" fill="#fef3ec" stroke="#f4a97f"/>
+    <text x="120" y="114" text-anchor="middle" fill="#7c2d12">물가 (CPI·PPI)</text>
+    <rect x="40" y="132" width="160" height="34" rx="8" fill="#fef3ec" stroke="#f4a97f"/>
+    <text x="120" y="154" text-anchor="middle" fill="#7c2d12">고용·실업률</text>
+    <rect x="40" y="172" width="160" height="34" rx="8" fill="#fef3ec" stroke="#f4a97f"/>
+    <text x="120" y="194" text-anchor="middle" fill="#7c2d12">성장·금융안정</text>
+  </g>
+
+  <!-- 회의체 -->
+  <rect x="280" y="118" width="160" height="62" rx="12" fill="#fde3d3" stroke="#e8703a"/>
+  <text x="360" y="145" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">통화정책 회의</text>
+  <text x="360" y="167" text-anchor="middle" font-size="12" fill="#8a4a2c">위원들이 투표로 결정</text>
+
+  <!-- 출력 -->
+  <text x="600" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#9a6b4f">내놓는 것 (결정)</text>
+  <g font-size="13">
+    <rect x="520" y="100" width="160" height="40" rx="8" fill="#eaf3ee" stroke="#5a9c78"/>
+    <text x="600" y="118" text-anchor="middle" font-weight="700" fill="#2f7d54">기준금리</text>
+    <text x="600" y="133" text-anchor="middle" font-size="11.5" fill="#3f6b52">인상·동결·인하</text>
+    <rect x="520" y="150" width="160" height="40" rx="8" fill="#eaf3ee" stroke="#5a9c78"/>
+    <text x="600" y="168" text-anchor="middle" font-weight="700" fill="#2f7d54">시그널·전망</text>
+    <text x="600" y="183" text-anchor="middle" font-size="11.5" fill="#3f6b52">점도표·성명·회견</text>
+  </g>
+
+  <defs><marker id="af" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#e8703a"/></marker></defs>
+  <line x1="205" y1="149" x2="273" y2="149" stroke="#e8703a" stroke-width="2.4" marker-end="url(#af)"/>
+  <line x1="445" y1="149" x2="513" y2="149" stroke="#e8703a" stroke-width="2.4" marker-end="url(#af)"/>
+
+  <text x="360" y="240" text-anchor="middle" font-size="13" fill="#7c2d12" font-weight="700">시장은 '금리 숫자'만큼 '시그널(다음 방향)'에 더 크게 반응한다</text>
+  <text x="360" y="278" text-anchor="middle" font-size="11" fill="#b08968">개념 도식 · 출처: 한국은행 금통위·미 연준 FOMC 운영 방식 기반 재구성</text>
+</svg>
