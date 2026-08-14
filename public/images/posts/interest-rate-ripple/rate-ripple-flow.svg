@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="기준금리 인상이 시중금리, 소비·투자, 자산가격으로 퍼지는 파급 경로 도식">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">기준금리 인상은 '물결처럼' 번진다</text>
+
+  <!-- 1단계 -->
+  <rect x="40" y="70" width="150" height="54" rx="12" fill="#fde3d3" stroke="#e8703a"/>
+  <text x="115" y="94" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">① 기준금리 ↑</text>
+  <text x="115" y="113" text-anchor="middle" font-size="11.5" fill="#8a4a2c">중앙은행 결정</text>
+
+  <!-- 2단계 -->
+  <rect x="260" y="70" width="170" height="54" rx="12" fill="#fef3ec" stroke="#f4a97f"/>
+  <text x="345" y="94" text-anchor="middle" font-size="13.5" font-weight="800" fill="#7c2d12">② 시중금리 ↑</text>
+  <text x="345" y="113" text-anchor="middle" font-size="11.5" fill="#9a6b4f">예금·대출 이자 오름</text>
+
+  <!-- 3단계 -->
+  <rect x="500" y="70" width="180" height="54" rx="12" fill="#fef3ec" stroke="#f4a97f"/>
+  <text x="590" y="94" text-anchor="middle" font-size="13.5" font-weight="800" fill="#7c2d12">③ 소비·투자 ↓</text>
+  <text x="590" y="113" text-anchor="middle" font-size="11.5" fill="#9a6b4f">돈 빌리기 부담 커짐</text>
+
+  <defs><marker id="ar" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#e8703a"/></marker></defs>
+  <line x1="195" y1="97" x2="253" y2="97" stroke="#e8703a" stroke-width="2.4" marker-end="url(#ar)"/>
+  <line x1="435" y1="97" x2="493" y2="97" stroke="#e8703a" stroke-width="2.4" marker-end="url(#ar)"/>
+
+  <!-- 4단계: 자산으로 -->
+  <text x="360" y="168" text-anchor="middle" font-size="13" font-weight="700" fill="#7c2d12">그 결과, 곳곳으로 퍼져요 ↓</text>
+  <g font-size="12.5">
+    <rect x="55" y="185" width="145" height="58" rx="10" fill="#eaf3ee" stroke="#5a9c78"/>
+    <text x="127" y="208" text-anchor="middle" font-weight="700" fill="#2f7d54">예금</text>
+    <text x="127" y="228" text-anchor="middle" fill="#3f6b52">이자 유리해짐</text>
+
+    <rect x="215" y="185" width="145" height="58" rx="10" fill="#fde3d3" stroke="#e8703a"/>
+    <text x="287" y="208" text-anchor="middle" font-weight="700" fill="#c2410c">대출</text>
+    <text x="287" y="228" text-anchor="middle" fill="#8a4a2c">이자 부담 커짐</text>
+
+    <rect x="375" y="185" width="145" height="58" rx="10" fill="#fde3d3" stroke="#e8703a"/>
+    <text x="447" y="208" text-anchor="middle" font-weight="700" fill="#c2410c">주식·부동산</text>
+    <text x="447" y="228" text-anchor="middle" fill="#8a4a2c">눌리는 압력</text>
+
+    <rect x="535" y="185" width="145" height="58" rx="10" fill="#eaf3ee" stroke="#5a9c78"/>
+    <text x="607" y="208" text-anchor="middle" font-weight="700" fill="#2f7d54">환율</text>
+    <text x="607" y="228" text-anchor="middle" fill="#3f6b52">원화 강세 경향</text>
+  </g>
+
+  <text x="360" y="278" text-anchor="middle" font-size="12.5" fill="#7c2d12" font-weight="700">금리를 내리면 방향이 대체로 반대로 작동해요</text>
+  <text x="360" y="302" text-anchor="middle" font-size="11" fill="#b08968">개념 도식(일반적 경향) · 실제는 경기·수급 등에 따라 달라질 수 있음</text>
+</svg>
