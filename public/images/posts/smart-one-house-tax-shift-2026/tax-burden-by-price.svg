@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="330" viewBox="0 0 720 330" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="720" height="330" fill="#ffffff"/>
+  <text x="40" y="40" font-size="22" font-weight="700" fill="#1f2937">가격대별 보유세 방향 — '경계선'이 생겼어요</text>
+  <text x="40" y="66" font-size="14" fill="#6b7280">세제개편안 발표 기준 · 시세 구간별 종부세 부담이 어느 쪽으로 움직이나</text>
+
+  <!-- three zones -->
+  <rect x="40" y="110" width="200" height="120" rx="10" fill="#ecfdf5" stroke="#34d399"/>
+  <text x="140" y="150" font-size="16" font-weight="700" fill="#059669" text-anchor="middle">시세 ~20억</text>
+  <text x="140" y="182" font-size="14" fill="#065f46" text-anchor="middle">1주택 공제 확대</text>
+  <text x="140" y="204" font-size="15" font-weight="700" fill="#059669" text-anchor="middle">부담 ↓ 완화</text>
+
+  <rect x="260" y="110" width="200" height="120" rx="10" fill="#fffbeb" stroke="#fbbf24"/>
+  <text x="360" y="150" font-size="16" font-weight="700" fill="#b45309" text-anchor="middle">20억~30억</text>
+  <text x="360" y="182" font-size="14" fill="#92400e" text-anchor="middle">과세선 아래</text>
+  <text x="360" y="204" font-size="15" font-weight="700" fill="#b45309" text-anchor="middle">부담 ↓~보합</text>
+
+  <rect x="480" y="110" width="200" height="120" rx="10" fill="#fef2f2" stroke="#f87171"/>
+  <text x="580" y="150" font-size="16" font-weight="700" fill="#b91c1c" text-anchor="middle">40억 이상</text>
+  <text x="580" y="182" font-size="14" fill="#991b1b" text-anchor="middle">세율 다주택 수준·비거주</text>
+  <text x="580" y="204" font-size="15" font-weight="700" fill="#b91c1c" text-anchor="middle">부담 ↑ 강화</text>
+
+  <text x="40" y="272" font-size="13" fill="#6b7280">→ 초고가(40억+) 부담이 커지자, 매수 시선이 과세선 아래 '준상급지'로 옮겨간다는 관측이에요.</text>
+  <text x="40" y="308" font-size="12" fill="#9ca3af">출처: 재정경제부 2026년 세제개편안(2026.8.3 발표) · 수요 이동은 시장 전망 · 헤럴드경제·파이낸셜뉴스 보도 재구성</text>
+</svg>
