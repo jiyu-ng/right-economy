@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="금리를 올릴 때 예금·대출·주식·채권·환율·부동산이 대체로 어느 방향으로 움직이는지 정리한 표">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">금리를 '올리면' 어디로 움직일까</text>
+
+  <g font-size="14.5" font-weight="800">
+    <rect x="40" y="62" width="200" height="42" fill="#fde3d3"/>
+    <rect x="240" y="62" width="150" height="42" fill="#f6ede6"/>
+    <rect x="390" y="62" width="290" height="42" fill="#fef3ec"/>
+    <text x="140" y="89" text-anchor="middle" fill="#c2410c">항목</text>
+    <text x="315" y="89" text-anchor="middle" fill="#7c2d12">방향</text>
+    <text x="535" y="89" text-anchor="middle" fill="#7c2d12">왜</text>
+  </g>
+
+  <g font-size="13">
+    <text x="52" y="130" font-weight="700" fill="#7c2d12">예금 이자</text>
+    <text x="315" y="130" text-anchor="middle" font-weight="800" fill="#2f7d54">▲ 유리</text>
+    <text x="405" y="130" fill="#5a4636">맡긴 돈에 붙는 이자가 오름</text>
+
+    <text x="52" y="164" font-weight="700" fill="#7c2d12">대출 이자</text>
+    <text x="315" y="164" text-anchor="middle" font-weight="800" fill="#c2410c">▲ 부담</text>
+    <text x="405" y="164" fill="#5a4636">갚을 이자가 늘어 가계 압박</text>
+
+    <text x="52" y="198" font-weight="700" fill="#7c2d12">주식</text>
+    <text x="315" y="198" text-anchor="middle" font-weight="800" fill="#c2410c">▼ 압력</text>
+    <text x="405" y="198" fill="#5a4636">안전한 예금·채권 매력↑, 위험자산 부담</text>
+
+    <text x="52" y="232" font-weight="700" fill="#7c2d12">채권 가격</text>
+    <text x="315" y="232" text-anchor="middle" font-weight="800" fill="#c2410c">▼ 하락</text>
+    <text x="405" y="232" fill="#5a4636">금리와 채권값은 반대로 움직임</text>
+
+    <text x="52" y="266" font-weight="700" fill="#7c2d12">환율(원/달러)</text>
+    <text x="315" y="266" text-anchor="middle" font-weight="800" fill="#2f7d54">원화 강세</text>
+    <text x="405" y="266" fill="#5a4636">이자 노린 외국 자금 유입 경향</text>
+  </g>
+
+  <g stroke="#eaddd3" stroke-width="1">
+    <line x1="40" y1="104" x2="680" y2="104"/>
+    <line x1="40" y1="146" x2="680" y2="146"/>
+    <line x1="40" y1="180" x2="680" y2="180"/>
+    <line x1="40" y1="214" x2="680" y2="214"/>
+    <line x1="40" y1="248" x2="680" y2="248"/>
+    <line x1="240" y1="62" x2="240" y2="282"/>
+    <line x1="390" y1="62" x2="390" y2="282"/>
+  </g>
+  <rect x="40" y="62" width="640" height="220" fill="none" stroke="#eaddd3"/>
+  <text x="360" y="305" text-anchor="middle" font-size="11" fill="#b08968">일반적 경향 · 실제 방향·폭은 경기·수급·기대에 따라 달라질 수 있음</text>
+</svg>
