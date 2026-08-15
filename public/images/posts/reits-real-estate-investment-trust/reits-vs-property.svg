@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Pretendard, sans-serif" role="img" aria-label="실물 부동산 직접 투자와 상장 리츠 투자를 최소 투자금·환금성·분산·관리 부담 기준으로 비교한 표. 리츠는 소액·환금성·분산에서 유리하다">
+  <rect width="720" height="340" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">실물 부동산 vs 상장 리츠</text>
+
+  <g font-size="14" font-weight="800">
+    <rect x="40" y="60" width="200" height="44" fill="#f6ede6"/>
+    <rect x="240" y="60" width="220" height="44" fill="#f6ede6"/>
+    <rect x="460" y="60" width="220" height="44" fill="#fde3d3"/>
+    <text x="140" y="88" text-anchor="middle" fill="#7c2d12">비교 항목</text>
+    <text x="350" y="88" text-anchor="middle" fill="#8a6d5a">실물 부동산 직접</text>
+    <text x="570" y="88" text-anchor="middle" fill="#c2410c">상장 리츠</text>
+  </g>
+
+  <g font-size="12.5">
+    <text x="52" y="130" font-weight="700" fill="#7c2d12">최소 투자금</text>
+    <text x="350" y="130" text-anchor="middle" fill="#8a6d5a">수억 원~</text>
+    <text x="570" y="130" text-anchor="middle" font-weight="800" fill="#2f7d54">몇만 원부터 ▲</text>
+
+    <text x="52" y="166" font-weight="700" fill="#7c2d12">환금성(팔기)</text>
+    <text x="350" y="166" text-anchor="middle" fill="#8a6d5a">수개월·거래 어려움</text>
+    <text x="570" y="166" text-anchor="middle" font-weight="800" fill="#2f7d54">주식처럼 즉시 ▲</text>
+
+    <text x="52" y="202" font-weight="700" fill="#7c2d12">분산</text>
+    <text x="350" y="202" text-anchor="middle" fill="#8a6d5a">한 채에 집중</text>
+    <text x="570" y="202" text-anchor="middle" font-weight="800" fill="#2f7d54">여러 건물에 분산 ▲</text>
+
+    <text x="52" y="238" font-weight="700" fill="#7c2d12">관리 부담</text>
+    <text x="350" y="238" text-anchor="middle" fill="#8a6d5a">세입자·수리 직접</text>
+    <text x="570" y="238" text-anchor="middle" font-weight="800" fill="#2f7d54">전문가가 대신 ▲</text>
+
+    <text x="52" y="274" font-weight="700" fill="#7c2d12">가격 변동</text>
+    <text x="350" y="274" text-anchor="middle" font-weight="800" fill="#2f7d54">체감 느림 ▲</text>
+    <text x="570" y="274" text-anchor="middle" fill="#c2410c">주가처럼 출렁 ▼</text>
+  </g>
+
+  <g stroke="#eaddd3" stroke-width="1">
+    <line x1="40" y1="104" x2="680" y2="104"/>
+    <line x1="40" y1="148" x2="680" y2="148"/>
+    <line x1="40" y1="184" x2="680" y2="184"/>
+    <line x1="40" y1="220" x2="680" y2="220"/>
+    <line x1="40" y1="256" x2="680" y2="256"/>
+    <line x1="240" y1="60" x2="240" y2="292"/>
+    <line x1="460" y1="60" x2="460" y2="292"/>
+  </g>
+  <rect x="40" y="60" width="640" height="232" fill="none" stroke="#eaddd3"/>
+  <text x="360" y="316" text-anchor="middle" font-size="11" fill="#b08968">일반적 특성 비교 · ▲는 상대적 강점, ▼는 유의점 · 개별 리츠·물건에 따라 다를 수 있음</text>
+</svg>

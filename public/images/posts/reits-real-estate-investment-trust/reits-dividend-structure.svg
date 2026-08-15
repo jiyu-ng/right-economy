@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="리츠는 임대수익에서 비용을 뺀 배당가능이익의 90퍼센트 이상을 법에 따라 의무적으로 배당하기 때문에 배당 성향이 높다는 것을 보여주는 흐름 도식">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">리츠 배당이 높은 이유</text>
+  <text x="360" y="62" text-anchor="middle" font-size="12.5" fill="#8a6d5a">벌어들인 이익을 회사에 쌓아두지 않고 대부분 나눠주도록 법으로 정해져 있음</text>
+
+  <!-- 임대수익 -->
+  <rect x="40" y="95" width="150" height="90" rx="10" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="115" y="130" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">임대수익</text>
+  <text x="115" y="155" text-anchor="middle" font-size="12" fill="#5a4636">건물에서 나온</text>
+  <text x="115" y="172" text-anchor="middle" font-size="12" fill="#5a4636">임대료 수입</text>
+
+  <text x="205" y="145" font-size="20" font-weight="800" fill="#8a6d5a" text-anchor="middle">−</text>
+
+  <!-- 비용 -->
+  <rect x="225" y="95" width="150" height="90" rx="10" fill="#f6ede6" stroke="#eaddd3"/>
+  <text x="300" y="130" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">운영·이자 비용</text>
+  <text x="300" y="155" text-anchor="middle" font-size="12" fill="#5a4636">관리비·대출이자</text>
+  <text x="300" y="172" text-anchor="middle" font-size="12" fill="#5a4636">등을 빼면</text>
+
+  <text x="390" y="145" font-size="20" font-weight="800" fill="#8a6d5a" text-anchor="middle">=</text>
+
+  <!-- 배당가능이익 -->
+  <rect x="410" y="95" width="160" height="90" rx="10" fill="#fde3d3" stroke="#eaddd3"/>
+  <text x="490" y="130" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">배당가능이익</text>
+  <text x="490" y="155" text-anchor="middle" font-size="12" fill="#5a4636">나눠줄 수 있는</text>
+  <text x="490" y="172" text-anchor="middle" font-size="12" fill="#5a4636">순수 이익</text>
+
+  <line x1="570" y1="140" x2="600" y2="140" stroke="#2f7d54" stroke-width="2.5" marker-end="url(#arrg2)"/>
+
+  <!-- 배당 -->
+  <rect x="600" y="95" width="80" height="90" rx="10" fill="#e6f4ec" stroke="#bfe3cf"/>
+  <text x="640" y="128" text-anchor="middle" font-size="22" font-weight="800" fill="#2f7d54">90%</text>
+  <text x="640" y="150" text-anchor="middle" font-size="11.5" fill="#2f7d54">이상</text>
+  <text x="640" y="172" text-anchor="middle" font-size="12" font-weight="700" fill="#2f7d54">의무 배당</text>
+
+  <text x="360" y="235" text-anchor="middle" font-size="13.5" font-weight="700" fill="#7c2d12">대부분의 상장 리츠(위탁관리형)는 배당가능이익의 90% 이상을 배당해야 함</text>
+  <text x="360" y="262" text-anchor="middle" font-size="12" fill="#8a6d5a">→ 그래서 배당이 꾸준하고 두툼한 편. 단, 이익이 줄면 배당도 줄 수 있음</text>
+  <text x="360" y="286" text-anchor="middle" font-size="11" fill="#b08968">근거: 부동산투자회사법상 배당 의무 규정 · 실제 배당률은 리츠·시기에 따라 다름</text>
+
+  <defs>
+    <marker id="arrg2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2f7d54"/></marker>
+  </defs>
+</svg>
