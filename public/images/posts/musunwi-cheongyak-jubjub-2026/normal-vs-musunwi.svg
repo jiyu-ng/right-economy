@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 328" font-family="Pretendard, sans-serif" role="img" aria-label="일반 청약과 무순위 청약 비교. 무순위 청약은 청약통장과 가점이 필요 없고 추첨으로 뽑지만, 2025년 개편으로 무주택 요건이 생겼다는 점이 일반 청약과 다르다">
+  <rect width="720" height="328" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">일반 청약 vs 무순위 청약(줍줍)</text>
+
+  <g font-size="14" font-weight="800">
+    <rect x="40" y="60" width="200" height="44" fill="#f6ede6"/>
+    <rect x="240" y="60" width="220" height="44" fill="#f6ede6"/>
+    <rect x="460" y="60" width="220" height="44" fill="#fde3d3"/>
+    <text x="140" y="88" text-anchor="middle" fill="#7c2d12">비교 항목</text>
+    <text x="350" y="88" text-anchor="middle" fill="#8a6d5a">일반 청약</text>
+    <text x="570" y="88" text-anchor="middle" fill="#c2410c">무순위 청약</text>
+  </g>
+
+  <g font-size="12.5">
+    <text x="52" y="130" font-weight="700" fill="#7c2d12">청약통장</text>
+    <text x="350" y="130" text-anchor="middle" fill="#8a6d5a">필요</text>
+    <text x="570" y="130" text-anchor="middle" font-weight="800" fill="#2f7d54">필요 없음</text>
+
+    <text x="52" y="166" font-weight="700" fill="#7c2d12">가점·순위</text>
+    <text x="350" y="166" text-anchor="middle" fill="#8a6d5a">가점·순위 경쟁</text>
+    <text x="570" y="166" text-anchor="middle" font-weight="800" fill="#2f7d54">추첨(무작위)</text>
+
+    <text x="52" y="202" font-weight="700" fill="#7c2d12">대상 물량</text>
+    <text x="350" y="202" text-anchor="middle" fill="#8a6d5a">신규 분양분</text>
+    <text x="570" y="202" text-anchor="middle" fill="#c2410c">미계약·부적격 잔여분</text>
+
+    <text x="52" y="238" font-weight="700" fill="#7c2d12">주택 보유</text>
+    <text x="350" y="238" text-anchor="middle" fill="#8a6d5a">유형별 상이</text>
+    <text x="570" y="238" text-anchor="middle" font-weight="800" fill="#c2410c">무주택자만(2025~)</text>
+
+    <text x="52" y="274" font-weight="700" fill="#7c2d12">거주지 요건</text>
+    <text x="350" y="274" text-anchor="middle" fill="#8a6d5a">지역별 상이</text>
+    <text x="570" y="274" text-anchor="middle" fill="#c2410c">지역별 탄력 부과</text>
+  </g>
+
+  <g stroke="#eaddd3" stroke-width="1">
+    <line x1="40" y1="104" x2="680" y2="104"/>
+    <line x1="40" y1="148" x2="680" y2="148"/>
+    <line x1="40" y1="184" x2="680" y2="184"/>
+    <line x1="40" y1="220" x2="680" y2="220"/>
+    <line x1="40" y1="256" x2="680" y2="256"/>
+    <line x1="240" y1="60" x2="240" y2="292"/>
+    <line x1="460" y1="60" x2="460" y2="292"/>
+  </g>
+  <rect x="40" y="60" width="640" height="232" fill="none" stroke="#eaddd3"/>
+  <text x="360" y="314" text-anchor="middle" font-size="11" fill="#b08968">일반적 구분 · 세부 요건은 단지·지자체 공고에 따라 다름 · 출처: 주택공급규칙 기반 재구성</text>
+</svg>
