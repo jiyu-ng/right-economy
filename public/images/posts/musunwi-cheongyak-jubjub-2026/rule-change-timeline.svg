@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="무순위 청약 자격 요건 변화. 2023년 2월에는 주택 보유·거주지와 무관하게 누구나 신청할 수 있도록 완화했으나, 2025년 개편으로 무주택자만 신청 가능하도록 다시 강화됐다">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">'누구나 줍줍'에서 '무주택자만'으로</text>
+
+  <line x1="80" y1="150" x2="640" y2="150" stroke="#eaddd3" stroke-width="3"/>
+  <circle cx="200" cy="150" r="9" fill="#b08968"/>
+  <circle cx="520" cy="150" r="9" fill="#c2410c"/>
+
+  <g>
+    <rect x="90" y="176" width="220" height="112" rx="10" fill="#f6ede6"/>
+    <text x="200" y="204" text-anchor="middle" font-size="14" font-weight="800" fill="#8a6d5a">2023년 2월 · 완화</text>
+    <text x="200" y="230" text-anchor="middle" font-size="12.5" fill="#5f4a3a">만 19세 이상이면</text>
+    <text x="200" y="250" text-anchor="middle" font-size="12.5" fill="#5f4a3a">집이 있어도, 어디 살아도</text>
+    <text x="200" y="272" text-anchor="middle" font-size="13" font-weight="800" fill="#7c2d12">누구나 신청 가능</text>
+  </g>
+
+  <g>
+    <rect x="410" y="176" width="220" height="112" rx="10" fill="#fde3d3"/>
+    <text x="520" y="204" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">2025년 · 강화(부활)</text>
+    <text x="520" y="230" text-anchor="middle" font-size="12.5" fill="#5f4a3a">무주택자만 신청 가능</text>
+    <text x="520" y="250" text-anchor="middle" font-size="12.5" fill="#5f4a3a">거주지 요건 지역별 탄력 부과</text>
+    <text x="520" y="272" text-anchor="middle" font-size="13" font-weight="800" fill="#7c2d12">실거주 확인 강화</text>
+  </g>
+
+  <text x="200" y="120" text-anchor="middle" font-size="12" fill="#b08968">경쟁률 과열</text>
+  <text x="360" y="120" text-anchor="middle" font-size="12.5" font-weight="700" fill="#c2410c">1가구에 294만 명 몰림 →</text>
+  <text x="520" y="120" text-anchor="middle" font-size="12" fill="#b08968">실수요 중심 재편</text>
+
+  <text x="360" y="308" text-anchor="middle" font-size="11.5" fill="#b08968">무순위 청약 자격 요건 변화 개요 · 2024.7 동탄역 롯데캐슬 1가구 294.5만 명 사례 · 출처: 국토교통부 주택공급규칙 개정 관련 보도 재구성</text>
+</svg>
