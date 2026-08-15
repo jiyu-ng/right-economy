@@ -1,0 +1,100 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE_NAME } from '../consts';
+import { withBase } from '../lib/url';
+
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const siteUrl = new URL(withBase('/'), Astro.site).href;
+
+// 면책조항 페이지. 투자 정보 사이트의 필수 신뢰 신호(E-E-A-T)이자,
+// 광고 심사·법적 보호를 위한 고지. schema.org WebPage로 명시.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebPage',
+      name: `면책조항 — ${SITE_NAME}`,
+      url: canonical.href,
+      inLanguage: 'ko-KR',
+      publisher: { '@id': `${siteUrl}#organization` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: SITE_NAME, item: siteUrl },
+        { '@type': 'ListItem', position: 2, name: '면책조항', item: canonical.href },
+      ],
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title={`면책조항 — ${SITE_NAME}`}
+  description={`${SITE_NAME}가 제공하는 경제·투자 정보의 이용 범위와 책임 한계를 안내하는 면책조항입니다.`}
+>
+  <script
+    type="application/ld+json"
+    slot="head"
+    set:html={JSON.stringify(jsonLd)}
+  />
+
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <ol>
+      <li><a href={withBase('/')}>{SITE_NAME}</a></li>
+      <li><span aria-current="page">면책조항</span></li>
+    </ol>
+  </nav>
+
+  <article class="post">
+    <h1>면책조항</h1>
+    <p class="meta">최종 개정: 2026년 8월 15일</p>
+
+    <p>
+      <strong>옳은경제</strong>(이하 "사이트")가 제공하는 모든 콘텐츠는
+      <strong>정보 제공 및 교육</strong>을 목적으로 하며, 이용자의 이해를 돕기
+      위한 일반적인 참고 자료입니다. 아래 내용을 확인하신 후 이용해 주세요.
+    </p>
+
+    <h2>1. 투자 권유가 아닙니다</h2>
+    <p>
+      본 사이트의 시황·분석·개념 설명 등 어떤 콘텐츠도 특정 종목, 상품, 자산의
+      <strong>매수·매도·보유를 권유하거나 추천하지 않습니다.</strong> 게재된
+      의견과 전망은 작성 시점의 판단일 뿐이며, 투자 자문·중개·일임에 해당하지
+      않습니다.
+    </p>
+
+    <h2>2. 최종 판단과 책임은 이용자에게 있습니다</h2>
+    <p>
+      모든 투자 결정과 그 결과에 대한 책임은 <strong>전적으로 이용자 본인</strong>에게
+      있습니다. 본 사이트의 콘텐츠를 근거로 한 어떠한 손실에 대해서도 사이트와
+      운영자는 법적 책임을 지지 않습니다. 중요한 결정에 앞서 반드시 공인된
+      전문가와 상담하시기 바랍니다.
+    </p>
+
+    <h2>3. 정보의 정확성</h2>
+    <p>
+      콘텐츠는 신뢰할 수 있는 자료를 바탕으로 정확성을 기해 작성하지만,
+      경제·시장 데이터는 수시로 변동하며 오류나 지연이 있을 수 있습니다. 본
+      사이트는 정보의 완전성·정확성·시의성을 <strong>보증하지 않으며</strong>,
+      내용은 예고 없이 수정될 수 있습니다. 실제 투자 전에는 원자료(공식 통계·
+      공시 등)를 직접 확인하시길 권장합니다.
+    </p>
+
+    <h2>4. 외부 링크</h2>
+    <p>
+      본 사이트는 이해를 돕기 위해 외부 사이트로 연결되는 링크를 포함할 수
+      있습니다. 외부 콘텐츠의 정확성이나 정책에 대해서는 책임지지 않습니다.
+    </p>
+
+    <h2>5. 광고 및 제휴</h2>
+    <p>
+      본 사이트는 운영을 위해 Google AdSense 등 제3자 광고를 게재합니다. 광고
+      내용은 광고주와 광고 네트워크의 책임이며, 사이트가 특정 광고 상품을
+      보증하지 않습니다. 자세한 데이터 처리는
+      <a href={withBase('/privacy/')}>개인정보처리방침</a>을 참고해 주세요.
+    </p>
+
+    <a class="back-link" href={withBase('/')}>← 홈으로</a>
+  </article>
+</BaseLayout>
