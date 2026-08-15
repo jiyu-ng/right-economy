@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Pretendard, sans-serif" role="img" aria-label="여러 투자자의 소액 자금이 리츠로 모여 부동산에 투자되고, 임대수익과 매각차익이 배당으로 다시 투자자에게 돌아오는 돈의 흐름 도식">
+  <rect width="720" height="340" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">리츠는 돈이 어떻게 도는 걸까</text>
+
+  <!-- 투자자들 -->
+  <g>
+    <rect x="40" y="80" width="150" height="180" rx="10" fill="#fef3ec" stroke="#eaddd3"/>
+    <text x="115" y="108" text-anchor="middle" font-size="14.5" font-weight="800" fill="#c2410c">여러 투자자</text>
+    <text x="115" y="140" text-anchor="middle" font-size="13" fill="#5a4636">나 + 수많은 개인</text>
+    <text x="115" y="162" text-anchor="middle" font-size="13" fill="#5a4636">소액씩 모음</text>
+    <text x="115" y="196" text-anchor="middle" font-size="24">🧑‍🤝‍🧑</text>
+    <text x="115" y="232" text-anchor="middle" font-size="12" fill="#b08968">단돈 몇만 원부터</text>
+  </g>
+
+  <!-- 리츠 -->
+  <g>
+    <rect x="285" y="80" width="150" height="180" rx="10" fill="#fde3d3" stroke="#eaddd3"/>
+    <text x="360" y="108" text-anchor="middle" font-size="14.5" font-weight="800" fill="#7c2d12">리츠(REITs)</text>
+    <text x="360" y="140" text-anchor="middle" font-size="13" fill="#5a4636">부동산투자회사</text>
+    <text x="360" y="162" text-anchor="middle" font-size="13" fill="#5a4636">자금을 모아</text>
+    <text x="360" y="196" text-anchor="middle" font-size="24">🏢</text>
+    <text x="360" y="232" text-anchor="middle" font-size="12" fill="#b08968">전문가가 운용</text>
+  </g>
+
+  <!-- 부동산 -->
+  <g>
+    <rect x="530" y="80" width="150" height="180" rx="10" fill="#f6ede6" stroke="#eaddd3"/>
+    <text x="605" y="108" text-anchor="middle" font-size="14.5" font-weight="800" fill="#7c2d12">실물 부동산</text>
+    <text x="605" y="140" text-anchor="middle" font-size="13" fill="#5a4636">오피스·물류센터</text>
+    <text x="605" y="162" text-anchor="middle" font-size="13" fill="#5a4636">상가·호텔 등</text>
+    <text x="605" y="196" text-anchor="middle" font-size="24">🏬</text>
+    <text x="605" y="232" text-anchor="middle" font-size="12" fill="#b08968">임대료가 나옴</text>
+  </g>
+
+  <!-- 화살표 오른쪽 방향 -->
+  <g stroke="#c2410c" stroke-width="2.5" fill="#c2410c">
+    <line x1="190" y1="150" x2="280" y2="150" marker-end="url(#arr)"/>
+    <line x1="435" y1="150" x2="525" y2="150" marker-end="url(#arr)"/>
+  </g>
+  <text x="235" y="140" text-anchor="middle" font-size="11.5" fill="#c2410c" font-weight="700">투자</text>
+  <text x="480" y="140" text-anchor="middle" font-size="11.5" fill="#c2410c" font-weight="700">매입</text>
+
+  <!-- 배당 되돌아오는 흐름 -->
+  <path d="M 605 260 L 605 300 L 115 300 L 115 265" fill="none" stroke="#2f7d54" stroke-width="2.5" marker-end="url(#arrg)"/>
+  <text x="360" y="322" text-anchor="middle" font-size="12.5" font-weight="800" fill="#2f7d54">임대수익 · 매각차익 → 배당으로 되돌아옴 💰</text>
+
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c2410c"/></marker>
+    <marker id="arrg" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2f7d54"/></marker>
+  </defs>
+</svg>
