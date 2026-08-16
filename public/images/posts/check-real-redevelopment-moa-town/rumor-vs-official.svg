@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="재개발 추진설과 공식 지정을 구분하는 표. 근거 출처, 진행 단계, 확인처 세 항목에서 블로그·중개소 홍보로 떠도는 추진설과 지자체 고시로 확정된 공식 지정이 어떻게 다른지 비교한다">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">'추진설' vs '공식 지정' 구분법</text>
+
+  <g font-size="13.5" font-weight="800">
+    <rect x="40" y="60" width="180" height="44" fill="#f6ede6"/>
+    <rect x="220" y="60" width="240" height="44" fill="#f6ede6"/>
+    <rect x="460" y="60" width="220" height="44" fill="#fde3d3"/>
+    <text x="130" y="88" text-anchor="middle" fill="#7c2d12">체크 항목</text>
+    <text x="340" y="88" text-anchor="middle" fill="#8a6d5a">추진설(소문)</text>
+    <text x="570" y="88" text-anchor="middle" fill="#c2410c">공식 지정</text>
+  </g>
+
+  <g font-size="12.5">
+    <text x="52" y="132" font-weight="700" fill="#7c2d12">근거 출처</text>
+    <text x="340" y="132" text-anchor="middle" fill="#8a6d5a">블로그·중개소·카페</text>
+    <text x="570" y="132" text-anchor="middle" font-weight="800" fill="#2f7d54">지자체 고시문·공보</text>
+
+    <text x="52" y="172" font-weight="700" fill="#7c2d12">단골 표현</text>
+    <text x="340" y="172" text-anchor="middle" fill="#8a6d5a">"추진 중" "저평가 초기"</text>
+    <text x="570" y="172" text-anchor="middle" font-weight="800" fill="#2f7d54">"지정·고시" "관리지역"</text>
+
+    <text x="52" y="212" font-weight="700" fill="#7c2d12">진행 단계</text>
+    <text x="340" y="212" text-anchor="middle" fill="#8a6d5a">신청·동의율 모으는 중</text>
+    <text x="570" y="212" text-anchor="middle" font-weight="800" fill="#2f7d54">지정 고시 완료</text>
+
+    <text x="52" y="252" font-weight="700" fill="#7c2d12">확인처</text>
+    <text x="340" y="252" text-anchor="middle" fill="#8a6d5a">검증 어려움(주장)</text>
+    <text x="570" y="252" text-anchor="middle" font-weight="800" fill="#2f7d54">토지이음·구청 주택과</text>
+  </g>
+
+  <g stroke="#eaddd3" stroke-width="1">
+    <line x1="40" y1="104" x2="680" y2="104"/>
+    <line x1="40" y1="150" x2="680" y2="150"/>
+    <line x1="40" y1="190" x2="680" y2="190"/>
+    <line x1="40" y1="230" x2="680" y2="230"/>
+    <line x1="220" y1="60" x2="220" y2="270"/>
+    <line x1="460" y1="60" x2="460" y2="270"/>
+  </g>
+  <rect x="40" y="60" width="640" height="210" fill="none" stroke="#eaddd3"/>
+  <text x="360" y="298" text-anchor="middle" font-size="11" fill="#b08968">일반적 구분 기준 · '추진 움직임'이 있어도 지정 고시 전이면 확정이 아님 · 출처: 소규모주택정비 절차 기반 재구성</text>
+</svg>
