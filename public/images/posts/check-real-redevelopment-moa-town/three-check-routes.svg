@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" font-family="Pretendard, sans-serif" role="img" aria-label="재개발 지정 여부를 확인하는 세 가지 경로. 토지이음 토지이용계획 열람, 지자체 정비사업 정보와 고시문, 구청 주택과 전화 문의">
+  <rect width="720" height="250" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">지번으로 3분 만에 확인하는 3경로</text>
+
+  <g>
+    <rect x="36" y="66" width="205" height="140" rx="10" fill="#fff" stroke="#eaddd3"/>
+    <circle cx="66" cy="98" r="15" fill="#fde3d3"/>
+    <text x="66" y="103" text-anchor="middle" font-size="15" font-weight="800" fill="#c2410c">1</text>
+    <text x="90" y="103" font-size="14" font-weight="800" fill="#7c2d12">토지이음</text>
+    <text x="56" y="132" font-size="12" fill="#5f4a3a">eum.go.kr에서 그 지번</text>
+    <text x="56" y="151" font-size="12" fill="#5f4a3a">토지이용계획을 열람.</text>
+    <text x="56" y="170" font-size="12" fill="#5f4a3a">'정비구역'·'소규모주택</text>
+    <text x="56" y="189" font-size="12" fill="#5f4a3a">정비 관리지역' 뜨면 지정 ✓</text>
+  </g>
+
+  <g>
+    <rect x="257" y="66" width="205" height="140" rx="10" fill="#fff" stroke="#eaddd3"/>
+    <circle cx="287" cy="98" r="15" fill="#fde3d3"/>
+    <text x="287" y="103" text-anchor="middle" font-size="15" font-weight="800" fill="#c2410c">2</text>
+    <text x="311" y="103" font-size="14" font-weight="800" fill="#7c2d12">지자체 정비정보</text>
+    <text x="277" y="132" font-size="12" fill="#5f4a3a">시·구청 정비사업 현황</text>
+    <text x="277" y="151" font-size="12" fill="#5f4a3a">페이지·고시문 목록 확인.</text>
+    <text x="277" y="170" font-size="12" fill="#5f4a3a">지정 구역이면 대표지번·</text>
+    <text x="277" y="189" font-size="12" fill="#5f4a3a">고시일이 올라와 있어요.</text>
+  </g>
+
+  <g>
+    <rect x="478" y="66" width="206" height="140" rx="10" fill="#fff" stroke="#eaddd3"/>
+    <circle cx="508" cy="98" r="15" fill="#fde3d3"/>
+    <text x="508" y="103" text-anchor="middle" font-size="15" font-weight="800" fill="#c2410c">3</text>
+    <text x="532" y="103" font-size="14" font-weight="800" fill="#7c2d12">구청 주택과</text>
+    <text x="498" y="132" font-size="12" fill="#5f4a3a">애매하면 담당부서에</text>
+    <text x="498" y="151" font-size="12" fill="#5f4a3a">전화 한 통이 제일 확실.</text>
+    <text x="498" y="170" font-size="12" fill="#5f4a3a">"이 지번이 대상지·</text>
+    <text x="498" y="189" font-size="12" fill="#5f4a3a">구역에 드나요?" 딱 물어요.</text>
+  </g>
+
+  <text x="360" y="234" text-anchor="middle" font-size="11.5" fill="#b08968">공식 확인 경로 · 1·2에서 안 뜨면 아직 '지정 前' · 실제 편입 지번은 구역경계도로 최종 확인</text>
+</svg>

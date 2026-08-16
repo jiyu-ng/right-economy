@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" font-family="Pretendard, sans-serif" role="img" aria-label="모아타운 재개발 진행 단계. 대상지 신청, 대상지 선정, 관리계획 수립과 주민공람, 관리지역 지정 고시, 조합설립 이후 순서이며 지정 고시부터가 법적으로 확정된 단계다">
+  <rect width="760" height="300" fill="#fffaf5"/>
+  <text x="380" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">모아타운·재개발은 '단계'가 생명</text>
+
+  <g font-size="12">
+    <!-- stage boxes -->
+    <rect x="30" y="80" width="130" height="70" rx="8" fill="#f6ede6"/>
+    <text x="95" y="108" text-anchor="middle" font-weight="800" fill="#8a6d5a">①대상지 신청</text>
+    <text x="95" y="130" text-anchor="middle" fill="#8a6d5a">주민 동의율 모으는</text>
+    <text x="95" y="145" text-anchor="middle" fill="#8a6d5a">가장 초기 · 소문 단계</text>
+
+    <rect x="176" y="80" width="130" height="70" rx="8" fill="#f6ede6"/>
+    <text x="241" y="108" text-anchor="middle" font-weight="800" fill="#8a6d5a">②대상지 선정</text>
+    <text x="241" y="130" text-anchor="middle" fill="#8a6d5a">지자체·시 선정위</text>
+    <text x="241" y="145" text-anchor="middle" fill="#8a6d5a">통과 · 아직 계획 前</text>
+
+    <rect x="322" y="80" width="130" height="70" rx="8" fill="#f6ede6"/>
+    <text x="387" y="108" text-anchor="middle" font-weight="800" fill="#8a6d5a">③관리계획 수립</text>
+    <text x="387" y="130" text-anchor="middle" fill="#8a6d5a">범위·용적률 등</text>
+    <text x="387" y="145" text-anchor="middle" fill="#8a6d5a">주민공람·공고</text>
+
+    <rect x="468" y="80" width="140" height="70" rx="8" fill="#fde3d3" stroke="#c2410c" stroke-width="2"/>
+    <text x="538" y="105" text-anchor="middle" font-weight="800" fill="#c2410c">④지정·고시</text>
+    <text x="538" y="126" text-anchor="middle" font-weight="800" fill="#7c2d12">여기부터 '확정' ✓</text>
+    <text x="538" y="143" text-anchor="middle" fill="#5f4a3a">법적 효력·기준일 생김</text>
+
+    <rect x="624" y="80" width="110" height="70" rx="8" fill="#f6ede6"/>
+    <text x="679" y="108" text-anchor="middle" font-weight="800" fill="#8a6d5a">⑤조합설립~</text>
+    <text x="679" y="130" text-anchor="middle" fill="#8a6d5a">사업시행·이주</text>
+    <text x="679" y="145" text-anchor="middle" fill="#8a6d5a">착공·준공</text>
+  </g>
+
+  <g fill="#c2410c" font-size="16">
+    <text x="168" y="120" text-anchor="middle">›</text>
+    <text x="314" y="120" text-anchor="middle">›</text>
+    <text x="460" y="120" text-anchor="middle">›</text>
+    <text x="616" y="120" text-anchor="middle">›</text>
+  </g>
+
+  <line x1="30" y1="185" x2="452" y2="185" stroke="#d8b9a5" stroke-width="2" stroke-dasharray="4 3"/>
+  <line x1="468" y1="185" x2="734" y2="185" stroke="#c2410c" stroke-width="3"/>
+  <text x="241" y="207" text-anchor="middle" font-size="12.5" fill="#8a6d5a">◀ 여기까진 '추진 중'(무산·표류 가능)</text>
+  <text x="601" y="207" text-anchor="middle" font-size="12.5" font-weight="700" fill="#c2410c">지정 고시부터 법적 실체 ▶</text>
+
+  <text x="380" y="250" text-anchor="middle" font-size="13" fill="#5f4a3a">"추진한다 = 확정" 아니에요. ④ <tspan font-weight="800" fill="#c2410c">지정·고시</tspan> 전까진 언제든 무산될 수 있어요.</text>
+  <text x="380" y="284" text-anchor="middle" font-size="11" fill="#b08968">모아타운(소규모주택정비 관리지역) 일반 절차 개요 · 사업 유형·지자체에 따라 단계 명칭 다를 수 있음 · 출처: 소규모주택정비법 기반 재구성</text>
+</svg>
