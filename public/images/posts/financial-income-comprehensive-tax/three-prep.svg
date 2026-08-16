@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" font-family="Pretendard, sans-serif" role="img" aria-label="금융소득종합과세에 대비하는 세 가지 방법. 첫째 만기와 수령 시기를 여러 해로 분산하기, 둘째 부부 등으로 명의를 분산하되 증여세를 유의하기, 셋째 ISA와 연금저축 같은 절세 계좌 활용하기">
+  <rect width="720" height="260" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">넘을 것 같다면 — 대비 3가지</text>
+
+  <!-- 1 -->
+  <rect x="34" y="64" width="210" height="150" rx="14" fill="#fef3ec" stroke="#eaddd3"/>
+  <circle cx="70" cy="98" r="16" fill="#e8865a"/>
+  <text x="70" y="103" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">1</text>
+  <text x="98" y="103" font-size="14.5" font-weight="800" fill="#c2410c">수령 시기 분산</text>
+  <text x="54" y="140" font-size="12.5" fill="#5a4636">만기·배당을 한 해에</text>
+  <text x="54" y="160" font-size="12.5" fill="#5a4636">몰지 말고 여러 해로</text>
+  <text x="54" y="180" font-size="12.5" fill="#5a4636">나눠 2,000만 원 선을</text>
+  <text x="54" y="200" font-size="12.5" fill="#5a4636">넘지 않게 관리</text>
+
+  <!-- 2 -->
+  <rect x="255" y="64" width="210" height="150" rx="14" fill="#fef3ec" stroke="#eaddd3"/>
+  <circle cx="291" cy="98" r="16" fill="#e8865a"/>
+  <text x="291" y="103" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">2</text>
+  <text x="319" y="103" font-size="14.5" font-weight="800" fill="#c2410c">명의 분산</text>
+  <text x="275" y="140" font-size="12.5" fill="#5a4636">부부 등으로 자산을</text>
+  <text x="275" y="160" font-size="12.5" fill="#5a4636">나눠 각자 기준 활용</text>
+  <text x="275" y="184" font-size="12" font-weight="700" fill="#c0392b">단, 증여세 유의!</text>
+  <text x="275" y="203" font-size="11.5" fill="#8a6d5a">함부로 옮기면 증여로 봄</text>
+
+  <!-- 3 -->
+  <rect x="476" y="64" width="210" height="150" rx="14" fill="#e6f4ec" stroke="#bfe3cf"/>
+  <circle cx="512" cy="98" r="16" fill="#2f7d54"/>
+  <text x="512" y="103" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">3</text>
+  <text x="540" y="103" font-size="14.5" font-weight="800" fill="#2f7d54">절세 계좌</text>
+  <text x="496" y="140" font-size="12.5" fill="#3f6350">ISA·연금저축·IRP는</text>
+  <text x="496" y="160" font-size="12.5" fill="#3f6350">비과세·과세이연이라</text>
+  <text x="496" y="180" font-size="12.5" fill="#3f6350">종합과세 합산에서</text>
+  <text x="496" y="200" font-size="12.5" fill="#3f6350">빠지거나 줄어듦</text>
+
+  <text x="360" y="242" text-anchor="middle" font-size="11" fill="#b08968">일반 정보 · 개인별 상황·세법에 따라 다르며 구체 절세는 세무 전문가와 상담 권장</text>
+</svg>
