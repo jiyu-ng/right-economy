@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="연간 금융소득이 2천만 원 이하이면 15.4퍼센트 원천징수로 분리과세가 끝나지만, 2천만 원을 초과하면 초과분이 다른 소득과 합산되어 누진세율로 종합과세된다는 기준선 도식">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">'연 2,000만 원'이 갈림길이에요</text>
+  <text x="360" y="63" text-anchor="middle" font-size="12.5" fill="#8a6d5a">1년간 이자+배당 등 금융소득 합계 기준</text>
+
+  <!-- 기준선 -->
+  <line x1="360" y1="85" x2="360" y2="285" stroke="#e0b64a" stroke-width="2" stroke-dasharray="6 5"/>
+  <rect x="300" y="86" width="120" height="26" rx="13" fill="#e0b64a"/>
+  <text x="360" y="104" text-anchor="middle" font-size="12.5" font-weight="800" fill="#fff">2,000만 원</text>
+
+  <!-- 이하 -->
+  <rect x="45" y="130" width="290" height="140" rx="12" fill="#e6f4ec" stroke="#bfe3cf"/>
+  <text x="190" y="162" text-anchor="middle" font-size="15" font-weight="800" fill="#2f7d54">2,000만 원 이하</text>
+  <text x="190" y="192" text-anchor="middle" font-size="13.5" font-weight="700" fill="#2f7d54">분리과세로 '끝'</text>
+  <text x="190" y="218" text-anchor="middle" font-size="12.5" fill="#4a6b57">15.4% 원천징수만 되고</text>
+  <text x="190" y="238" text-anchor="middle" font-size="12.5" fill="#4a6b57">따로 신고할 필요 없음</text>
+  <text x="190" y="258" text-anchor="middle" font-size="11.5" fill="#8a9a90">대부분의 개인 투자자가 여기</text>
+
+  <!-- 초과 -->
+  <rect x="385" y="130" width="290" height="140" rx="12" fill="#fdecec" stroke="#f2c4c4"/>
+  <text x="530" y="162" text-anchor="middle" font-size="15" font-weight="800" fill="#c0392b">2,000만 원 초과</text>
+  <text x="530" y="192" text-anchor="middle" font-size="13.5" font-weight="700" fill="#c0392b">종합과세 대상</text>
+  <text x="530" y="218" text-anchor="middle" font-size="12.5" fill="#8a5a52">초과분을 근로·사업소득 등과</text>
+  <text x="530" y="238" text-anchor="middle" font-size="12.5" fill="#8a5a52">합산해 누진세율(6~45%)</text>
+  <text x="530" y="258" text-anchor="middle" font-size="11.5" fill="#b0857d">소득 많을수록 세부담 커짐</text>
+
+  <text x="360" y="302" text-anchor="middle" font-size="11" fill="#b08968">일반 원리 설명 · 실제 세액은 개인 소득·공제에 따라 다름 · 기준: 금융소득종합과세 2,000만 원</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="일반 계좌는 배당에 15.4퍼센트가 바로 과세되지만, ISA는 일정 한도까지 비과세하고 초과분을 저율 분리과세하며, 연금저축과 IRP는 세금을 나중으로 미루고 연금으로 받을 때 낮은 세율을 적용한다는 비교표">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">절세 계좌로 세금을 줄일 수 있어요</text>
+
+  <g font-size="13.5" font-weight="800">
+    <rect x="40" y="60" width="200" height="42" fill="#f6ede6"/>
+    <rect x="240" y="60" width="220" height="42" fill="#fef3ec"/>
+    <rect x="460" y="60" width="220" height="42" fill="#e6f4ec"/>
+    <text x="140" y="86" text-anchor="middle" fill="#8a6d5a">일반 계좌</text>
+    <text x="350" y="86" text-anchor="middle" fill="#c2410c">ISA</text>
+    <text x="570" y="86" text-anchor="middle" fill="#2f7d54">연금저축·IRP</text>
+  </g>
+
+  <g font-size="12.5">
+    <text x="140" y="132" text-anchor="middle" font-weight="700" fill="#7c2d12">과세 방식</text>
+    <text x="350" y="132" text-anchor="middle" font-weight="700" fill="#7c2d12">과세 방식</text>
+    <text x="570" y="132" text-anchor="middle" font-weight="700" fill="#7c2d12">과세 방식</text>
+
+    <text x="140" y="162" text-anchor="middle" fill="#5a4636">배당에 15.4%</text>
+    <text x="140" y="182" text-anchor="middle" fill="#5a4636">바로 과세</text>
+
+    <text x="350" y="162" text-anchor="middle" fill="#5a4636">일정 한도까지 비과세</text>
+    <text x="350" y="182" text-anchor="middle" fill="#5a4636">초과분 저율 분리과세</text>
+
+    <text x="570" y="162" text-anchor="middle" fill="#5a4636">세금을 나중으로 미루고</text>
+    <text x="570" y="182" text-anchor="middle" fill="#5a4636">연금 받을 때 낮은 세율</text>
+
+    <text x="140" y="222" text-anchor="middle" font-weight="700" fill="#7c2d12">한마디로</text>
+    <text x="350" y="222" text-anchor="middle" font-weight="700" fill="#7c2d12">한마디로</text>
+    <text x="570" y="222" text-anchor="middle" font-weight="700" fill="#7c2d12">한마디로</text>
+
+    <text x="140" y="250" text-anchor="middle" font-weight="800" fill="#8a6d5a">그때그때 냄</text>
+    <text x="350" y="250" text-anchor="middle" font-weight="800" fill="#c2410c">한도 안에선 덜 냄</text>
+    <text x="570" y="250" text-anchor="middle" font-weight="800" fill="#2f7d54">미뤘다 적게 냄</text>
+  </g>
+
+  <g stroke="#eaddd3" stroke-width="1">
+    <line x1="40" y1="102" x2="680" y2="102"/>
+    <line x1="40" y1="196" x2="680" y2="196"/>
+    <line x1="240" y1="60" x2="240" y2="272"/>
+    <line x1="460" y1="60" x2="460" y2="272"/>
+  </g>
+  <rect x="40" y="60" width="640" height="212" fill="none" stroke="#eaddd3"/>
+  <text x="360" y="298" text-anchor="middle" font-size="11" fill="#b08968">개념 비교 · 비과세 한도·세율·납입한도 등 세부 조건은 계좌·연도별로 다름 · 가입 전 확인 필요</text>
+</svg>

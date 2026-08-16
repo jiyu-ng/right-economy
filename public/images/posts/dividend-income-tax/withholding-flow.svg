@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="배당금 100만 원을 받을 때 15.4퍼센트인 15만 4천 원이 원천징수로 먼저 떼이고 실수령액은 84만 6천 원이 된다는 흐름 도식">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">배당 받을 때, 세금은 먼저 떼여요</text>
+  <text x="360" y="64" text-anchor="middle" font-size="12.5" fill="#8a6d5a">예시: 배당금 100만 원을 받는 경우 (원천징수)</text>
+
+  <!-- 배당금 -->
+  <rect x="40" y="95" width="180" height="110" rx="12" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="130" y="128" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">받을 배당금</text>
+  <text x="130" y="165" text-anchor="middle" font-size="26" font-weight="800" fill="#7c2d12">100만 원</text>
+  <text x="130" y="190" text-anchor="middle" font-size="12" fill="#8a6d5a">세전 금액</text>
+
+  <text x="243" y="155" font-size="22" font-weight="800" fill="#8a6d5a" text-anchor="middle">−</text>
+
+  <!-- 세금 -->
+  <rect x="265" y="95" width="180" height="110" rx="12" fill="#f6ede6" stroke="#eaddd3"/>
+  <text x="355" y="128" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">배당소득세</text>
+  <text x="355" y="160" text-anchor="middle" font-size="22" font-weight="800" fill="#c2410c">15만 4천 원</text>
+  <text x="355" y="185" text-anchor="middle" font-size="12" fill="#8a6d5a">세율 15.4%</text>
+
+  <text x="468" y="155" font-size="22" font-weight="800" fill="#8a6d5a" text-anchor="middle">=</text>
+
+  <!-- 실수령 -->
+  <rect x="490" y="95" width="190" height="110" rx="12" fill="#e6f4ec" stroke="#bfe3cf"/>
+  <text x="585" y="128" text-anchor="middle" font-size="14" font-weight="800" fill="#2f7d54">실제 받는 돈</text>
+  <text x="585" y="165" text-anchor="middle" font-size="26" font-weight="800" fill="#2f7d54">84만 6천 원</text>
+  <text x="585" y="190" text-anchor="middle" font-size="12" fill="#2f7d54">통장에 들어옴</text>
+
+  <text x="360" y="245" text-anchor="middle" font-size="13.5" font-weight="700" fill="#7c2d12">배당소득세 15.4% = 소득세 14% + 지방소득세 1.4%</text>
+  <text x="360" y="270" text-anchor="middle" font-size="11.5" fill="#b08968">증권사가 자동으로 떼고(원천징수) 남은 금액만 지급 · 세율은 일반 배당 기준</text>
+</svg>
