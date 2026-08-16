@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="연 2천만 원의 금융소득을 만들려면 예금 금리 3퍼센트 기준 약 6억7천만 원, 4퍼센트 기준 5억 원, 배당수익률 3퍼센트 주식 기준 약 6억7천만 원의 원금이 필요해서 대부분의 개인은 종합과세 대상이 아니라는 것을 보여주는 막대 그래프">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">2,000만 원 이자·배당, 얼마 있어야 나올까</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">연 금융소득 2,000만 원을 만들려면 필요한 원금 (세전·가정)</text>
+
+  <!-- 막대: 원금 규모 (억 단위) -->
+  <g font-size="13">
+    <!-- 예금 3% -->
+    <text x="40" y="108" font-weight="700" fill="#7c2d12">예금 금리 3%</text>
+    <rect x="180" y="94" width="400" height="26" rx="5" fill="#e8865a"/>
+    <text x="590" y="112" font-size="14" font-weight="800" fill="#c2410c">약 6.7억</text>
+
+    <!-- 예금 4% -->
+    <text x="40" y="152" font-weight="700" fill="#7c2d12">예금 금리 4%</text>
+    <rect x="180" y="138" width="300" height="26" rx="5" fill="#eaa878"/>
+    <text x="490" y="156" font-size="14" font-weight="800" fill="#c2410c">5.0억</text>
+
+    <!-- 배당 3% -->
+    <text x="40" y="196" font-weight="700" fill="#7c2d12">배당 3% 주식</text>
+    <rect x="180" y="182" width="400" height="26" rx="5" fill="#e8865a"/>
+    <text x="590" y="200" font-size="14" font-weight="800" fill="#c2410c">약 6.7억</text>
+  </g>
+
+  <rect x="40" y="238" width="640" height="50" rx="10" fill="#e6f4ec" stroke="#bfe3cf"/>
+  <text x="360" y="260" text-anchor="middle" font-size="13.5" font-weight="800" fill="#2f7d54">즉, 이 정도 금융자산이 아니라면 대부분 '분리과세(15.4%)'로 끝!</text>
+  <text x="360" y="279" text-anchor="middle" font-size="11.5" fill="#4a6b57">이자·배당을 합쳐 계산하며, 금리·수익률 가정에 따라 필요 원금은 달라짐</text>
+
+  <text x="360" y="308" text-anchor="middle" font-size="11" fill="#b08968">일반 원리 예시 · 기준: 금융소득종합과세 연 2,000만 원 · 세전·단순 가정</text>
+</svg>
