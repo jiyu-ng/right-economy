@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Pretendard, sans-serif" role="img" aria-label="청년미래보금자리론 조건 요약. 만 39세 이하 청년이 생애최초로 4억원 이하 전용 85제곱미터 이하 비아파트를 살 때, 연소득 7천만원 이하면 연 3퍼센트 금리 30년으로 빌려주며 월 상환액은 약 85만원, 2027년 1월 출시 예정이다">
+  <rect width="720" height="380" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">청년미래보금자리론 조건 한눈에</text>
+  <text x="360" y="63" text-anchor="middle" font-size="12.5" fill="#c2410c" font-weight="700">2027년 1월 출시 예정 (발표 기준·세부 변동 가능)</text>
+
+  <g font-size="13">
+    <rect x="40" y="80" width="300" height="38" fill="#f6ede6"/>
+    <rect x="340" y="80" width="340" height="38" fill="#fde3d3"/>
+    <text x="56" y="104" font-weight="800" fill="#7c2d12">항목</text>
+    <text x="356" y="104" font-weight="800" fill="#c2410c">조건</text>
+
+    <text x="56" y="140" fill="#5f4a3a">대상 연령</text><text x="356" y="140" font-weight="700" fill="#7c2d12">만 39세 이하 청년</text>
+    <text x="56" y="172" fill="#5f4a3a">주택 보유</text><text x="356" y="172" font-weight="700" fill="#7c2d12">생애 최초 구입</text>
+    <text x="56" y="204" fill="#5f4a3a">주택 가격</text><text x="356" y="204" font-weight="700" fill="#7c2d12">4억 원 이하</text>
+    <text x="56" y="236" fill="#5f4a3a">전용 면적</text><text x="356" y="236" font-weight="700" fill="#7c2d12">85㎡ 이하</text>
+    <text x="56" y="268" fill="#5f4a3a">주택 유형</text><text x="356" y="268" font-weight="800" fill="#c2410c">비(非)아파트 (빌라·연립·오피스텔 등)</text>
+    <text x="56" y="300" fill="#5f4a3a">소득 요건</text><text x="356" y="300" font-weight="700" fill="#7c2d12">연소득 7,000만 원 이하</text>
+    <text x="56" y="332" fill="#5f4a3a">금리·기간</text><text x="356" y="332" font-weight="700" fill="#7c2d12">연 3.0% · 30년</text>
+  </g>
+
+  <g stroke="#eaddd3" stroke-width="1">
+    <line x1="40" y1="118" x2="680" y2="118"/>
+    <line x1="40" y1="152" x2="680" y2="152"/>
+    <line x1="40" y1="184" x2="680" y2="184"/>
+    <line x1="40" y1="216" x2="680" y2="216"/>
+    <line x1="40" y1="248" x2="680" y2="248"/>
+    <line x1="40" y1="280" x2="680" y2="280"/>
+    <line x1="40" y1="312" x2="680" y2="312"/>
+    <line x1="340" y1="80" x2="340" y2="344"/>
+  </g>
+  <rect x="40" y="80" width="640" height="264" fill="none" stroke="#eaddd3"/>
+  <text x="360" y="366" text-anchor="middle" font-size="11" fill="#b08968">위 6개 요건을 모두 충족해야 함 · 출처: 8·13 대책 발표 내용, 파이낸셜뉴스 보도 재구성</text>
+</svg>
