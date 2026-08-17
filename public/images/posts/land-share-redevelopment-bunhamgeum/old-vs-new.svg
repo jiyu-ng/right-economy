@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Pretendard, sans-serif" role="img" aria-label="같은 값에 산 구축 빌라와 신축 빌라를 비교한 표. 구축은 대지지분이 크고 감정평가가 높아 분담금이 적고, 신축은 대지지분이 작고 감정평가가 낮아 분담금이 많다는 개념 예시">
+  <rect width="720" height="340" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">같은 값에 사도 — 구축 vs 신축</text>
+  <text x="360" y="60" text-anchor="middle" font-size="12" fill="#8a6d5a">둘 다 2.5억에 매입, 조합원분양가 5억 가정 (개념 예시)</text>
+
+  <g font-size="13.5" font-weight="800">
+    <rect x="40" y="78" width="240" height="44" fill="#f6ede6"/>
+    <rect x="280" y="78" width="200" height="44" fill="#f6ede6"/>
+    <rect x="480" y="78" width="200" height="44" fill="#fde3d3"/>
+    <text x="160" y="106" text-anchor="middle" fill="#7c2d12">항목</text>
+    <text x="380" y="106" text-anchor="middle" fill="#2f7d54">구축(낡음)</text>
+    <text x="580" y="106" text-anchor="middle" fill="#c2410c">신축</text>
+  </g>
+
+  <g font-size="13">
+    <text x="52" y="150" fill="#5f4a3a">매입가</text>
+    <text x="380" y="150" text-anchor="middle" fill="#7c2d12">2.5억</text>
+    <text x="580" y="150" text-anchor="middle" fill="#7c2d12">2.5억</text>
+
+    <text x="52" y="188" fill="#5f4a3a">세대당 대지지분</text>
+    <text x="380" y="188" text-anchor="middle" font-weight="800" fill="#2f7d54">약 10평 ▲</text>
+    <text x="580" y="188" text-anchor="middle" font-weight="800" fill="#c2410c">약 5평 ▼</text>
+
+    <text x="52" y="226" fill="#5f4a3a">재개발 감정평가</text>
+    <text x="380" y="226" text-anchor="middle" font-weight="800" fill="#2f7d54">약 2.5억 ▲</text>
+    <text x="580" y="226" text-anchor="middle" fill="#c2410c">약 1.5억 ▼</text>
+
+    <text x="52" y="264" fill="#5f4a3a">분담금(조합분양가−감정가)</text>
+    <text x="380" y="264" text-anchor="middle" font-weight="800" fill="#2f7d54">약 2.5억</text>
+    <text x="580" y="264" text-anchor="middle" font-weight="800" fill="#c2410c">약 3.5억</text>
+
+    <text x="52" y="302" fill="#5f4a3a">총 투입(매입+분담금)</text>
+    <text x="380" y="302" text-anchor="middle" font-weight="800" fill="#2f7d54">약 5.0억 ✓ 유리</text>
+    <text x="580" y="302" text-anchor="middle" font-weight="800" fill="#c2410c">약 6.0억</text>
+  </g>
+
+  <g stroke="#eaddd3" stroke-width="1">
+    <line x1="40" y1="122" x2="680" y2="122"/>
+    <line x1="40" y1="166" x2="680" y2="166"/>
+    <line x1="40" y1="204" x2="680" y2="204"/>
+    <line x1="40" y1="242" x2="680" y2="242"/>
+    <line x1="40" y1="280" x2="680" y2="280"/>
+    <line x1="280" y1="78" x2="280" y2="320"/>
+    <line x1="480" y1="78" x2="480" y2="320"/>
+  </g>
+  <rect x="40" y="78" width="640" height="242" fill="none" stroke="#eaddd3"/>
+  <text x="360" y="335" text-anchor="middle" font-size="10.5" fill="#b08968">숫자는 이해를 돕기 위한 가정치 · 실제는 감정평가·비례율·분양가에 따라 달라짐 · ▲유리 ▼불리</text>
+</svg>
