@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="재건축 이주가 전셋값을 밀어올리는 경로. 대규모 이주로 인근 전세 수요가 늘고 동시에 그 단지가 품던 전세 물량이 사라져 공급이 줄어, 수요 증가와 공급 감소가 겹쳐 인근 전셋값에 상승 압력이 생긴다">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">재건축 이주가 전셋값을 밀어올리는 길</text>
+
+  <rect x="270" y="66" width="180" height="52" rx="10" fill="#eadfd6"/>
+  <text x="360" y="90" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">재건축 이주 시작</text>
+  <text x="360" y="108" text-anchor="middle" font-size="11.5" fill="#8a6d5a">수천 가구 동시 이동</text>
+
+  <!-- arrows split -->
+  <path d="M320 118 L180 150" stroke="#c2410c" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <path d="M400 118 L540 150" stroke="#c2410c" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#c2410c"/></marker></defs>
+
+  <rect x="60" y="152" width="240" height="72" rx="10" fill="#fde3d3"/>
+  <text x="180" y="180" text-anchor="middle" font-size="13.5" font-weight="800" fill="#c2410c">① 인근 전세 수요 ↑</text>
+  <text x="180" y="202" text-anchor="middle" font-size="12" fill="#5f4a3a">이주민이 비슷한 동네·학군</text>
+  <text x="180" y="218" text-anchor="middle" font-size="12" fill="#5f4a3a">전세로 한꺼번에 몰림</text>
+
+  <rect x="420" y="152" width="240" height="72" rx="10" fill="#fde3d3"/>
+  <text x="540" y="180" text-anchor="middle" font-size="13.5" font-weight="800" fill="#c2410c">② 전세 공급 ↓</text>
+  <text x="540" y="202" text-anchor="middle" font-size="12" fill="#5f4a3a">그 단지가 품던 전세 물량이</text>
+  <text x="540" y="218" text-anchor="middle" font-size="12" fill="#5f4a3a">철거로 통째로 사라짐</text>
+
+  <path d="M180 224 L340 250" stroke="#c2410c" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <path d="M540 224 L380 250" stroke="#c2410c" stroke-width="2" fill="none" marker-end="url(#a)"/>
+
+  <rect x="250" y="252" width="220" height="34" rx="10" fill="#e8853b"/>
+  <text x="360" y="274" text-anchor="middle" font-size="14" font-weight="800" fill="#fff">인근 전셋값 상승 압력</text>
+
+  <text x="695" y="294" text-anchor="end" font-size="10.5" fill="#b08968">개념 경로 도식 · 실제 영향은 공급·금리·정책에 따라 달라짐</text>
+</svg>
