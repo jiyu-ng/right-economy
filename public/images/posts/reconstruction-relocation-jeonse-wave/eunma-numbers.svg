@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" font-family="Pretendard, sans-serif" role="img" aria-label="은마아파트 재건축 이주 규모. 총 4424가구 중 세입자가 약 3100가구로 약 70퍼센트이며, 조합은 2027년 상반기 이주 개시를 목표로 한다">
+  <rect width="720" height="250" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">숫자로 보는 '이주 대이동' (은마 사례)</text>
+
+  <g>
+    <rect x="40" y="70" width="200" height="110" rx="10" fill="#f6ede6"/>
+    <text x="140" y="102" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8a6d5a">총 가구</text>
+    <text x="140" y="140" text-anchor="middle" font-size="32" font-weight="800" fill="#7c2d12">4,424</text>
+    <text x="140" y="164" text-anchor="middle" font-size="12.5" fill="#8a6d5a">가구</text>
+
+    <rect x="260" y="70" width="200" height="110" rx="10" fill="#fde3d3"/>
+    <text x="360" y="102" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8a6d5a">세입자 거주</text>
+    <text x="360" y="140" text-anchor="middle" font-size="32" font-weight="800" fill="#c2410c">약 3,100</text>
+    <text x="360" y="164" text-anchor="middle" font-size="12.5" font-weight="700" fill="#c2410c">= 약 70%</text>
+
+    <rect x="480" y="70" width="200" height="110" rx="10" fill="#f6ede6"/>
+    <text x="580" y="102" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8a6d5a">이주 개시 목표</text>
+    <text x="580" y="138" text-anchor="middle" font-size="25" font-weight="800" fill="#7c2d12">2027</text>
+    <text x="580" y="162" text-anchor="middle" font-size="12.5" fill="#8a6d5a">상반기(목표·미확정)</text>
+  </g>
+
+  <text x="360" y="212" text-anchor="middle" font-size="13" fill="#5f4a3a">세입자 <tspan font-weight="800" fill="#c2410c">약 3,100가구</tspan>가 이주 시점에 <tspan font-weight="700">동시에 전셋집</tspan>을 구하러 나와요.</text>
+  <text x="360" y="236" text-anchor="middle" font-size="11" fill="#b08968">기준: 2026.8 보도 · 이주 시점은 조합 '목표'로 변동 가능 · 출처: 헤럴드경제 등 보도 재구성</text>
+</svg>
