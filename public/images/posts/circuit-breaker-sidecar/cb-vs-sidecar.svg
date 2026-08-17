@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="사이드카와 서킷브레이커 비교. 사이드카는 선물이 급변할 때 프로그램매매만 5분간 멈추는 예비경보이고, 서킷브레이커는 지수가 크게 하락할 때 전체 시장 매매를 20분 이상 멈추는 비상정지다">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">사이드카 vs 서킷브레이커</text>
+  <text x="360" y="61" text-anchor="middle" font-size="12.5" fill="#8a6d5a">둘 다 '과열·급락 진정 장치'지만 강도가 달라요</text>
+
+  <g font-size="14" font-weight="800">
+    <rect x="40" y="80" width="200" height="42" fill="#f6ede6"/>
+    <rect x="240" y="80" width="220" height="42" fill="#fef3ec"/>
+    <rect x="460" y="80" width="220" height="42" fill="#fdecec"/>
+    <text x="140" y="107" text-anchor="middle" fill="#8a6d5a">구분</text>
+    <text x="350" y="107" text-anchor="middle" fill="#c2410c">사이드카</text>
+    <text x="570" y="107" text-anchor="middle" fill="#c0392b">서킷브레이커</text>
+  </g>
+
+  <g font-size="12.5">
+    <text x="52" y="150" font-weight="700" fill="#7c2d12">언제</text>
+    <text x="350" y="150" text-anchor="middle" fill="#5a4636">선물 급변(±5~6%) 1분</text>
+    <text x="570" y="150" text-anchor="middle" fill="#8a5a52">지수 급락(-8/15/20%)</text>
+
+    <text x="52" y="186" font-weight="700" fill="#7c2d12">무엇을</text>
+    <text x="350" y="186" text-anchor="middle" fill="#5a4636">프로그램매매만</text>
+    <text x="570" y="186" text-anchor="middle" fill="#8a5a52">전체 시장 매매</text>
+
+    <text x="52" y="222" font-weight="700" fill="#7c2d12">얼마나</text>
+    <text x="350" y="222" text-anchor="middle" fill="#5a4636">5분 효력정지</text>
+    <text x="570" y="222" text-anchor="middle" fill="#8a5a52">20분 중단~장 종료</text>
+
+    <text x="52" y="258" font-weight="700" fill="#7c2d12">성격</text>
+    <text x="350" y="258" text-anchor="middle" font-weight="800" fill="#c2410c">예비 경보 🟡</text>
+    <text x="570" y="258" text-anchor="middle" font-weight="800" fill="#c0392b">비상 정지 🔴</text>
+  </g>
+
+  <g stroke="#eaddd3" stroke-width="1">
+    <line x1="40" y1="122" x2="680" y2="122"/><line x1="40" y1="168" x2="680" y2="168"/>
+    <line x1="40" y1="204" x2="680" y2="204"/><line x1="40" y1="240" x2="680" y2="240"/>
+    <line x1="240" y1="80" x2="240" y2="276"/><line x1="460" y1="80" x2="460" y2="276"/>
+  </g>
+  <rect x="40" y="80" width="640" height="196" fill="none" stroke="#eaddd3"/>
+  <text x="360" y="302" text-anchor="middle" font-size="11" fill="#b08968">일반 기준 · 실제 발동 요건·시간은 시장·규정에 따라 다름 · 출처: 한국거래소 제도 기반 재구성</text>
+</svg>
