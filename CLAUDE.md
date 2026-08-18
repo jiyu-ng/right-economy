@@ -8,7 +8,7 @@
 
 ## 글 작성 규칙
 
-1. **위치**: `src/content/posts/<영문-slug>.md` (slug은 주제를 나타내는 영문 케밥케이스)
+1. **위치**: `src/content/posts/<영문-slug>.md` (slug은 주제를 나타내는 영문 케밥케이스). ⭐ **slug은 짧게 — 핵심 키워드 3~4단어 이내**로 (예: `us-treasury-yield`, `movein-supply-2yr`). 제목을 통째로 옮긴 긴 나열(`us-long-term-treasury-yield-19yr-high` 같은) 금지 — 공유 시 URL이 지저분하고, 짧은 키워드가 SEO·클릭률에도 유리. (2026-08-18 확정, 기존 글 slug은 유지)
 2. **중복 금지**: 글을 쓰기 전 `src/content/posts/` 의 기존 글 목록과 각 frontmatter title을 확인하고, 주제가 겹치지 않는 새 주제를 고른다.
 3. **frontmatter** (필수):
    ```
