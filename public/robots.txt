@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://right-economy.github.io/sitemap-index.xml
+Sitemap: https://right-economy.com/sitemap-index.xml

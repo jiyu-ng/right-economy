@@ -113,9 +113,9 @@ function rehypeImgLoading() {
 
 // https://astro.build/config
 export default defineConfig({
-  // GitHub Pages 조직 사이트: https://right-economy.github.io/ (루트 서빙, base 없음)
-  // repo = right-economy/right-economy.github.io. 커스텀 도메인 생기면 site만 교체.
-  site: 'https://right-economy.github.io',
+  // Cloudflare Pages + 커스텀 도메인: https://right-economy.com/ (루트 서빙, base 없음)
+  // repo = right-economy/right-economy.github.io. (2026-08-18 GitHub Pages→Cloudflare Pages 이전, 색인 문제 해결)
+  site: 'https://right-economy.com',
   markdown: {
     // 한국어 등 CJK 문자 옆의 볼드/이탤릭이 깨지는 CommonMark 이슈 해결.
     // 예: **자산배분(Asset Allocation)**이라고 처럼 닫는 ** 뒤에 한글이 바로
