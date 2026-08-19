@@ -29,6 +29,9 @@ const minutes = readingMinutes(post.body);
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const siteUrl = new URL(withBase('/'), Astro.site).href;
 const ogImage = new URL(withBase('/og-default.png'), Astro.site).href;
+// Organization.logo 전용: 정사각 실로고(256×256 마스코트 favicon). 배너인 og-default를
+// 로고로 쓰면 검색 리치결과에서 브랜드 로고로 부정확 인식 → 정사각 로고로 분리(구글 가이드).
+const orgLogo = new URL(withBase('/favicon-cat.png'), Astro.site).href;
 
 // Article 구조화 데이터 보강용: 글자 수 + ISO 8601 읽기 시간(PT#M)
 const wordCount = [...(post.body ?? '').replace(/[#>*`|_\-\[\]()!]/g, '')].length;
@@ -78,7 +81,7 @@ const jsonLd = {
       name: SITE_NAME,
       url: siteUrl,
       description: SITE_DESCRIPTION,
-      logo: { '@type': 'ImageObject', url: ogImage },
+      logo: { '@type': 'ImageObject', url: orgLogo },
       sameAs: [SITE_INSTAGRAM],
     },
     {
