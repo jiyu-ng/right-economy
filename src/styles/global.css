@@ -273,11 +273,13 @@ a:hover {
 .breadcrumb li:last-child span {
   color: var(--ink);
   font-weight: 500;
-  /* 긴 제목은 잘라서 표시 */
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
+  /* 긴 제목은 한 줄 말줄임 (인라인 정렬 유지 — 구분자 '›' 어긋남 방지) */
+  display: inline-block;
+  max-width: min(60vw, 420px);
+  white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
 }
 
 /* 글 상세 */
