@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="'Noto Sans KR', sans-serif">
+  <rect width="640" height="400" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a2e">전세 5억 → 보증금 2억 반전세, 전환율별 월세</text>
+  <text x="320" y="56" text-anchor="middle" font-size="13" fill="#6b7280">월세로 돌리는 금액 3억 · 단위: 만원</text>
+
+  <line x1="90" y1="330" x2="590" y2="330" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="80" y="334" text-anchor="end" font-size="11" fill="#9ca3af">0</text>
+  <text x="80" y="250" text-anchor="end" font-size="11" fill="#9ca3af">50</text>
+  <text x="80" y="170" text-anchor="end" font-size="11" fill="#9ca3af">100</text>
+  <text x="80" y="90" text-anchor="end" font-size="11" fill="#9ca3af">150</text>
+
+  <!-- scale: 1.6px per 만원. baseline y=330. 113→180.8px, 125→200, 150→240 -->
+  <!-- 4.5% = 113 -->
+  <rect x="150" y="149" width="90" height="181" rx="4" fill="#93c5fd"/>
+  <text x="195" y="140" text-anchor="middle" font-size="15" font-weight="700" fill="#1e40af">113만</text>
+  <text x="195" y="352" text-anchor="middle" font-size="12" fill="#374151">4.5%(상한)</text>
+
+  <!-- 5% = 125 -->
+  <rect x="290" y="130" width="90" height="200" rx="4" fill="#3b82f6"/>
+  <text x="335" y="121" text-anchor="middle" font-size="15" font-weight="700" fill="#1e40af">125만</text>
+  <text x="335" y="352" text-anchor="middle" font-size="12" fill="#374151">5%(시장)</text>
+
+  <!-- 6% = 150 -->
+  <rect x="430" y="90" width="90" height="240" rx="4" fill="#f5b301"/>
+  <text x="475" y="81" text-anchor="middle" font-size="15" font-weight="700" fill="#b45309">150만</text>
+  <text x="475" y="352" text-anchor="middle" font-size="12" fill="#374151">6%(빌라·오피스텔)</text>
+
+  <text x="320" y="384" text-anchor="middle" font-size="11" fill="#9ca3af">월세 = (전세 − 보증금) × 전환율 ÷ 12 · 전환율 1.5%p 차이 = 월 37만원</text>
+</svg>
