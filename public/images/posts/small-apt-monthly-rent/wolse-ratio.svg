@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="'Noto Sans KR', sans-serif">
+  <rect width="640" height="360" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#1a1a2e">서울 아파트 임대차 월세 비중</text>
+  <text x="320" y="56" text-anchor="middle" font-size="13" fill="#6b7280">2026년 대략치 · 소형일수록 월세화가 빠름</text>
+
+  <line x1="150" y1="300" x2="590" y2="300" stroke="#d1d5db" stroke-width="1.5"/>
+  <line x1="150" y1="200" x2="590" y2="200" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="140" y="304" text-anchor="end" font-size="11" fill="#9ca3af">0%</text>
+  <text x="140" y="204" text-anchor="end" font-size="11" fill="#9ca3af">50%</text>
+
+  <!-- scale: 2px per %. baseline 300. 54%→108px, 60%→120px -->
+  <rect x="210" y="192" width="120" height="108" rx="5" fill="#93c5fd"/>
+  <text x="270" y="180" text-anchor="middle" font-size="17" font-weight="700" fill="#1e40af">약 54%</text>
+  <text x="270" y="322" text-anchor="middle" font-size="13" fill="#374151">아파트 전체</text>
+
+  <rect x="410" y="180" width="120" height="120" rx="5" fill="#f5b301"/>
+  <text x="470" y="168" text-anchor="middle" font-size="17" font-weight="800" fill="#b45309">약 60%</text>
+  <text x="470" y="322" text-anchor="middle" font-size="13" font-weight="700" fill="#374151">소형(60㎡ 이하)</text>
+
+  <text x="320" y="348" text-anchor="middle" font-size="11" fill="#9ca3af">소형 임대차는 10건 중 6건 안팎이 월세 · 출처: 임대차 신고 통계(대략치)</text>
+</svg>
