@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="640" height="340" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2937">같은 100만 원, 선택에 따라 달라지는 '포기한 가치'</text>
+  <text x="320" y="58" text-anchor="middle" font-size="13" fill="#6b7280">기회비용 = 선택하지 않은 대안 중 가장 큰 가치 (가정 예시)</text>
+
+  <!-- Option A -->
+  <rect x="60" y="90" width="220" height="180" rx="12" fill="#fff7ed" stroke="#f97316" stroke-width="2"/>
+  <text x="170" y="122" text-anchor="middle" font-size="16" font-weight="700" fill="#ea580c">선택 A · 지금 소비</text>
+  <text x="170" y="152" text-anchor="middle" font-size="13" fill="#374151">100만 원으로</text>
+  <text x="170" y="174" text-anchor="middle" font-size="13" fill="#374151">가전·여행에 지출</text>
+  <line x1="90" y1="196" x2="250" y2="196" stroke="#fdba74" stroke-width="1"/>
+  <text x="170" y="222" text-anchor="middle" font-size="13" fill="#9a3412">포기한 것 →</text>
+  <text x="170" y="246" text-anchor="middle" font-size="14" font-weight="700" fill="#9a3412">연 4% 예금 이자 4만 원</text>
+
+  <!-- Option B -->
+  <rect x="360" y="90" width="220" height="180" rx="12" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+  <text x="470" y="122" text-anchor="middle" font-size="16" font-weight="700" fill="#334155">선택 B · 저축</text>
+  <text x="470" y="152" text-anchor="middle" font-size="13" fill="#374151">100만 원을</text>
+  <text x="470" y="174" text-anchor="middle" font-size="13" fill="#374151">연 4% 예금에 예치</text>
+  <line x1="390" y1="196" x2="550" y2="196" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="470" y="222" text-anchor="middle" font-size="13" fill="#475569">포기한 것 →</text>
+  <text x="470" y="246" text-anchor="middle" font-size="14" font-weight="700" fill="#475569">지금 누릴 소비의 만족</text>
+
+  <text x="320" y="176" text-anchor="middle" font-size="22" font-weight="700" fill="#9ca3af">vs</text>
+  <text x="320" y="304" text-anchor="middle" font-size="13" fill="#6b7280">어떤 선택도 '공짜'가 아니다 — 무엇을 얻으면 반드시 무언가를 포기한다</text>
+</svg>
