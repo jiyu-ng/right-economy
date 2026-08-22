@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 360" font-family="'Noto Sans KR', sans-serif">
+  <rect width="660" height="360" fill="#ffffff"/>
+  <text x="330" y="36" text-anchor="middle" font-size="19" font-weight="700" fill="#1a1a2e">분양신청이 가르는 두 갈래</text>
+
+  <!-- 시작 박스: 재개발 조합원 -->
+  <rect x="250" y="66" width="160" height="56" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="330" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#1e40af">재개발 조합원</text>
+  <text x="330" y="110" text-anchor="middle" font-size="12" fill="#3b82f6">관리처분 · 분양신청 기간</text>
+
+  <!-- 갈래 선 -->
+  <line x1="330" y1="122" x2="160" y2="190" stroke="#22c55e" stroke-width="2"/>
+  <line x1="330" y1="122" x2="500" y2="190" stroke="#ef4444" stroke-width="2"/>
+  <text x="215" y="160" text-anchor="middle" font-size="13" font-weight="700" fill="#15803d">신청 O</text>
+  <text x="445" y="160" text-anchor="middle" font-size="13" font-weight="700" fill="#b91c1c">신청 X</text>
+
+  <!-- 왼쪽: 입주권 -->
+  <rect x="60" y="192" width="200" height="110" rx="12" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <text x="160" y="222" text-anchor="middle" font-size="16" font-weight="800" fill="#15803d">🏢 입주권</text>
+  <text x="160" y="248" text-anchor="middle" font-size="12" fill="#166534">새 아파트 조합원 분양</text>
+  <text x="160" y="268" text-anchor="middle" font-size="12" fill="#166534">+ 그동안 쌓인 프리미엄</text>
+  <text x="160" y="290" text-anchor="middle" font-size="12" font-weight="700" fill="#15803d">재개발 과실 획득 ✅</text>
+
+  <!-- 오른쪽: 현금청산 -->
+  <rect x="400" y="192" width="200" height="110" rx="12" fill="#fef2f2" stroke="#ef4444" stroke-width="2"/>
+  <text x="500" y="222" text-anchor="middle" font-size="16" font-weight="800" fill="#b91c1c">💸 현금청산</text>
+  <text x="500" y="248" text-anchor="middle" font-size="12" fill="#991b1b">종전 재산 감정가로 정산</text>
+  <text x="500" y="268" text-anchor="middle" font-size="12" fill="#991b1b">대개 시세·기대보다 낮음</text>
+  <text x="500" y="290" text-anchor="middle" font-size="12" font-weight="700" fill="#b91c1c">재개발 과실 상실 ⚠️</text>
+
+  <text x="330" y="338" text-anchor="middle" font-size="12" fill="#6b7280">분양신청 한 번을 놓치면 = 입주권 상실 · "통지 못 받았어도 조합원 책임"(판례)</text>
+</svg>
