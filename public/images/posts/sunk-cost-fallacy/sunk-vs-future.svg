@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="640" height="340" fill="#ffffff"/>
+  <text x="320" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2937">이미 쓴 돈(매몰비용)은 판단에서 빼야 한다</text>
+  <text x="320" y="58" text-anchor="middle" font-size="13" fill="#6b7280">합리적 판단 = '지금부터 무엇이 이득인가'만 본다 (예시)</text>
+
+  <!-- Sunk cost box -->
+  <rect x="60" y="90" width="220" height="180" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="170" y="122" text-anchor="middle" font-size="16" font-weight="700" fill="#475569">이미 쓴 것 (매몰비용)</text>
+  <text x="170" y="152" text-anchor="middle" font-size="13" fill="#374151">되돌릴 수 없는</text>
+  <text x="170" y="174" text-anchor="middle" font-size="13" fill="#374151">과거의 돈·시간·노력</text>
+  <line x1="90" y1="196" x2="250" y2="196" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="170" y="224" text-anchor="middle" font-size="13" fill="#64748b">판단에서 →</text>
+  <text x="170" y="248" text-anchor="middle" font-size="14" font-weight="700" fill="#64748b">과감히 무시</text>
+
+  <!-- Future box -->
+  <rect x="360" y="90" width="220" height="180" rx="12" fill="#fff7ed" stroke="#f97316" stroke-width="2"/>
+  <text x="470" y="122" text-anchor="middle" font-size="16" font-weight="700" fill="#ea580c">앞으로의 것 (미래 비용·편익)</text>
+  <text x="470" y="152" text-anchor="middle" font-size="13" fill="#374151">지금부터 더 들 돈과</text>
+  <text x="470" y="174" text-anchor="middle" font-size="13" fill="#374151">앞으로 얻을 이득</text>
+  <line x1="390" y1="196" x2="550" y2="196" stroke="#fdba74" stroke-width="1"/>
+  <text x="470" y="224" text-anchor="middle" font-size="13" fill="#9a3412">판단에 →</text>
+  <text x="470" y="248" text-anchor="middle" font-size="14" font-weight="700" fill="#9a3412">이것만 반영</text>
+
+  <text x="320" y="176" text-anchor="middle" font-size="20" font-weight="700" fill="#9ca3af">→</text>
+  <text x="320" y="304" text-anchor="middle" font-size="13" fill="#6b7280">"아까우니까 계속"은 매몰비용에 발목 잡힌 선택</text>
+</svg>
