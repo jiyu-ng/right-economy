@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Pretendard, sans-serif" role="img" aria-label="이번 달 결제금액 100만 원 중 일부만 갚고 나머지는 다음 달로 넘기면 남은 금액에 수수료가 계속 붙는 리볼빙 구조 도식">
+  <rect width="720" height="330" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">리볼빙 = 갚을 돈의 일부만 내고 나머지는 이월</text>
+  <text x="360" y="64" text-anchor="middle" font-size="12.5" fill="#8a6d5a">예시: 이번 달 카드값 100만 원, 최소 결제 비율 10% 가정</text>
+
+  <!-- 이번 달 카드값 -->
+  <rect x="40" y="95" width="180" height="120" rx="12" fill="#fef3ec" stroke="#eaddd3"/>
+  <text x="130" y="128" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">이번 달 카드값</text>
+  <text x="130" y="168" text-anchor="middle" font-size="26" font-weight="800" fill="#7c2d12">100만 원</text>
+  <text x="130" y="195" text-anchor="middle" font-size="12" fill="#8a6d5a">원래 내야 할 금액</text>
+
+  <text x="243" y="160" font-size="22" font-weight="800" fill="#8a6d5a" text-anchor="middle">&#8594;</text>
+
+  <!-- 이번 달 실제 결제 -->
+  <rect x="265" y="95" width="180" height="120" rx="12" fill="#e6f4ec" stroke="#bfe3cf"/>
+  <text x="355" y="128" text-anchor="middle" font-size="14" font-weight="800" fill="#2f7d54">이번 달만 낸 돈</text>
+  <text x="355" y="168" text-anchor="middle" font-size="26" font-weight="800" fill="#2f7d54">10만 원</text>
+  <text x="355" y="195" text-anchor="middle" font-size="12" fill="#2f7d54">최소 결제 10%</text>
+
+  <text x="468" y="160" font-size="22" font-weight="800" fill="#8a6d5a" text-anchor="middle">+</text>
+
+  <!-- 다음 달로 이월 -->
+  <rect x="490" y="95" width="190" height="120" rx="12" fill="#f6ede6" stroke="#eaddd3"/>
+  <text x="585" y="128" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">다음 달로 넘긴 빚</text>
+  <text x="585" y="168" text-anchor="middle" font-size="26" font-weight="800" fill="#c2410c">90만 원</text>
+  <text x="585" y="195" text-anchor="middle" font-size="12" fill="#8a6d5a">여기에 수수료가 붙음</text>
+
+  <rect x="150" y="245" width="420" height="52" rx="10" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="360" y="268" text-anchor="middle" font-size="13.5" font-weight="800" fill="#b91c1c">넘긴 90만 원에는 매달 수수료(연 15~20%대까지도)가 계속 붙어요</text>
+  <text x="360" y="288" text-anchor="middle" font-size="11.5" fill="#b08968">비율·수수료율은 카드사·회원별로 다름 · 위 숫자는 이해를 돕기 위한 예시</text>
+</svg>
