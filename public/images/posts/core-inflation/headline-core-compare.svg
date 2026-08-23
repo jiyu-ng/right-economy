@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Pretendard, sans-serif" role="img" aria-label="헤드라인 물가와 근원물가를 무엇을 담나 변동성 무엇을 알려주나 기준으로 비교한 표">
+  <rect width="720" height="340" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">헤드라인 물가 vs 근원물가</text>
+
+  <!-- 헤더 -->
+  <g font-size="15" font-weight="800">
+    <rect x="40" y="62" width="200" height="46" fill="#f6ede6"/>
+    <rect x="240" y="62" width="220" height="46" fill="#fef3ec"/>
+    <rect x="460" y="62" width="220" height="46" fill="#fde3d3"/>
+    <text x="140" y="91" text-anchor="middle" fill="#7c2d12">구분</text>
+    <text x="350" y="91" text-anchor="middle" fill="#7c2d12">헤드라인 물가</text>
+    <text x="570" y="91" text-anchor="middle" fill="#c2410c">근원물가(Core)</text>
+  </g>
+
+  <!-- 행 -->
+  <g font-size="13.5">
+    <text x="52" y="140" font-weight="700" fill="#7c2d12">담는 항목</text>
+    <text x="350" y="140" text-anchor="middle" fill="#5a4636">모든 소비 품목</text>
+    <text x="570" y="140" text-anchor="middle" fill="#8a4a2c">농산물·석유류 제외</text>
+
+    <text x="52" y="182" font-weight="700" fill="#7c2d12">변동성</text>
+    <text x="350" y="182" text-anchor="middle" fill="#5a4636">크다(날씨·유가에 출렁)</text>
+    <text x="570" y="182" text-anchor="middle" fill="#8a4a2c">작다(추세가 안정적)</text>
+
+    <text x="52" y="224" font-weight="700" fill="#7c2d12">알려주는 것</text>
+    <text x="350" y="224" text-anchor="middle" fill="#5a4636">지금 내 체감 물가</text>
+    <text x="570" y="224" text-anchor="middle" font-weight="700" fill="#c2410c">물가의 '밑바탕 흐름'</text>
+
+    <text x="52" y="266" font-weight="700" fill="#7c2d12">누가 주로 보나</text>
+    <text x="350" y="266" text-anchor="middle" fill="#5a4636">가계·언론 헤드라인</text>
+    <text x="570" y="266" text-anchor="middle" fill="#8a4a2c">중앙은행·정책 판단</text>
+  </g>
+
+  <!-- 구분선 -->
+  <g stroke="#eaddd3" stroke-width="1">
+    <line x1="40" y1="108" x2="680" y2="108"/>
+    <line x1="40" y1="155" x2="680" y2="155"/>
+    <line x1="40" y1="197" x2="680" y2="197"/>
+    <line x1="40" y1="239" x2="680" y2="239"/>
+    <line x1="240" y1="62" x2="240" y2="281"/>
+    <line x1="460" y1="62" x2="460" y2="281"/>
+  </g>
+  <rect x="40" y="62" width="640" height="219" fill="none" stroke="#eaddd3"/>
+
+  <text x="360" y="312" text-anchor="middle" font-size="11" fill="#b08968">개념 비교 도식 · 출처: 통계청·한국은행 물가통계 설명 자료 기반 재구성</text>
+</svg>

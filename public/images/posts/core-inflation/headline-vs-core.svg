@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="전체 소비자물가에서 변동이 큰 농산물과 석유류를 빼면 근원물가가 되는 개념 도식">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">근원물가 = 전체 물가에서 '출렁이는 것'을 뺀 값</text>
+
+  <!-- 전체 CPI 박스 -->
+  <rect x="40" y="80" width="200" height="150" rx="12" fill="#fde3d3" stroke="#e8703a"/>
+  <text x="140" y="112" text-anchor="middle" font-size="15" font-weight="800" fill="#c2410c">전체 소비자물가</text>
+  <text x="140" y="133" text-anchor="middle" font-size="13" fill="#8a4a2c">(헤드라인 CPI)</text>
+  <text x="140" y="165" text-anchor="middle" font-size="12.5" fill="#8a4a2c">우리가 체감하는</text>
+  <text x="140" y="184" text-anchor="middle" font-size="12.5" fill="#8a4a2c">전체 장바구니 물가</text>
+
+  <!-- 빼기 화살표 -->
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#e8703a"/>
+    </marker>
+  </defs>
+  <line x1="245" y1="155" x2="303" y2="155" stroke="#e8703a" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="274" y="145" text-anchor="middle" font-size="16" font-weight="800" fill="#c2410c">−</text>
+
+  <!-- 제외 항목 -->
+  <rect x="310" y="95" width="180" height="55" rx="10" fill="#fef3ec" stroke="#f4a97f"/>
+  <text x="400" y="120" text-anchor="middle" font-size="14" font-weight="700" fill="#7c2d12">농산물·수산물</text>
+  <text x="400" y="139" text-anchor="middle" font-size="11.5" fill="#9a6b4f">날씨에 따라 급등락</text>
+
+  <rect x="310" y="160" width="180" height="55" rx="10" fill="#fef3ec" stroke="#f4a97f"/>
+  <text x="400" y="185" text-anchor="middle" font-size="14" font-weight="700" fill="#7c2d12">석유류(에너지)</text>
+  <text x="400" y="204" text-anchor="middle" font-size="11.5" fill="#9a6b4f">국제유가에 출렁</text>
+
+  <!-- 등호 -->
+  <line x1="495" y1="155" x2="553" y2="155" stroke="#e8703a" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="524" y="145" text-anchor="middle" font-size="16" font-weight="800" fill="#c2410c">=</text>
+
+  <!-- 근원물가 박스 -->
+  <rect x="500" y="80" width="180" height="150" rx="12" fill="#c2410c"/>
+  <text x="590" y="130" text-anchor="middle" font-size="17" font-weight="800" fill="#fff">근원물가</text>
+  <text x="590" y="154" text-anchor="middle" font-size="13" fill="#ffe4d3">(Core CPI)</text>
+  <text x="590" y="184" text-anchor="middle" font-size="12" fill="#ffe4d3">물가의 '기조'가</text>
+  <text x="590" y="202" text-anchor="middle" font-size="12" fill="#ffe4d3">드러나는 지표</text>
+
+  <text x="360" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#c2410c">한국은 '농산물 및 석유류 제외 지수'를 대표적인 근원물가로 봐요</text>
+  <text x="360" y="298" text-anchor="middle" font-size="11" fill="#b08968">개념 도식 · 출처: 통계청 소비자물가지수 특수분류 설명 자료 기반 재구성</text>
+</svg>

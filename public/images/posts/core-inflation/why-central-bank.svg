@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Pretendard, sans-serif" role="img" aria-label="유가 급등으로 헤드라인 물가만 튀는 경우와 근원물가까지 오르는 경우를 중앙은행이 다르게 해석하는 도식">
+  <rect width="720" height="300" fill="#fffaf5"/>
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">중앙은행이 근원물가를 함께 보는 이유</text>
+  <text x="360" y="62" text-anchor="middle" font-size="13" fill="#9a6b4f">같은 '물가 상승'이라도 원인에 따라 대응이 달라져요</text>
+
+  <!-- 케이스 A -->
+  <rect x="40" y="88" width="300" height="150" rx="12" fill="#fef3ec" stroke="#f4a97f"/>
+  <text x="190" y="116" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12">헤드라인만 튐</text>
+  <text x="190" y="145" text-anchor="middle" font-size="12.5" fill="#9a6b4f">유가·채소값이 일시적으로 급등</text>
+  <text x="190" y="170" text-anchor="middle" font-size="12.5" fill="#9a6b4f">→ 근원물가는 잠잠</text>
+  <text x="190" y="202" text-anchor="middle" font-size="13" font-weight="700" fill="#c2410c">"일시적일 수 있다"</text>
+  <text x="190" y="222" text-anchor="middle" font-size="12" fill="#8a4a2c">→ 서둘러 금리 안 올릴 수도</text>
+
+  <!-- 케이스 B -->
+  <rect x="380" y="88" width="300" height="150" rx="12" fill="#fde3d3" stroke="#e8703a"/>
+  <text x="530" y="116" text-anchor="middle" font-size="14" font-weight="800" fill="#c2410c">근원물가까지 오름</text>
+  <text x="530" y="145" text-anchor="middle" font-size="12.5" fill="#8a4a2c">외식·집세·서비스값이 폭넓게 상승</text>
+  <text x="530" y="170" text-anchor="middle" font-size="12.5" fill="#8a4a2c">→ 물가 '기조'가 뜨거워짐</text>
+  <text x="530" y="202" text-anchor="middle" font-size="13" font-weight="800" fill="#c2410c">"뿌리 깊은 물가"</text>
+  <text x="530" y="222" text-anchor="middle" font-size="12" fill="#8a4a2c">→ 금리로 대응할 신호</text>
+
+  <text x="360" y="278" text-anchor="middle" font-size="11" fill="#b08968">개념 도식 · 출처: 한국은행 통화정책 물가 판단 설명 자료 기반 재구성</text>
+</svg>
