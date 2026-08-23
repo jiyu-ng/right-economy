@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="'Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <rect width="760" height="420" fill="#faf9f6"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="800" fill="#1a1a2e">한 집, 네 개의 가격표</text>
+  <!-- 중앙 집 -->
+  <rect x="320" y="60" width="120" height="60" rx="12" fill="#1a1a2e"/>
+  <text x="380" y="97" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">🏠 우리 집</text>
+  <!-- 연결선 -->
+  <g stroke="#c9a227" stroke-width="2" fill="none">
+    <path d="M340 120 C 250 150, 130 160, 100 190"/>
+    <path d="M360 120 C 320 160, 300 165, 290 190"/>
+    <path d="M400 120 C 440 160, 460 165, 470 190"/>
+    <path d="M420 120 C 510 150, 630 160, 660 190"/>
+  </g>
+  <!-- 4 가격 박스 -->
+  <g font-size="15" font-weight="700" text-anchor="middle">
+    <rect x="30" y="190" width="150" height="86" rx="10" fill="#e8f0fe" stroke="#3b6fd4"/>
+    <text x="105" y="216" fill="#1e40af">실거래가</text>
+    <text x="105" y="244" font-size="12" font-weight="500" fill="#475569">실제 팔린 값</text>
+    <text x="105" y="263" font-size="12" font-weight="600" fill="#1e40af">→ 양도·취득세</text>
+
+    <rect x="220" y="190" width="150" height="86" rx="10" fill="#e6f5ec" stroke="#2f9e5f"/>
+    <text x="295" y="216" fill="#166534">공시가격</text>
+    <text x="295" y="244" font-size="12" font-weight="500" fill="#475569">정부가 매년 발표</text>
+    <text x="295" y="263" font-size="12" font-weight="600" fill="#166534">→ 재산·종부세·복지</text>
+
+    <rect x="390" y="190" width="150" height="86" rx="10" fill="#f1eafc" stroke="#8b5cf6"/>
+    <text x="465" y="216" fill="#6b21a8">기준시가</text>
+    <text x="465" y="244" font-size="12" font-weight="500" fill="#475569">국세청·지자체</text>
+    <text x="465" y="263" font-size="12" font-weight="600" fill="#6b21a8">→ 상속·증여세</text>
+
+    <rect x="580" y="190" width="150" height="86" rx="10" fill="#fdf0e3" stroke="#e08a2b"/>
+    <text x="655" y="216" fill="#b45309">KB시세·감정가</text>
+    <text x="655" y="244" font-size="12" font-weight="500" fill="#475569">은행·감정평가사</text>
+    <text x="655" y="263" font-size="12" font-weight="600" fill="#b45309">→ 대출 한도(LTV)</text>
+  </g>
+  <text x="380" y="330" text-anchor="middle" font-size="14" fill="#334155">같은 집이라도 <tspan font-weight="700">쓰는 목적에 따라</tspan> 기준 가격이 달라져요</text>
+  <text x="380" y="360" text-anchor="middle" font-size="13" fill="#64748b">세금은 공시가격 · 매매 세금은 실거래가 · 대출은 KB시세</text>
+  <text x="380" y="398" text-anchor="middle" font-size="11" fill="#94a3b8">도식: 부동산 가격 기준별 용도 구분 · 옳은경제 정리</text>
+</svg>
