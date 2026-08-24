@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <rect width="720" height="380" fill="#fffdf9"/>
+  <text x="30" y="38" font-size="19" font-weight="700" fill="#1f2937">같은 집값이라도, 가입 나이가 많을수록 월 수령액이 커져요</text>
+
+  <!-- axis -->
+  <line x1="90" y1="300" x2="680" y2="300" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="90" y1="90" x2="90" y2="300" stroke="#9ca3af" stroke-width="2"/>
+  <text x="50" y="300" font-size="12" fill="#6b7280" text-anchor="end">낮음</text>
+  <text x="50" y="110" font-size="12" fill="#6b7280" text-anchor="end">높음</text>
+  <text x="30" y="200" font-size="13" fill="#374151" text-anchor="middle" transform="rotate(-90 30 200)">매달 받는 연금 (상대 크기)</text>
+
+  <!-- bars: relative illustrative heights -->
+  <!-- 60세 -->
+  <rect x="150" y="240" width="90" height="60" fill="#fbd4a6"/>
+  <text x="195" y="320" font-size="14" fill="#374151" text-anchor="middle">60세 가입</text>
+  <!-- 65세 -->
+  <rect x="290" y="200" width="90" height="100" fill="#f6b26b"/>
+  <text x="335" y="320" font-size="14" fill="#374151" text-anchor="middle">65세 가입</text>
+  <!-- 70세 -->
+  <rect x="430" y="160" width="90" height="140" fill="#f28c28"/>
+  <text x="475" y="320" font-size="14" fill="#374151" text-anchor="middle">70세 가입</text>
+  <!-- 75세 -->
+  <rect x="570" y="120" width="90" height="180" fill="#d9740f"/>
+  <text x="615" y="320" font-size="14" fill="#374151" text-anchor="middle">75세 가입</text>
+
+  <text x="360" y="360" font-size="12" fill="#9ca3af" text-anchor="middle">※ 개념 이해용 도식 — 실제 금액이 아니라 '나이가 많을수록 커진다'는 방향만 나타냅니다.</text>
+</svg>
