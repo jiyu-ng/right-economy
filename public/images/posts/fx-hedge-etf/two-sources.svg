@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Pretendard, sans-serif" role="img" aria-label="해외 ETF 수익은 주가 손익과 환율 손익 두 갈래로 나뉘며, 환헤지형은 환율 부분을 지우고 환노출형은 둘을 합친다는 도식">
+  <rect width="720" height="360" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">해외 ETF 수익은 두 갈래에서 나온다</text>
+
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#e8703a"/>
+    </marker>
+  </defs>
+
+  <!-- 두 갈래 소스 -->
+  <rect x="60" y="80" width="230" height="70" rx="12" fill="#fde3d3" stroke="#e8703a"/>
+  <text x="175" y="112" text-anchor="middle" font-size="16" font-weight="800" fill="#c2410c">① 주가 손익</text>
+  <text x="175" y="134" text-anchor="middle" font-size="12.5" fill="#8a4a2c">미국 주식이 오르내린 만큼</text>
+
+  <rect x="430" y="80" width="230" height="70" rx="12" fill="#e6eef5" stroke="#4a7fb0"/>
+  <text x="545" y="112" text-anchor="middle" font-size="16" font-weight="800" fill="#2f5f88">② 환율 손익</text>
+  <text x="545" y="134" text-anchor="middle" font-size="12.5" fill="#456484">달러값이 오르내린 만큼</text>
+
+  <!-- 환노출형 -->
+  <rect x="60" y="210" width="270" height="110" rx="12" fill="#fef3ec" stroke="#f4a97f"/>
+  <text x="195" y="240" text-anchor="middle" font-size="15" font-weight="800" fill="#7c2d12">환노출형 (UH)</text>
+  <text x="195" y="266" text-anchor="middle" font-size="13.5" font-weight="700" fill="#c2410c">① 주가 + ② 환율 = 최종 수익</text>
+  <text x="195" y="292" text-anchor="middle" font-size="12" fill="#9a6b4f">우산 없이 — 환율도 그대로 안고 감</text>
+
+  <line x1="175" y1="152" x2="185" y2="206" stroke="#e8703a" stroke-width="2.2" marker-end="url(#ah)"/>
+  <line x1="545" y1="152" x2="215" y2="206" stroke="#4a7fb0" stroke-width="2.2" marker-end="url(#ah)"/>
+
+  <!-- 환헤지형 -->
+  <rect x="390" y="210" width="270" height="110" rx="12" fill="#eef4ee" stroke="#7ba97b"/>
+  <text x="525" y="240" text-anchor="middle" font-size="15" font-weight="800" fill="#2f5f3f">환헤지형 (H)</text>
+  <text x="525" y="266" text-anchor="middle" font-size="13.5" font-weight="700" fill="#3f7f4f">① 주가만 = 최종 수익</text>
+  <text x="525" y="292" text-anchor="middle" font-size="12" fill="#5a7a5a">우산 씀 — ② 환율 부분을 상쇄</text>
+
+  <line x1="175" y1="152" x2="500" y2="206" stroke="#7ba97b" stroke-width="2.2" marker-end="url(#ah)"/>
+  <line x1="545" y1="152" x2="550" y2="206" stroke="#cbb0a0" stroke-width="2.2" stroke-dasharray="5 4"/>
+  <text x="600" y="185" text-anchor="middle" font-size="12" fill="#9a6b4f">환율 상쇄(비용 발생)</text>
+</svg>
