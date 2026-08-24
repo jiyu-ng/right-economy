@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Pretendard, sans-serif" role="img" aria-label="원화 강세 국면에서는 환헤지형이, 원화 약세 국면에서는 환노출형이 상대적으로 유리하다는 것을 보여주는 도식">
+  <rect width="720" height="320" fill="#fffaf5"/>
+  <text x="360" y="40" text-anchor="middle" font-size="20" font-weight="800" fill="#7c2d12">원화 방향에 따라 유리한 유형이 갈린다</text>
+
+  <!-- 원화 강세 -->
+  <rect x="50" y="80" width="290" height="180" rx="14" fill="#eef4ee" stroke="#7ba97b"/>
+  <text x="195" y="116" text-anchor="middle" font-size="17" font-weight="800" fill="#2f5f3f">원화 강세 ↑</text>
+  <text x="195" y="139" text-anchor="middle" font-size="12.5" fill="#5a7a5a">(달러 약세 · 환차손 위험)</text>
+  <rect x="80" y="160" width="230" height="70" rx="10" fill="#dcebdc" stroke="#7ba97b"/>
+  <text x="195" y="190" text-anchor="middle" font-size="15" font-weight="800" fill="#2f5f3f">환헤지형 (H) 유리</text>
+  <text x="195" y="213" text-anchor="middle" font-size="12" fill="#5a7a5a">환율 하락분을 막아줌</text>
+
+  <!-- 원화 약세 -->
+  <rect x="380" y="80" width="290" height="180" rx="14" fill="#fef3ec" stroke="#f4a97f"/>
+  <text x="525" y="116" text-anchor="middle" font-size="17" font-weight="800" fill="#c2410c">원화 약세 ↓</text>
+  <text x="525" y="139" text-anchor="middle" font-size="12.5" fill="#9a6b4f">(달러 강세 · 환차익 기회)</text>
+  <rect x="410" y="160" width="230" height="70" rx="10" fill="#fde3d3" stroke="#e8703a"/>
+  <text x="525" y="190" text-anchor="middle" font-size="15" font-weight="800" fill="#c2410c">환노출형 (UH) 유리</text>
+  <text x="525" y="213" text-anchor="middle" font-size="12" fill="#8a4a2c">환율 상승분까지 이득</text>
+
+  <text x="360" y="292" text-anchor="middle" font-size="12.5" fill="#9a6b4f">※ 방향 예측은 어렵고, 환헤지형엔 헤지 비용이 따로 든다는 점을 함께 고려하세요.</text>
+</svg>
