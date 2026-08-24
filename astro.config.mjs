@@ -16,6 +16,15 @@ import { fileURLToPath } from 'node:url';
 const POSTS_DIR = fileURLToPath(new URL('./src/content/posts', import.meta.url));
 const lastmodByPath = new Map();
 
+// 태그별 글 개수. 태그 페이지는 글마다 tags 2개씩 붙어 400개 넘게 생기는데,
+// 그중 대부분(글 1개만 묶인 태그)은 사실상 그 글 하나만 나열하는 thin/중복
+// 페이지다. 이런 단일-글 태그 URL을 sitemap에 그대로 올리면 진짜 글(149개)이
+// 얇은 태그 URL 수백 개에 묻혀 색인 예산이 낭비되고 thin content 신호가 된다.
+// → 아래 sitemap filter에서 "글 2개 이상 묶인 태그"만 sitemap에 남긴다.
+//    (태그 페이지 자체는 그대로 존재·접근 가능. sitemap 제출에서만 제외.)
+const tagPostCount = new Map();
+const bumpTagCount = (tag) => tagPostCount.set(tag, (tagPostCount.get(tag) || 0) + 1);
+
 // 경로에 대해 더 최근 날짜면 갱신 (허브는 여러 글이 매핑되므로 max를 취함)
 const bumpLastmod = (path, date) => {
   const prev = lastmodByPath.get(path);
@@ -45,7 +54,10 @@ for (const file of readdirSync(POSTS_DIR)) {
   if (tagsRaw) {
     for (const t of tagsRaw[1].split(',')) {
       const tag = t.trim().replace(/^["']|["']$/g, '');
-      if (tag) bumpLastmod(`/tags/${tag}/`, date);
+      if (tag) {
+        bumpLastmod(`/tags/${tag}/`, date);
+        bumpTagCount(tag);
+      }
     }
   }
 }
@@ -127,6 +139,14 @@ export default defineConfig({
     // 빌드 시 sitemap-index.xml + sitemap-0.xml 자동 생성 (검색엔진 색인용)
     // 글 상세·허브(홈·카테고리·태그) URL에 발행일을 <lastmod>로 넣어 신선도 신호.
     sitemap({
+      // 단일-글 태그 페이지(thin/중복)를 sitemap에서 제외.
+      // 글 2개 이상 묶인 태그·그 외 모든 페이지(글·홈·카테고리 등)는 유지.
+      filter(page) {
+        const path = decodeURIComponent(new URL(page).pathname);
+        const m = path.match(/^\/tags\/(.+?)\/$/);
+        if (!m) return true; // 태그 페이지가 아니면 그대로 포함
+        return (tagPostCount.get(m[1]) || 0) >= 2;
+      },
       serialize(item) {
         // sitemap URL 경로를 디코드해 lastmodByPath(디코드 키)와 대조.
         const path = decodeURIComponent(new URL(item.url).pathname);
