@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="'Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <rect width="760" height="400" fill="#faf9f6"/>
+  <text x="380" y="36" text-anchor="middle" font-size="20" font-weight="800" fill="#1a1a2e">같은 수도권, 갈라진 분양 규모</text>
+  <text x="380" y="58" text-anchor="middle" font-size="13" fill="#64748b">'빈 땅(가용부지)'이 있느냐가 가른다</text>
+
+  <!-- 서울 패널 -->
+  <rect x="40" y="80" width="330" height="280" rx="12" fill="#eef2f9" stroke="#3b6fd4" stroke-width="1.5"/>
+  <text x="205" y="112" text-anchor="middle" font-size="17" font-weight="800" fill="#1e40af">서울</text>
+  <text x="205" y="136" text-anchor="middle" font-size="13" fill="#475569">빈 땅 거의 없음 → 재개발·재건축</text>
+  <!-- 작은 건물 아이콘 -->
+  <g fill="#3b6fd4">
+    <rect x="175" y="175" width="26" height="55" rx="2"/>
+    <rect x="210" y="185" width="26" height="45" rx="2"/>
+  </g>
+  <text x="205" y="262" text-anchor="middle" font-size="15" font-weight="800" fill="#1e40af">소규모</text>
+  <text x="205" y="288" text-anchor="middle" font-size="13" fill="#334155">쌍용 더플래티넘 서대문</text>
+  <text x="205" y="312" text-anchor="middle" font-size="22" font-weight="800" fill="#1d4ed8">62가구</text>
+  <text x="205" y="338" text-anchor="middle" font-size="12" fill="#64748b">입지(도심 접근성)가 강점</text>
+
+  <!-- 경기 패널 -->
+  <rect x="390" y="80" width="330" height="280" rx="12" fill="#eaf6ef" stroke="#2f9e5f" stroke-width="1.5"/>
+  <text x="555" y="112" text-anchor="middle" font-size="17" font-weight="800" fill="#166534">경기</text>
+  <text x="555" y="136" text-anchor="middle" font-size="13" fill="#475569">신도시·택지지구 → 넓은 빈 땅</text>
+  <!-- 큰 건물 아이콘 여러개 -->
+  <g fill="#2f9e5f">
+    <rect x="470" y="160" width="24" height="70" rx="2"/>
+    <rect x="500" y="150" width="24" height="80" rx="2"/>
+    <rect x="530" y="165" width="24" height="65" rx="2"/>
+    <rect x="560" y="150" width="24" height="80" rx="2"/>
+    <rect x="590" y="160" width="24" height="70" rx="2"/>
+    <rect x="620" y="170" width="24" height="60" rx="2"/>
+  </g>
+  <text x="555" y="262" text-anchor="middle" font-size="15" font-weight="800" fill="#166534">매머드급 대단지</text>
+  <text x="555" y="288" text-anchor="middle" font-size="13" fill="#334155">상동역 롯데캐슬 시그니처(부천)</text>
+  <text x="555" y="312" text-anchor="middle" font-size="22" font-weight="800" fill="#15803d">1,859가구</text>
+  <text x="555" y="338" text-anchor="middle" font-size="12" fill="#64748b">당첨 기회(물량)가 강점</text>
+
+  <text x="380" y="386" text-anchor="middle" font-size="11" fill="#94a3b8">2026년 8월 넷째 주 분양 예시 · 규모는 사업에 따라 변동 · 옳은경제 정리</text>
+</svg>
