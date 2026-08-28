@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" width="720" height="330" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif">
+<rect width="720" height="330" fill="#fffdf9"/>
+<text x="24" y="34" font-size="18" font-weight="700" fill="#2a2521">예금 금리를 볼 때 확인할 네 가지</text>
+<text x="24" y="54" font-size="12" fill="#6f665c">광고에 적힌 숫자와 실제로 받는 이자는 다를 수 있다</text>
+
+<rect x="24" y="76" width="330" height="108" rx="6" fill="#fef3ec" stroke="#f6d9c6"/>
+<text x="44" y="100" font-size="14" font-weight="700" fill="#c2410c">① 기본금리 vs 최고금리</text>
+<text x="44" y="122" font-size="12.5" fill="#2a2521">크게 적힌 건 우대조건을 다 채웠을 때 숫자다.</text>
+<text x="44" y="140" font-size="12.5" fill="#2a2521">급여이체·카드실적·첫거래 같은 조건을</text>
+<text x="44" y="158" font-size="12.5" fill="#2a2521">못 채우면 기본금리만 받는다.</text>
+<text x="44" y="176" font-size="11.5" fill="#6f665c">→ 내가 실제로 채울 수 있는 조건인지 먼저</text>
+
+<rect x="366" y="76" width="330" height="108" rx="6" fill="#f4f1ea" stroke="#e2dbcd"/>
+<text x="386" y="100" font-size="14" font-weight="700" fill="#2a2521">② 세전이자 vs 세후</text>
+<text x="386" y="122" font-size="12.5" fill="#2a2521">예금 이자에는 이자소득세가 붙는다.</text>
+<text x="386" y="140" font-size="12.5" fill="#2a2521">공시되는 금리는 세전 기준이라</text>
+<text x="386" y="158" font-size="12.5" fill="#2a2521">손에 쥐는 돈은 그보다 줄어든다.</text>
+<text x="386" y="176" font-size="11.5" fill="#6f665c">→ 비교는 같은 기준(세전끼리)으로</text>
+
+<rect x="24" y="196" width="330" height="108" rx="6" fill="#f4f1ea" stroke="#e2dbcd"/>
+<text x="44" y="220" font-size="14" font-weight="700" fill="#2a2521">③ 단리인지 복리인지</text>
+<text x="44" y="242" font-size="12.5" fill="#2a2521">정기예금은 대개 단리, 적금·일부 상품은</text>
+<text x="44" y="260" font-size="12.5" fill="#2a2521">복리로 계산된다. 같은 금리여도</text>
+<text x="44" y="278" font-size="12.5" fill="#2a2521">기간이 길수록 결과가 벌어진다.</text>
+<text x="44" y="296" font-size="11.5" fill="#6f665c">→ 만기가 길수록 차이가 커진다</text>
+
+<rect x="366" y="196" width="330" height="108" rx="6" fill="#fef3ec" stroke="#f6d9c6"/>
+<text x="386" y="220" font-size="14" font-weight="700" fill="#c2410c">④ 중도해지 금리</text>
+<text x="386" y="242" font-size="12.5" fill="#2a2521">만기 전에 깨면 약정금리가 아니라</text>
+<text x="386" y="260" font-size="12.5" fill="#2a2521">훨씬 낮은 중도해지 금리가 적용된다.</text>
+<text x="386" y="278" font-size="12.5" fill="#2a2521">금리 오를 때 갈아타려다 손해 보는 지점.</text>
+<text x="386" y="296" font-size="11.5" fill="#6f665c">→ 갈아타기 전 이 조건부터 확인</text>
+</svg>

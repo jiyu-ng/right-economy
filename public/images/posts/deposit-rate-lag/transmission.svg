@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif">
+<rect width="720" height="380" fill="#fffdf9"/>
+<text x="24" y="34" font-size="18" font-weight="700" fill="#2a2521">기준금리가 오르면, 무엇이 먼저 움직일까</text>
+<text x="24" y="54" font-size="12" fill="#6f665c">같은 인상인데 대출과 예금이 반영되는 속도가 다르다</text>
+
+<rect x="24" y="80" width="150" height="52" rx="6" fill="#2a2521"/>
+<text x="99" y="103" font-size="14" font-weight="700" fill="#fffdf9" text-anchor="middle">기준금리 인상</text>
+<text x="99" y="121" font-size="12" fill="#e7ded2" text-anchor="middle">한국은행 결정</text>
+
+<line x1="174" y1="106" x2="214" y2="106" stroke="#6f665c" stroke-width="1.5"/>
+<polygon points="214,101 224,106 214,111" fill="#6f665c"/>
+
+<rect x="230" y="72" width="466" height="68" rx="6" fill="#fef3ec" stroke="#f6d9c6"/>
+<text x="246" y="94" font-size="14" font-weight="700" fill="#c2410c">대출금리 — 빠르게</text>
+<text x="246" y="114" font-size="12.5" fill="#2a2521">변동금리는 지표금리에 자동으로 연동돼 다음 조정일에 바로 반영된다</text>
+<text x="246" y="132" font-size="12" fill="#6f665c">체감까지 대체로 수개월 이내</text>
+
+<rect x="230" y="156" width="466" height="68" rx="6" fill="#f4f1ea" stroke="#e2dbcd"/>
+<text x="246" y="178" font-size="14" font-weight="700" fill="#6f665c">예금금리 — 느리게</text>
+<text x="246" y="198" font-size="12.5" fill="#2a2521">이미 가입된 정기예금은 만기까지 옛 금리 그대로 유지된다</text>
+<text x="246" y="216" font-size="12" fill="#6f665c">신규 가입분부터, 은행이 정한 시점에 반영</text>
+
+<line x1="99" y1="132" x2="99" y2="180" stroke="#6f665c" stroke-width="1.5" stroke-dasharray="4 3"/>
+<polygon points="94,180 99,190 104,180" fill="#6f665c"/>
+
+<rect x="24" y="248" width="672" height="92" rx="6" fill="#fffaf4" stroke="#f0e4d4"/>
+<text x="40" y="272" font-size="14" font-weight="700" fill="#2a2521">그래서 생기는 것 — 예대금리차</text>
+<text x="40" y="294" font-size="12.5" fill="#2a2521">대출금리가 먼저 오르고 예금금리가 나중에 따라오면, 그 사이 두 금리의 간격이 벌어진다.</text>
+<text x="40" y="314" font-size="12.5" fill="#2a2521">이 간격이 은행의 기본 수익원이고, 금리가 내릴 때는 반대 방향으로 좁아진다.</text>
+<text x="40" y="332" font-size="11.5" fill="#6f665c">※ 실제 반영 시점과 폭은 은행·상품마다 다르다</text>
+</svg>
