@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif">
+<rect width="720" height="430" fill="#fffdf9"/>
+<text x="95" y="32" font-size="18" font-weight="700" fill="#2a2521">서울 아파트 전세 계약 vs 9월 신규 입주</text>
+<text x="95" y="52" font-size="12" fill="#6f665c">⚠ 막대는 &apos;건&apos;(전세 계약), 점선은 &apos;가구&apos;(새로 입주) — 단위가 달라요</text>
+<line x1="95" y1="334.0" x2="670" y2="334.0" stroke="#ece4d6" stroke-width="1"/>
+<text x="85" y="338.0" font-size="11" fill="#6f665c" text-anchor="end">0</text>
+<line x1="95" y1="282.8" x2="670" y2="282.8" stroke="#ece4d6" stroke-width="1"/>
+<text x="85" y="286.8" font-size="11" fill="#6f665c" text-anchor="end">2,000</text>
+<line x1="95" y1="231.6" x2="670" y2="231.6" stroke="#ece4d6" stroke-width="1"/>
+<text x="85" y="235.6" font-size="11" fill="#6f665c" text-anchor="end">4,000</text>
+<line x1="95" y1="180.4" x2="670" y2="180.4" stroke="#ece4d6" stroke-width="1"/>
+<text x="85" y="184.4" font-size="11" fill="#6f665c" text-anchor="end">6,000</text>
+<line x1="95" y1="129.2" x2="670" y2="129.2" stroke="#ece4d6" stroke-width="1"/>
+<text x="85" y="133.2" font-size="11" fill="#6f665c" text-anchor="end">8,000</text>
+<line x1="95" y1="78.0" x2="670" y2="78.0" stroke="#ece4d6" stroke-width="1"/>
+<text x="85" y="82.0" font-size="11" fill="#6f665c" text-anchor="end">10,000</text>
+<rect x="138.8" y="104.1" width="104" height="229.9" fill="#fdba74" rx="4"/>
+<text x="190.8" y="95.1" font-size="15" font-weight="700" fill="#2a2521" text-anchor="middle">8,982건</text>
+<text x="190.8" y="360.0" font-size="13" fill="#2a2521" text-anchor="middle">2026.05</text>
+<rect x="330.5" y="120.1" width="104" height="213.9" fill="#fdba74" rx="4"/>
+<text x="382.5" y="111.1" font-size="15" font-weight="700" fill="#2a2521" text-anchor="middle">8,354건</text>
+<text x="382.5" y="360.0" font-size="13" fill="#2a2521" text-anchor="middle">2026.06</text>
+<rect x="522.2" y="114.5" width="104" height="219.5" fill="#fdba74" rx="4"/>
+<text x="574.2" y="105.5" font-size="15" font-weight="700" fill="#2a2521" text-anchor="middle">8,575건</text>
+<text x="574.2" y="360.0" font-size="13" fill="#2a2521" text-anchor="middle">2026.07</text>
+<line x1="95" y1="246.0" x2="670" y2="246.0" stroke="#c2410c" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="670.0" y="237.0" font-size="13" font-weight="700" fill="#c2410c" text-anchor="end">9월 서울 입주 예정 3,438가구</text>
+<line x1="95" y1="334.0" x2="670" y2="334.0" stroke="#6f665c" stroke-width="1.5"/>
+<text x="95" y="400" font-size="11" fill="#6f665c">단위: 건(막대)·가구(점선) · 세로축 0에서 시작 · 기준: 서울 25개 자치구 아파트 전월세 실거래 중 월세 0원인 건</text>
+<text x="95" y="416" font-size="11" fill="#6f665c">출처: 국토교통부 실거래가(전세 계약), 부동산114(입주 예정)</text>
+</svg>
