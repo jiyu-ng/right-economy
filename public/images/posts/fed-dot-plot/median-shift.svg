@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img"
+     aria-label="점 두 개만 위로 옮겨도 중앙값이 한 칸 올라가는 원리를 보여주는 도식. 왼쪽 이전 회의는 3.75와 3.5와 3.25에 각각 세 명씩이라 중앙값이 3.5이고, 오른쪽 이번 회의는 두 명이 3.5에서 3.75로 옮겨 중앙값이 3.75가 된다.">
+  <style>
+    .bg{fill:#fbfaf7}
+    .grid{stroke:#e8e4dc;stroke-width:1}
+    .ax{stroke:#c9c4bb;stroke-width:1.2}
+    .lbl{font:13px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#5a5750}
+    .lblb{font:600 13.5px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#26262c}
+    .ttl{font:600 15px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#26262c}
+    .dot{fill:#0b57d0;opacity:.45}
+    .moved{fill:#f8b900;stroke:#b98a00;stroke-width:1.4}
+    .med{stroke:#e0483a;stroke-width:2.4;stroke-linecap:round}
+    .medl{font:600 12.5px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#e0483a}
+    .note{font:12px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#8a8a96}
+    .cnt{font:11.5px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#8a8a96}
+    .arw{stroke:#b98a00;stroke-width:2;fill:none;marker-end:url(#ah)}
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b98a00"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="720" height="340"/>
+  <text class="ttl" x="28" y="34">점 두 개가 움직이면 '전망'이 통째로 바뀐 것처럼 보입니다</text>
+
+  <g>
+    <line class="grid" x1="80" y1="110" x2="672" y2="110"/>
+    <line class="grid" x1="80" y1="166" x2="672" y2="166"/>
+    <line class="grid" x1="80" y1="222" x2="672" y2="222"/>
+    <text class="lbl" x="40" y="115">3.75</text>
+    <text class="lbl" x="46" y="171">3.50</text>
+    <text class="lbl" x="46" y="227">3.25</text>
+  </g>
+  <line class="ax" x1="80" y1="252" x2="672" y2="252"/>
+
+  <!-- 이전 회의 : 3.75×3 · 3.5×3 · 3.25×3 → 5번째 = 3.5 -->
+  <g>
+    <circle class="dot" cx="162" cy="110" r="7"/>
+    <circle class="dot" cx="182" cy="110" r="7"/>
+    <circle class="dot" cx="202" cy="110" r="7"/>
+    <circle class="dot" cx="162" cy="166" r="7"/>
+    <circle class="dot" cx="182" cy="166" r="7"/>
+    <circle class="dot" cx="202" cy="166" r="7"/>
+    <circle class="dot" cx="162" cy="222" r="7"/>
+    <circle class="dot" cx="182" cy="222" r="7"/>
+    <circle class="dot" cx="202" cy="222" r="7"/>
+    <text class="cnt" x="222" y="114">3명</text>
+    <text class="cnt" x="222" y="170">3명</text>
+    <text class="cnt" x="222" y="226">3명</text>
+    <line class="med" x1="140" y1="166" x2="214" y2="166"/>
+    <text class="medl" x="262" y="170">중앙값 3.50</text>
+    <text class="lblb" x="150" y="286">이전 회의</text>
+  </g>
+
+  <path class="arw" d="M330,166 L404,166"/>
+  <text class="note" x="326" y="154">2명이 위로</text>
+
+  <!-- 이번 회의 : 3.75×5 · 3.5×1 · 3.25×3 → 5번째 = 3.75 -->
+  <g>
+    <circle class="dot" cx="482" cy="110" r="7"/>
+    <circle class="dot" cx="502" cy="110" r="7"/>
+    <circle class="dot" cx="522" cy="110" r="7"/>
+    <circle class="moved" cx="542" cy="110" r="7"/>
+    <circle class="moved" cx="562" cy="110" r="7"/>
+    <circle class="dot" cx="482" cy="166" r="7"/>
+    <circle class="dot" cx="482" cy="222" r="7"/>
+    <circle class="dot" cx="502" cy="222" r="7"/>
+    <circle class="dot" cx="522" cy="222" r="7"/>
+    <text class="cnt" x="582" y="114">5명</text>
+    <text class="cnt" x="502" y="170">1명</text>
+    <text class="cnt" x="542" y="226">3명</text>
+    <line class="med" x1="450" y1="110" x2="576" y2="110"/>
+    <text class="medl" x="582" y="96">중앙값 3.75</text>
+    <text class="lblb" x="470" y="286">이번 회의</text>
+  </g>
+
+  <text class="note" x="28" y="318">9명이면 다섯 번째 점이 중앙값입니다 · 2명만 옮겨도 한 칸 이동 · 실제 FOMC 참석자는 19명 안팎 · 개념 이해용 도식</text>
+</svg>
