@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img"
+     aria-label="대체효과 도식. 소고기 값이 오르자 소비자는 닭고기로 옮겨 가는데, 고정 바스켓은 소고기 비중을 그대로 두고 계산해 물가를 더 높게 잡고, 갱신 바스켓은 바뀐 비중을 반영해 더 낮게 잡는다.">
+  <style>
+    .bg{fill:#fbfaf7}
+    .ttl{font:600 15px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#26262c}
+    .lb{font:600 13px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#26262c}
+    .sm{font:12px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#5a5750}
+    .note{font:11.5px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#8a8a96}
+    .box{fill:#fff;stroke:#ddd8ce;stroke-width:1.2;rx:9}
+    .beef{fill:#e0483a;opacity:.82}
+    .chk{fill:#0b57d0;opacity:.78}
+    .arw{stroke:#b98a00;stroke-width:2;fill:none;marker-end:url(#a)}
+    .tagA{fill:#fdf0ee;stroke:#e0483a;stroke-width:1.2;rx:7}
+    .tagB{fill:#eef3fd;stroke:#0b57d0;stroke-width:1.2;rx:7}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#b98a00"/></marker></defs>
+  <rect class="bg" x="0" y="0" width="720" height="360"/>
+  <text class="ttl" x="28" y="34">소고기가 오르면 사람들은 닭고기를 삽니다 — 바스켓은 그걸 아나요?</text>
+
+  <!-- 이전 -->
+  <rect class="box" x="34" y="66" width="240" height="150"/>
+  <text class="lb" x="54" y="92">작년 장바구니</text>
+  <rect class="beef" x="54" y="108" width="120" height="26" rx="4"/>
+  <text class="sm" x="182" y="126">소고기 60%</text>
+  <rect class="chk" x="54" y="146" width="80" height="26" rx="4"/>
+  <text class="sm" x="142" y="164">닭고기 40%</text>
+  <text class="sm" x="54" y="196">소고기 값이 크게 올랐다</text>
+
+  <path class="arw" d="M288,140 L360,140"/>
+  <text class="note" x="286" y="128">사람들이 옮겨감</text>
+
+  <!-- 이후 -->
+  <rect class="box" x="376" y="66" width="240" height="150"/>
+  <text class="lb" x="396" y="92">올해 실제 장바구니</text>
+  <rect class="beef" x="396" y="108" width="60" height="26" rx="4"/>
+  <text class="sm" x="464" y="126">소고기 30%</text>
+  <rect class="chk" x="396" y="146" width="140" height="26" rx="4"/>
+  <text class="sm" x="544" y="164">닭고기 70%</text>
+  <text class="sm" x="396" y="196">비싼 걸 덜 사게 됐다</text>
+
+  <!-- 두 방식 -->
+  <rect class="tagA" x="34" y="242" width="330" height="76"/>
+  <text class="lb" x="54" y="266">고정 바스켓 (CPI 방식)</text>
+  <text class="sm" x="54" y="288">작년 비중(소 60%)을 그대로 두고 계산</text>
+  <text class="sm" x="54" y="306">→ 오른 품목 비중이 커서 물가를 <tspan font-weight="600">더 높게</tspan></text>
+
+  <rect class="tagB" x="386" y="242" width="300" height="76"/>
+  <text class="lb" x="406" y="266">자주 갱신 (PCE 방식)</text>
+  <text class="sm" x="406" y="288">바뀐 비중(소 30%)을 반영해 계산</text>
+  <text class="sm" x="406" y="306">→ 대체를 반영해 <tspan font-weight="600">조금 낮게</tspan></text>
+
+  <text class="note" x="28" y="344">비중은 원리를 보여주기 위한 예시 숫자입니다 · 실제 품목 구성이 아닙니다</text>
+</svg>
