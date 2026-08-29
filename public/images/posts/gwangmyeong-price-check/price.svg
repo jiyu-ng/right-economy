@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 460" width="780" height="460" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif">
+<rect width="780" height="460" fill="#fffdf9"/>
+<text x="24" y="32" font-size="18" font-weight="700" fill="#2a2521">광명 하안·철산 아파트 평단가</text>
+<text x="24" y="52" font-size="12" fill="#6f665c">재건축 대상 주공 단지와 그 외 단지를 나눠서 봤어요 · 만원/평(전용 기준)</text>
+<text x="24" y="72" font-size="12" font-weight="700" fill="#c2410c">둘 다 올랐고, 주공이 특별히 더 뛰지는 않았어요</text>
+<line x1="96" y1="374.0" x2="736" y2="374.0" stroke="#ece4d6" stroke-width="1"/>
+<text x="86" y="378.0" font-size="11" fill="#6f665c" text-anchor="end">0</text>
+<line x1="96" y1="317.6" x2="736" y2="317.6" stroke="#ece4d6" stroke-width="1"/>
+<text x="86" y="321.6" font-size="11" fill="#6f665c" text-anchor="end">1,000</text>
+<line x1="96" y1="261.2" x2="736" y2="261.2" stroke="#ece4d6" stroke-width="1"/>
+<text x="86" y="265.2" font-size="11" fill="#6f665c" text-anchor="end">2,000</text>
+<line x1="96" y1="204.8" x2="736" y2="204.8" stroke="#ece4d6" stroke-width="1"/>
+<text x="86" y="208.8" font-size="11" fill="#6f665c" text-anchor="end">3,000</text>
+<line x1="96" y1="148.4" x2="736" y2="148.4" stroke="#ece4d6" stroke-width="1"/>
+<text x="86" y="152.4" font-size="11" fill="#6f665c" text-anchor="end">4,000</text>
+<line x1="96" y1="92.0" x2="736" y2="92.0" stroke="#ece4d6" stroke-width="1"/>
+<text x="86" y="96.0" font-size="11" fill="#6f665c" text-anchor="end">5,000</text>
+<rect x="107.6" y="175.5" width="22" height="198.5" fill="#c2410c" rx="2"/>
+<rect x="133.6" y="191.4" width="22" height="182.6" fill="#fdba74" rx="2"/>
+<text x="131.6" y="394.0" font-size="11" fill="#2a2521" text-anchor="middle">25.12</text>
+<rect x="178.7" y="157.3" width="22" height="216.7" fill="#c2410c" rx="2"/>
+<rect x="204.7" y="191.7" width="22" height="182.3" fill="#fdba74" rx="2"/>
+<text x="202.7" y="394.0" font-size="11" fill="#2a2521" text-anchor="middle">26.1</text>
+<rect x="249.8" y="143.8" width="22" height="230.2" fill="#c2410c" rx="2"/>
+<rect x="275.8" y="168.3" width="22" height="205.7" fill="#fdba74" rx="2"/>
+<text x="273.8" y="394.0" font-size="11" fill="#2a2521" text-anchor="middle">2</text>
+<rect x="320.9" y="139.8" width="22" height="234.2" fill="#c2410c" rx="2"/>
+<rect x="346.9" y="171.8" width="22" height="202.2" fill="#fdba74" rx="2"/>
+<text x="344.9" y="394.0" font-size="11" fill="#2a2521" text-anchor="middle">3</text>
+<rect x="392.0" y="150.0" width="22" height="224.0" fill="#c2410c" rx="2"/>
+<rect x="418.0" y="144.1" width="22" height="229.9" fill="#fdba74" rx="2"/>
+<text x="416.0" y="394.0" font-size="11" fill="#2a2521" text-anchor="middle">4</text>
+<rect x="463.1" y="148.3" width="22" height="225.7" fill="#c2410c" rx="2"/>
+<rect x="489.1" y="168.1" width="22" height="205.9" fill="#fdba74" rx="2"/>
+<text x="487.1" y="394.0" font-size="11" fill="#2a2521" text-anchor="middle">5</text>
+<rect x="534.2" y="117.7" width="22" height="256.3" fill="#c2410c" rx="2"/>
+<rect x="560.2" y="122.4" width="22" height="251.6" fill="#fdba74" rx="2"/>
+<text x="558.2" y="394.0" font-size="11" fill="#2a2521" text-anchor="middle">6</text>
+<rect x="605.3" y="110.8" width="22" height="263.2" fill="#c2410c" rx="2"/>
+<rect x="631.3" y="124.5" width="22" height="249.5" fill="#fdba74" rx="2"/>
+<text x="629.3" y="394.0" font-size="11" fill="#2a2521" text-anchor="middle">7</text>
+<rect x="676.4" y="117.4" width="22" height="256.6" fill="#c2410c" rx="2"/>
+<rect x="702.4" y="130.9" width="22" height="243.1" fill="#fdba74" rx="2"/>
+<text x="700.4" y="394.0" font-size="11" fill="#2a2521" text-anchor="middle">8*</text>
+<rect x="96" y="410" width="13" height="13" fill="#c2410c" rx="2"/><text x="115" y="421" font-size="11" fill="#6f665c">주공(재건축 대상)</text>
+<rect x="236" y="410" width="13" height="13" fill="#fdba74" rx="2"/><text x="255" y="421" font-size="11" fill="#6f665c">그 외 단지</text>
+<line x1="96" y1="374.0" x2="736" y2="374.0" stroke="#6f665c" stroke-width="1.5"/>
+<text x="24" y="446" font-size="11" fill="#6f665c">단위: 만원/평 · 세로축 0에서 시작 · *8월은 신고 진행 중이라 미완결 · 출처: 국토교통부 실거래가</text>
+</svg>
