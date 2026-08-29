@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img"
+     aria-label="포함 범위 도식. CPI는 소비자가 직접 지갑에서 낸 돈만 세고, PCE는 그에 더해 고용주가 낸 건강보험료와 정부가 대신 낸 의료비까지 센다.">
+  <style>
+    .bg{fill:#fbfaf7}
+    .ttl{font:600 15px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#26262c}
+    .lb{font:600 13.5px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#26262c}
+    .sm{font:12.5px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#5a5750}
+    .note{font:11.5px system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;fill:#8a8a96}
+    .cpi{fill:#eef3fd;stroke:#0b57d0;stroke-width:1.6;rx:10}
+    .pce{fill:#fffaf0;stroke:#b98a00;stroke-width:1.6;rx:10}
+    .item{fill:#fff;stroke:#ddd8ce;stroke-width:1;rx:6}
+    .kcpi{font:600 12px system-ui,sans-serif;fill:#0b57d0}
+    .kpce{font:600 12px system-ui,sans-serif;fill:#b98a00}
+  </style>
+  <rect class="bg" x="0" y="0" width="720" height="340"/>
+  <text class="ttl" x="28" y="34">같은 병원비인데 두 지표가 세는 금액이 다릅니다</text>
+
+  <!-- PCE 바깥 상자 -->
+  <rect class="pce" x="34" y="58" width="652" height="212"/>
+  <text class="kpce" x="50" y="80">PCE — 나를 위해 쓰인 돈 전부</text>
+
+  <!-- CPI 안쪽 상자 -->
+  <rect class="cpi" x="52" y="94" width="300" height="160"/>
+  <text class="kcpi" x="68" y="116">CPI — 내 지갑에서 나간 돈만</text>
+
+  <rect class="item" x="68" y="130" width="268" height="34"/>
+  <text class="sm" x="82" y="152">병원 창구에서 낸 본인부담금</text>
+  <rect class="item" x="68" y="172" width="268" height="34"/>
+  <text class="sm" x="82" y="194">약국에서 낸 약값</text>
+  <rect class="item" x="68" y="214" width="268" height="30"/>
+  <text class="sm" x="82" y="234">내가 낸 보험료</text>
+
+  <rect class="item" x="376" y="130" width="292" height="34"/>
+  <text class="sm" x="390" y="152">고용주가 대신 낸 건강보험료</text>
+  <rect class="item" x="376" y="172" width="292" height="34"/>
+  <text class="sm" x="390" y="194">정부가 대신 낸 의료비</text>
+  <text class="sm" x="376" y="234">→ 내 지갑을 거치지 않은 돈</text>
+
+  <text class="lb" x="34" y="296">그래서 PCE에서는 의료비 비중이 CPI보다 훨씬 큽니다.</text>
+  <text class="sm" x="34" y="318">반대로 CPI에서는 집세(주거비) 비중이 PCE보다 큽니다 — 어느 쪽이 오르내리느냐에 따라 두 지표가 갈립니다.</text>
+</svg>
