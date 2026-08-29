@@ -6,3 +6,14 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
   X-XSS-Protection: 1; mode=block
+
+# 근거 자료(/data/*)는 사람이 눌러서 확인하는 용도지 검색결과에 뜰 페이지가 아니다.
+# 2026-08-29 전세 검증글의 사전 등록 원본(preregister.md)이 본문에서 링크되면서
+# 크롤 가능해졌다 — sitemap엔 없지만 본문 링크만으로 색인될 수 있다.
+# raw 마크다운이 검색결과에 뜨면 독자에게도 사이트에도 도움이 안 된다.
+#
+# robots.txt Disallow가 아니라 noindex인 이유: Disallow는 크롤 자체를 막아서
+# "접근은 되되 색인만 안 됨"이 아니라 "구글이 내용을 못 봄"이 된다. 검증 자료는
+# 열려 있어야 의미가 있으므로 접근은 그대로 두고 색인만 뺀다.
+/data/*
+  X-Robots-Tag: noindex
