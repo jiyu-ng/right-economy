@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif">
+<rect width="760" height="450" fill="#fffdf9"/>
+<text x="24" y="32" font-size="18" font-weight="700" fill="#2a2521">전세 계약은 줄고, ㎡당 보증금은 올랐어요</text>
+<text x="24" y="52" font-size="12" fill="#6f665c">막대 = 월평균 전세 계약 건수(건) · 막대 위 숫자 = ㎡당 보증금 중앙값(만원)</text>
+<text x="24" y="70" font-size="12" font-weight="700" fill="#c2410c">⚠ 막대와 숫자는 단위가 달라요 — 같이 나누지 말고 방향만 보세요</text>
+<line x1="92" y1="354.0" x2="720" y2="354.0" stroke="#ece4d6" stroke-width="1"/>
+<text x="82" y="358.0" font-size="11" fill="#6f665c" text-anchor="end">0</text>
+<line x1="92" y1="262.7" x2="720" y2="262.7" stroke="#ece4d6" stroke-width="1"/>
+<text x="82" y="266.7" font-size="11" fill="#6f665c" text-anchor="end">5,000</text>
+<line x1="92" y1="171.3" x2="720" y2="171.3" stroke="#ece4d6" stroke-width="1"/>
+<text x="82" y="175.3" font-size="11" fill="#6f665c" text-anchor="end">10,000</text>
+<line x1="92" y1="80.0" x2="720" y2="80.0" stroke="#ece4d6" stroke-width="1"/>
+<text x="82" y="84.0" font-size="11" fill="#6f665c" text-anchor="end">15,000</text>
+<rect x="106.9" y="99.7" width="60" height="254.3" fill="#fdba74" rx="3"/>
+<text x="136.9" y="75.7" font-size="13" font-weight="700" fill="#c2410c" text-anchor="middle">713</text>
+<text x="136.9" y="91.7" font-size="11" fill="#6f665c" text-anchor="middle">13,924건</text>
+<text x="136.9" y="376.0" font-size="11" fill="#2a2521" text-anchor="middle">20251분기</text>
+<rect x="196.6" y="119.6" width="60" height="234.4" fill="#fdba74" rx="3"/>
+<text x="226.6" y="95.6" font-size="13" font-weight="700" fill="#c2410c" text-anchor="middle">730</text>
+<text x="226.6" y="111.6" font-size="11" fill="#6f665c" text-anchor="middle">12,831건</text>
+<text x="226.6" y="376.0" font-size="11" fill="#2a2521" text-anchor="middle">20252분기</text>
+<rect x="286.3" y="138.5" width="60" height="215.5" fill="#fdba74" rx="3"/>
+<text x="316.3" y="114.5" font-size="13" font-weight="700" fill="#c2410c" text-anchor="middle">731</text>
+<text x="316.3" y="130.5" font-size="11" fill="#6f665c" text-anchor="middle">11,799건</text>
+<text x="316.3" y="376.0" font-size="11" fill="#2a2521" text-anchor="middle">20253분기</text>
+<rect x="376.0" y="136.0" width="60" height="218.0" fill="#fdba74" rx="3"/>
+<text x="406.0" y="112.0" font-size="13" font-weight="700" fill="#c2410c" text-anchor="middle">771</text>
+<text x="406.0" y="128.0" font-size="11" fill="#6f665c" text-anchor="middle">11,934건</text>
+<text x="406.0" y="376.0" font-size="11" fill="#2a2521" text-anchor="middle">20254분기</text>
+<rect x="465.7" y="152.0" width="60" height="202.0" fill="#fdba74" rx="3"/>
+<text x="495.7" y="128.0" font-size="13" font-weight="700" fill="#c2410c" text-anchor="middle">762</text>
+<text x="495.7" y="144.0" font-size="11" fill="#6f665c" text-anchor="middle">11,056건</text>
+<text x="495.7" y="376.0" font-size="11" fill="#2a2521" text-anchor="middle">20261분기</text>
+<rect x="555.4" y="191.6" width="60" height="162.4" fill="#fdba74" rx="3"/>
+<text x="585.4" y="167.6" font-size="13" font-weight="700" fill="#c2410c" text-anchor="middle">797</text>
+<text x="585.4" y="183.6" font-size="11" fill="#6f665c" text-anchor="middle">8,891건</text>
+<text x="585.4" y="376.0" font-size="11" fill="#2a2521" text-anchor="middle">20262분기</text>
+<rect x="645.1" y="196.9" width="60" height="157.1" fill="#fdba74" rx="3"/>
+<text x="675.1" y="172.9" font-size="13" font-weight="700" fill="#c2410c" text-anchor="middle">790</text>
+<text x="675.1" y="188.9" font-size="11" fill="#6f665c" text-anchor="middle">8,598건</text>
+<text x="675.1" y="376.0" font-size="11" fill="#2a2521" text-anchor="middle">20263분기</text>
+<line x1="92" y1="354.0" x2="720" y2="354.0" stroke="#6f665c" stroke-width="1.5"/>
+<text x="24" y="436" font-size="11" fill="#6f665c">서울 25개 자치구 · 2026년 3분기는 7월만 반영 · 세로축 0에서 시작 · 출처: 국토교통부 실거래가</text>
+</svg>
