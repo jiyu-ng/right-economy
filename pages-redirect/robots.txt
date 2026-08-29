@@ -1,0 +1,6 @@
+# 구 주소 — 전 경로가 right-economy.com 으로 이동합니다.
+# 리다이렉트를 읽어야 색인이 정리되므로 크롤은 막지 않습니다.
+User-agent: *
+Allow: /
+
+Sitemap: https://right-economy.com/sitemap-index.xml
