@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 470" width="740" height="470" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif">
+<rect width="740" height="470" fill="#fffdf9"/>
+<text x="24" y="32" font-size="18" font-weight="700" fill="#2a2521">신축 입주가 적은 달일수록 전셋값이 올랐을까</text>
+<text x="24" y="52" font-size="12" fill="#6f665c">점 하나 = 한 달 · 가로축이 왼쪽일수록 입주가 적은 달 · 세로축 0선 = 전셋값 보합</text>
+<text x="24" y="70" font-size="12" font-weight="700" fill="#c2410c">관계가 보이지 않아요 (상관계수 +0.008)</text>
+<line x1="92" y1="367.8" x2="696" y2="367.8" stroke="#ece4d6" stroke-width="1"/>
+<text x="82" y="371.8" font-size="11" fill="#6f665c" text-anchor="end">-4%</text>
+<line x1="92" y1="311.5" x2="696" y2="311.5" stroke="#ece4d6" stroke-width="1"/>
+<text x="82" y="315.5" font-size="11" fill="#6f665c" text-anchor="end">-2%</text>
+<line x1="92" y1="255.1" x2="696" y2="255.1" stroke="#6f665c" stroke-width="1.6"/>
+<text x="82" y="259.1" font-size="11" fill="#6f665c" text-anchor="end">+0%</text>
+<line x1="92" y1="198.7" x2="696" y2="198.7" stroke="#ece4d6" stroke-width="1"/>
+<text x="82" y="202.7" font-size="11" fill="#6f665c" text-anchor="end">+2%</text>
+<line x1="92" y1="142.4" x2="696" y2="142.4" stroke="#ece4d6" stroke-width="1"/>
+<text x="82" y="146.4" font-size="11" fill="#6f665c" text-anchor="end">+4%</text>
+<line x1="92" y1="86.0" x2="696" y2="86.0" stroke="#ece4d6" stroke-width="1"/>
+<text x="82" y="90.0" font-size="11" fill="#6f665c" text-anchor="end">+6%</text>
+<line x1="92.0" y1="86" x2="92.0" y2="396" stroke="#ece4d6" stroke-width="1"/>
+<text x="92.0" y="416.0" font-size="11" fill="#6f665c" text-anchor="middle">0%</text>
+<line x1="243.0" y1="86" x2="243.0" y2="396" stroke="#ece4d6" stroke-width="1"/>
+<text x="243.0" y="416.0" font-size="11" fill="#6f665c" text-anchor="middle">1%</text>
+<line x1="394.0" y1="86" x2="394.0" y2="396" stroke="#ece4d6" stroke-width="1"/>
+<text x="394.0" y="416.0" font-size="11" fill="#6f665c" text-anchor="middle">2%</text>
+<line x1="545.0" y1="86" x2="545.0" y2="396" stroke="#ece4d6" stroke-width="1"/>
+<text x="545.0" y="416.0" font-size="11" fill="#6f665c" text-anchor="middle">3%</text>
+<line x1="696.0" y1="86" x2="696.0" y2="396" stroke="#ece4d6" stroke-width="1"/>
+<text x="696.0" y="416.0" font-size="11" fill="#6f665c" text-anchor="middle">4%</text>
+<circle cx="375.5" cy="310.9" r="7" fill="#fdba74" opacity="0.9"/>
+<circle cx="470.1" cy="239.9" r="7" fill="#fdba74" opacity="0.9"/>
+<circle cx="533.0" cy="272.1" r="7" fill="#fdba74" opacity="0.9"/>
+<circle cx="467.8" cy="151.3" r="7" fill="#fdba74" opacity="0.9"/>
+<circle cx="499.7" cy="184.2" r="7" fill="#fdba74" opacity="0.9"/>
+<circle cx="572.3" cy="267.1" r="7" fill="#fdba74" opacity="0.9"/>
+<circle cx="645.3" cy="370.2" r="7" fill="#fdba74" opacity="0.9"/>
+<circle cx="630.4" cy="207.3" r="7" fill="#fdba74" opacity="0.9"/>
+<circle cx="457.6" cy="177.4" r="7" fill="#fdba74" opacity="0.9"/>
+<circle cx="281.3" cy="105.2" r="7" fill="#fdba74" opacity="0.9"/>
+<circle cx="283.2" cy="301.4" r="7" fill="#fdba74" opacity="0.9"/>
+<circle cx="296.4" cy="227.0" r="7" fill="#fdba74" opacity="0.9"/>
+<circle cx="103.0" cy="377.3" r="7" fill="#c2410c" opacity="0.9"/>
+<circle cx="199.7" cy="250.0" r="7" fill="#c2410c" opacity="0.9"/>
+<circle cx="195.2" cy="158.8" r="7" fill="#c2410c" opacity="0.9"/>
+<circle cx="221.8" cy="165.9" r="7" fill="#c2410c" opacity="0.9"/>
+<circle cx="157.5" cy="212.3" r="7" fill="#c2410c" opacity="0.9"/>
+<circle cx="175.0" cy="337.6" r="7" fill="#c2410c" opacity="0.9"/>
+<circle cx="100" cy="440" r="6" fill="#fdba74"/><text x="114" y="444" font-size="11" fill="#6f665c">2025년</text>
+<circle cx="188" cy="440" r="6" fill="#c2410c"/><text x="202" y="444" font-size="11" fill="#6f665c">2026년</text>
+<text x="696" y="416.0" font-size="11" fill="#6f665c" text-anchor="end">→ 신축 입주 전세 비중</text>
+<text x="24" y="456" font-size="11" fill="#6f665c">표본 18개월(2025.01~2026.06) · 가로축 0에서 시작 · 세로축은 증감률이라 0이 실제 0 · 출처: 국토교통부 실거래가</text>
+</svg>
