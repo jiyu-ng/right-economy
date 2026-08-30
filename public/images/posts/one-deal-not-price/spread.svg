@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif">
+<rect width="760" height="430" fill="#fffdf9"/>
+<text x="24" y="32" font-size="18" font-weight="700" fill="#2a2521">같은 단지·같은 평수·같은 달인데 가격이 이만큼 벌어져요</text>
+<text x="24" y="52" font-size="12" fill="#6f665c">한 그룹 안 최고가와 최저가의 차이 · 2,155개 그룹</text>
+<text x="24" y="72" font-size="12" font-weight="700" fill="#c2410c">5곳 중 1곳은 10% 이상 벌어집니다 (20.8%)</text>
+<text x="138" y="124.0" font-size="13" fill="#2a2521" text-anchor="end">0~5%</text>
+<rect x="150" y="103.0" width="473.6" height="32" fill="#fdba74" rx="3"/>
+<text x="633.6" y="124.0" font-size="13" font-weight="700" fill="#2a2521">52.6% <tspan font-weight="400" fill="#6f665c">(1,134곳)</tspan></text>
+<text x="138" y="194.0" font-size="13" fill="#2a2521" text-anchor="end">5~10%</text>
+<rect x="150" y="173.0" width="239.3" height="32" fill="#fdba74" rx="3"/>
+<text x="399.3" y="194.0" font-size="13" font-weight="700" fill="#2a2521">26.6% <tspan font-weight="400" fill="#6f665c">(573곳)</tspan></text>
+<text x="138" y="264.0" font-size="13" fill="#2a2521" text-anchor="end">10~20%</text>
+<rect x="150" y="243.0" width="138.2" height="32" fill="#c2410c" rx="3"/>
+<text x="298.2" y="264.0" font-size="13" font-weight="700" fill="#2a2521">15.4% <tspan font-weight="400" fill="#6f665c">(331곳)</tspan></text>
+<text x="138" y="334.0" font-size="13" fill="#2a2521" text-anchor="end">20% 이상</text>
+<rect x="150" y="313.0" width="48.9" height="32" fill="#c2410c" rx="3"/>
+<text x="208.9" y="334.0" font-size="13" font-weight="700" fill="#2a2521">5.4% <tspan font-weight="400" fill="#6f665c">(117곳)</tspan></text>
+<line x1="150" y1="84" x2="150" y2="364" stroke="#6f665c" stroke-width="1.5"/>
+<text x="24" y="416" font-size="11" fill="#6f665c">단위: 그룹 비중(%) · 가로축 0에서 시작 · 기준: 2026.06~07 계약분, 서울 25개 자치구 · 출처: 국토교통부 실거래가</text>
+</svg>
