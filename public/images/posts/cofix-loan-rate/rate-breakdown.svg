@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img"
+     aria-label="대출금리는 지표금리인 코픽스에 가산금리를 더하고 우대금리를 빼서 정해진다는 계산 도식">
+  <style>
+    .label { font-family: Pretendard, system-ui, sans-serif; font-weight: 700; }
+    .sub   { font-family: Pretendard, system-ui, sans-serif; font-weight: 500; }
+    .num   { font-family: Pretendard, system-ui, sans-serif; font-weight: 800; }
+    .op    { font-family: Pretendard, system-ui, sans-serif; font-weight: 800; fill: #64748b; }
+  </style>
+  <rect x="0" y="0" width="760" height="320" fill="#ffffff"/>
+
+  <text x="380" y="42" text-anchor="middle" class="label" font-size="19" fill="#334155">내 대출금리는 이렇게 만들어져요</text>
+
+  <!-- 지표금리 -->
+  <rect x="20" y="80" width="185" height="140" rx="16" fill="#fff4ee" stroke="#e8612c" stroke-width="2"/>
+  <text x="112" y="118" text-anchor="middle" class="sub" font-size="16" fill="#9a5a3c">지표금리</text>
+  <text x="112" y="156" text-anchor="middle" class="num" font-size="27" fill="#e8612c">코픽스</text>
+  <text x="112" y="184" text-anchor="middle" class="sub" font-size="12.5" fill="#9a5a3c">은행이 돈을 끌어온</text>
+  <text x="112" y="202" text-anchor="middle" class="sub" font-size="12.5" fill="#9a5a3c">원가 (매월 공시)</text>
+
+  <text x="228" y="158" text-anchor="middle" class="op" font-size="40">+</text>
+
+  <!-- 가산금리 -->
+  <rect x="250" y="80" width="185" height="140" rx="16" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+  <text x="342" y="118" text-anchor="middle" class="sub" font-size="16" fill="#475569">가산금리</text>
+  <text x="342" y="156" text-anchor="middle" class="num" font-size="27" fill="#334155">은행 몫</text>
+  <text x="342" y="184" text-anchor="middle" class="sub" font-size="12.5" fill="#475569">업무원가·신용위험·</text>
+  <text x="342" y="202" text-anchor="middle" class="sub" font-size="12.5" fill="#475569">목표이익 등</text>
+
+  <text x="458" y="158" text-anchor="middle" class="op" font-size="40">−</text>
+
+  <!-- 우대금리 -->
+  <rect x="480" y="80" width="185" height="140" rx="16" fill="#eef7f0" stroke="#3f9e63" stroke-width="2"/>
+  <text x="572" y="118" text-anchor="middle" class="sub" font-size="16" fill="#2f6b47">우대(감면)금리</text>
+  <text x="572" y="156" text-anchor="middle" class="num" font-size="27" fill="#3f9e63">깎는 폭</text>
+  <text x="572" y="184" text-anchor="middle" class="sub" font-size="12.5" fill="#2f6b47">급여이체·카드실적</text>
+  <text x="572" y="202" text-anchor="middle" class="sub" font-size="12.5" fill="#2f6b47">자동이체 등</text>
+
+  <text x="700" y="158" text-anchor="middle" class="op" font-size="34">=</text>
+  <text x="700" y="196" text-anchor="middle" class="num" font-size="15" fill="#334155">내 금리</text>
+
+  <rect x="20" y="248" width="645" height="52" rx="12" fill="#fffbf5" stroke="#f0d9c4" stroke-width="1.5"/>
+  <text x="40" y="271" class="sub" font-size="13.5" fill="#7c5c46">기준금리가 내려도 바뀌는 건 주로 왼쪽 칸입니다.</text>
+  <text x="40" y="291" class="sub" font-size="13.5" fill="#7c5c46">가운데·오른쪽은 은행과 내 거래실적이 정하는 몫이라 따로 움직여요.</text>
+</svg>
