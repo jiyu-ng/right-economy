@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img"
+     aria-label="기준금리 인하가 예금금리와 코픽스를 거쳐 내 대출금리에 닿기까지 단계마다 시차가 생긴다는 흐름도">
+  <style>
+    .label { font-family: Pretendard, system-ui, sans-serif; font-weight: 700; }
+    .sub   { font-family: Pretendard, system-ui, sans-serif; font-weight: 500; }
+  </style>
+  <rect x="0" y="0" width="760" height="250" fill="#ffffff"/>
+  <text x="380" y="38" text-anchor="middle" class="label" font-size="19" fill="#334155">내 대출이자까지 오는 데 걸리는 네 칸</text>
+
+  <g class="sub" font-size="13.5">
+    <rect x="16" y="72" width="150" height="76" rx="14" fill="#fff4ee" stroke="#e8612c" stroke-width="2"/>
+    <text x="91" y="102" text-anchor="middle" class="label" font-size="14.5" fill="#e8612c">① 기준금리</text>
+    <text x="91" y="126" text-anchor="middle" fill="#9a5a3c">한국은행이 결정</text>
+
+    <text x="180" y="116" text-anchor="middle" font-size="24" fill="#cbd5e1">›</text>
+
+    <rect x="196" y="72" width="150" height="76" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="271" y="102" text-anchor="middle" class="label" font-size="14.5" fill="#475569">② 조달금리</text>
+    <text x="271" y="126" text-anchor="middle" fill="#64748b">예금·채권 금리 변화</text>
+
+    <text x="360" y="116" text-anchor="middle" font-size="24" fill="#cbd5e1">›</text>
+
+    <rect x="376" y="72" width="150" height="76" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="451" y="102" text-anchor="middle" class="label" font-size="14.5" fill="#475569">③ 코픽스 공시</text>
+    <text x="451" y="126" text-anchor="middle" fill="#64748b">지난달치를 매월 15일</text>
+
+    <text x="540" y="116" text-anchor="middle" font-size="24" fill="#cbd5e1">›</text>
+
+    <rect x="556" y="72" width="188" height="76" rx="14" fill="#eef7f0" stroke="#3f9e63" stroke-width="2"/>
+    <text x="650" y="102" text-anchor="middle" class="label" font-size="14.5" fill="#3f9e63">④ 내 대출 갱신</text>
+    <text x="650" y="126" text-anchor="middle" fill="#2f6b47">6개월·12개월마다</text>
+  </g>
+
+  <rect x="16" y="176" width="728" height="56" rx="12" fill="#fffbf5" stroke="#f0d9c4" stroke-width="1.5"/>
+  <text x="36" y="200" class="sub" font-size="13.5" fill="#7c5c46">③은 &#39;지난달 기준&#39;을 이번 달에 알려주고, ④는 내 대출의 금리변동 주기가 돌아와야 바뀝니다.</text>
+  <text x="36" y="220" class="sub" font-size="13.5" fill="#7c5c46">그래서 뉴스에서 금리를 내렸다고 해도 내 이자는 한동안 그대로일 수 있어요.</text>
+</svg>
