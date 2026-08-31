@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img"
+     aria-label="가산금리는 원가 위험 마진 세 덩어리로 나뉜다는 구성 그림">
+  <style>
+    .label { font-family: Pretendard, system-ui, sans-serif; font-weight: 700; }
+    .sub   { font-family: Pretendard, system-ui, sans-serif; font-weight: 500; }
+  </style>
+  <rect x="0" y="0" width="760" height="330" fill="#ffffff"/>
+  <text x="380" y="38" text-anchor="middle" class="label" font-size="19" fill="#334155">가산금리 안은 크게 세 덩어리입니다</text>
+  <text x="380" y="62" text-anchor="middle" class="sub" font-size="12.5" fill="#64748b">칸 크기는 개념 구분일 뿐, 실제 비중이 아닙니다</text>
+
+  <rect x="30" y="88" width="216" height="150" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="138" y="122" text-anchor="middle" class="label" font-size="16" fill="#475569">① 원가</text>
+  <text x="138" y="152" text-anchor="middle" class="sub" font-size="13" fill="#64748b">업무원가 · 법적비용</text>
+  <text x="138" y="174" text-anchor="middle" class="sub" font-size="13" fill="#64748b">자본비용</text>
+  <text x="138" y="206" text-anchor="middle" class="sub" font-size="12" fill="#94a3b8">대출을 취급하는 데</text>
+  <text x="138" y="224" text-anchor="middle" class="sub" font-size="12" fill="#94a3b8">실제로 드는 돈</text>
+
+  <rect x="272" y="88" width="216" height="150" rx="14" fill="#fff4ee" stroke="#e8612c" stroke-width="2"/>
+  <text x="380" y="122" text-anchor="middle" class="label" font-size="16" fill="#9a5a3c">② 위험</text>
+  <text x="380" y="152" text-anchor="middle" class="sub" font-size="13" fill="#9a5a3c">신용·위험 프리미엄</text>
+  <text x="380" y="174" text-anchor="middle" class="sub" font-size="13" fill="#9a5a3c">유동성 프리미엄</text>
+  <text x="380" y="206" text-anchor="middle" class="sub" font-size="12" fill="#c08a6a">못 갚을 가능성에</text>
+  <text x="380" y="224" text-anchor="middle" class="sub" font-size="12" fill="#c08a6a">미리 붙여두는 몫</text>
+
+  <rect x="514" y="88" width="216" height="150" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="622" y="122" text-anchor="middle" class="label" font-size="16" fill="#475569">③ 마진</text>
+  <text x="622" y="152" text-anchor="middle" class="sub" font-size="13" fill="#64748b">목표이익률</text>
+  <text x="622" y="206" text-anchor="middle" class="sub" font-size="12" fill="#94a3b8">은행이 남기려는 몫</text>
+
+  <rect x="30" y="258" width="700" height="52" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="50" y="281" class="sub" font-size="13.5" fill="#475569">②만 내 신용·소득·담보로 움직입니다. ①③은 은행 사정이라 내가 바꿀 수 없어요.</text>
+  <text x="50" y="301" class="sub" font-size="13.5" fill="#475569">그래서 「금리 깎아달라」가 통하는 자리는 ②와, 오른쪽의 가감조정금리입니다.</text>
+</svg>
