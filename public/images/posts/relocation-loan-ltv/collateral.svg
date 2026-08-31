@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 400" width="740" height="400" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif">
+<rect width="740" height="400" fill="#fffdf9"/>
+<text x="24" y="32" font-size="18" font-weight="700" fill="#2a2521">담보 후보가 된 두 종류 집의 시세 차이</text>
+<text x="24" y="52" font-size="12" fill="#6f665c">서울 재개발 활발 6개 자치구 · 전용 55~85㎡ 동일 조건 실거래 중앙값</text>
+<text x="24" y="72" font-size="12" font-weight="700" fill="#c2410c">⚠️ 이건 시세 차이일 뿐, 이주비 한도가 이만큼 늘어난다는 뜻이 아닙니다</text>
+<line x1="100" y1="320.0" x2="690" y2="320.0" stroke="#ece4d6" stroke-width="1"/>
+<text x="90" y="324.0" font-size="11" fill="#6f665c" text-anchor="end">0억</text>
+<line x1="100" y1="263.0" x2="690" y2="263.0" stroke="#ece4d6" stroke-width="1"/>
+<text x="90" y="267.0" font-size="11" fill="#6f665c" text-anchor="end">4억</text>
+<line x1="100" y1="206.0" x2="690" y2="206.0" stroke="#ece4d6" stroke-width="1"/>
+<text x="90" y="210.0" font-size="11" fill="#6f665c" text-anchor="end">8억</text>
+<line x1="100" y1="149.0" x2="690" y2="149.0" stroke="#ece4d6" stroke-width="1"/>
+<text x="90" y="153.0" font-size="11" fill="#6f665c" text-anchor="end">12억</text>
+<line x1="100" y1="92.0" x2="690" y2="92.0" stroke="#ece4d6" stroke-width="1"/>
+<text x="90" y="96.0" font-size="11" fill="#6f665c" text-anchor="end">16억</text>
+<rect x="177.5" y="267.3" width="140" height="52.7" fill="#d8cfc2" rx="4"/>
+<text x="247.5" y="257.3" font-size="18" font-weight="700" fill="#2a2521" text-anchor="middle">3.70억</text>
+<text x="247.5" y="342.0" font-size="13" font-weight="700" fill="#2a2521" text-anchor="middle">노후 빌라</text>
+<text x="247.5" y="360.0" font-size="11" fill="#6f665c" text-anchor="middle">2005년 이전 준공 · 318건</text>
+<rect x="472.5" y="126.9" width="140" height="193.1" fill="#c2410c" rx="4"/>
+<text x="542.5" y="116.9" font-size="18" font-weight="700" fill="#2a2521" text-anchor="middle">13.55억</text>
+<text x="542.5" y="342.0" font-size="13" font-weight="700" fill="#2a2521" text-anchor="middle">신축 아파트</text>
+<text x="542.5" y="360.0" font-size="11" fill="#6f665c" text-anchor="middle">2020년 이후 준공 · 218건</text>
+<line x1="100" y1="320.0" x2="690" y2="320.0" stroke="#6f665c" stroke-width="1.5"/>
+<text x="24" y="386" font-size="11" fill="#6f665c">세로축 0에서 시작 · 기준: 2026.06~07 계약분 · 관악·동작·강북·은평·동대문·중랑 · 출처: 국토교통부 실거래가</text>
+</svg>
