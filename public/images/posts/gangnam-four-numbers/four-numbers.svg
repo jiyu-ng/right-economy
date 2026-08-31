@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 420" width="740" height="420" font-family="-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif">
+<rect width="740" height="420" fill="#fffdf9"/>
+<text x="24" y="32" font-size="18" font-weight="700" fill="#2a2521">한 기사에 나오는 네 가지 숫자 — 서로 뺄 수 없어요</text>
+<text x="24" y="52" font-size="12" fill="#6f665c">같은 '강남 집값' 이야기지만 재는 대상도, 시점도, 단위도 다릅니다</text>
+
+<rect x="24" y="70" width="692" height="76" fill="#f5efe4" stroke="#d8cfc2" stroke-width="1.5" rx="6"/>
+<text x="40" y="94" font-size="14" font-weight="700" fill="#c2410c">① 가격지수 변동률</text>
+<text x="40" y="116" font-size="13" fill="#2a2521">강남구 8월 24일 주간 −0.11%</text>
+<text x="40" y="136" font-size="11" fill="#6f665c">표본 단지를 모아 만든 지수의 '한 주 변화'. 특정 집의 값이 아니에요</text>
+<text x="700" y="116" font-size="12" font-weight="700" fill="#6f665c" text-anchor="end">한국부동산원</text>
+
+<rect x="24" y="156" width="692" height="76" fill="#f5efe4" stroke="#d8cfc2" stroke-width="1.5" rx="6"/>
+<text x="40" y="180" font-size="14" font-weight="700" fill="#c2410c">② 매물 건수</text>
+<text x="40" y="202" font-size="13" fill="#2a2521">서울 6만409건 → 6만6,808건 (+10.6%)</text>
+<text x="40" y="222" font-size="11" fill="#6f665c">'팔려고 내놓은 양'. 가격이 아니라 쌓인 개수예요</text>
+<text x="700" y="202" font-size="12" font-weight="700" fill="#6f665c" text-anchor="end">아실</text>
+
+<rect x="24" y="242" width="692" height="76" fill="#f5efe4" stroke="#d8cfc2" stroke-width="1.5" rx="6"/>
+<text x="40" y="266" font-size="14" font-weight="700" fill="#c2410c">③ 호가</text>
+<text x="40" y="288" font-size="13" fill="#2a2521">"○○억에 나와 있다"</text>
+<text x="40" y="308" font-size="11" fill="#6f665c">파는 쪽이 부르는 값. 거래된 값이 아니라 아직 안 팔린 값이에요</text>
+<text x="700" y="288" font-size="12" font-weight="700" fill="#6f665c" text-anchor="end">중개 매물</text>
+
+<rect x="24" y="328" width="692" height="76" fill="#2a2521" rx="6"/>
+<text x="40" y="352" font-size="14" font-weight="700" fill="#f0a868">④ 실거래가</text>
+<text x="40" y="374" font-size="13" fill="#ffffff">실제로 계약서에 적힌 값 · 계약 후 30일 내 신고</text>
+<text x="40" y="394" font-size="11" fill="#d8cfc2">가장 확실하지만 가장 늦게 나와요. 최근 한 달은 아직 채워지는 중입니다</text>
+<text x="700" y="374" font-size="12" font-weight="700" fill="#d8cfc2" text-anchor="end">국토교통부</text>
+</svg>
