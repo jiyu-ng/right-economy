@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-label="표면금리 연 4퍼센트가 평균 예치기간과 이자소득세를 거치며 납입액 대비 1.83퍼센트로 줄어드는 3단계 도식">
+  <style>
+    .t { font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; }
+    .title { font-size: 17px; font-weight: 700; fill: #1f2937; }
+    .sub { font-size: 12.5px; fill: #6b7280; }
+    .step { font-size: 12px; fill: #6b7280; }
+    .big { font-size: 30px; font-weight: 700; }
+    .unit { font-size: 13px; font-weight: 600; }
+    .cap { font-size: 11.5px; fill: #4b5563; }
+    .arrow { font-size: 12px; fill: #9a3412; font-weight: 600; }
+  </style>
+  <rect width="720" height="360" fill="#ffffff"/>
+  <text class="t title" x="28" y="34">연 4% 적금이 실제로 손에 남기는 것</text>
+  <text class="t sub" x="28" y="55">월 30만 원 × 12개월 = 총 납입 360만 원 · 단리 · 이자소득세 15.4% 적용</text>
+
+  <!-- 1단계 -->
+  <rect x="28" y="82" width="186" height="120" rx="10" fill="#fff7ed" stroke="#fdba74"/>
+  <text class="t step" x="46" y="106">① 광고에 적힌 금리</text>
+  <text class="t big" x="46" y="150" fill="#ea580c">4.00<tspan class="unit">%</tspan></text>
+  <text class="t cap" x="46" y="176">1년 내내 360만 원이</text>
+  <text class="t cap" x="46" y="192">들어 있었다면 14만 4천 원</text>
+
+  <text class="t arrow" x="224" y="132">평균 6.5개월</text>
+  <text class="t arrow" x="238" y="150">▶</text>
+
+  <!-- 2단계 -->
+  <rect x="268" y="82" width="186" height="120" rx="10" fill="#fff7ed" stroke="#fdba74"/>
+  <text class="t step" x="286" y="106">② 세전 이자</text>
+  <text class="t big" x="286" y="150" fill="#c2410c">2.17<tspan class="unit">%</tspan></text>
+  <text class="t cap" x="286" y="176">78,000원</text>
+  <text class="t cap" x="286" y="192">(납입액 360만 원 대비)</text>
+
+  <text class="t arrow" x="466" y="132">세금 15.4%</text>
+  <text class="t arrow" x="478" y="150">▶</text>
+
+  <!-- 3단계 -->
+  <rect x="506" y="82" width="186" height="120" rx="10" fill="#9a3412"/>
+  <text class="t step" x="524" y="106" fill="#fed7aa">③ 실제 받는 돈</text>
+  <text class="t big" x="524" y="150" fill="#ffffff">1.83<tspan class="unit">%</tspan></text>
+  <text class="t cap" x="524" y="176" fill="#fed7aa">65,988원</text>
+  <text class="t cap" x="524" y="192" fill="#fed7aa">세금 12,012원 차감 후</text>
+
+  <!-- 비교 막대 -->
+  <text class="t sub" x="28" y="242">같은 360만 원 · 같은 연 4%라도 넣는 방식에 따라</text>
+  <g class="t">
+    <text class="cap" x="28" y="272">적금(매달 30만 원)</text>
+    <rect x="164" y="260" width="100" height="16" rx="3" fill="#fdba74"/>
+    <text class="cap" x="274" y="273" fill="#9a3412">65,988원 · 1.83%</text>
+
+    <text class="cap" x="28" y="302">예금(360만 원 한 번에)</text>
+    <rect x="164" y="290" width="185" height="16" rx="3" fill="#ea580c"/>
+    <text class="cap" x="359" y="303" fill="#9a3412">121,824원 · 3.38%</text>
+  </g>
+  <text class="t cap" x="28" y="336">※ 둘 다 세후 기준. 다만 예금은 첫날 360만 원이 필요하고, 적금은 매달 30만 원씩 모아가는 상품입니다.</text>
+</svg>
