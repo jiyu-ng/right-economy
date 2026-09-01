@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="적금 1회차 납입금은 12개월, 12회차 납입금은 1개월만 예치되어 평균 예치기간이 6.5개월이 되는 막대 그래프">
+  <style>
+    .t { font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; }
+    .title { font-size: 17px; font-weight: 700; fill: #1f2937; }
+    .sub { font-size: 12.5px; fill: #6b7280; }
+    .lab { font-size: 11.5px; fill: #4b5563; }
+    .val { font-size: 11px; fill: #9a3412; font-weight: 600; }
+    .note { font-size: 12px; fill: #374151; }
+    .noteb { font-size: 12.5px; font-weight: 700; fill: #9a3412; }
+  </style>
+  <rect width="720" height="420" fill="#ffffff"/>
+  <text class="t title" x="28" y="34">같은 적금인데 회차마다 '이자 붙는 기간'이 다릅니다</text>
+  <text class="t sub" x="28" y="55">1년 만기 적금 · 매달 같은 금액을 넣을 때 각 납입금이 은행에 머무는 개월 수</text>
+
+  <!-- 축 -->
+  <line x1="92" y1="80" x2="92" y2="332" stroke="#d1d5db" stroke-width="1"/>
+
+  <!-- 막대: 12회차, 각 20px 간격 -->
+  <g class="t">
+    <rect x="92" y="84"  width="336" height="14" rx="3" fill="#ea580c"/><text class="lab" x="28" y="95">1회차</text><text class="val" x="436" y="95">12개월</text>
+    <rect x="92" y="104" width="308" height="14" rx="3" fill="#ea580c" opacity="0.94"/><text class="lab" x="28" y="115">2회차</text><text class="val" x="408" y="115">11개월</text>
+    <rect x="92" y="124" width="280" height="14" rx="3" fill="#ea580c" opacity="0.88"/><text class="lab" x="28" y="135">3회차</text><text class="val" x="380" y="135">10개월</text>
+    <rect x="92" y="144" width="252" height="14" rx="3" fill="#ea580c" opacity="0.82"/><text class="lab" x="28" y="155">4회차</text><text class="val" x="352" y="155">9개월</text>
+    <rect x="92" y="164" width="224" height="14" rx="3" fill="#ea580c" opacity="0.76"/><text class="lab" x="28" y="175">5회차</text><text class="val" x="324" y="175">8개월</text>
+    <rect x="92" y="184" width="196" height="14" rx="3" fill="#ea580c" opacity="0.70"/><text class="lab" x="28" y="195">6회차</text><text class="val" x="296" y="195">7개월</text>
+    <rect x="92" y="204" width="168" height="14" rx="3" fill="#ea580c" opacity="0.64"/><text class="lab" x="28" y="215">7회차</text><text class="val" x="268" y="215">6개월</text>
+    <rect x="92" y="224" width="140" height="14" rx="3" fill="#ea580c" opacity="0.58"/><text class="lab" x="28" y="235">8회차</text><text class="val" x="240" y="235">5개월</text>
+    <rect x="92" y="244" width="112" height="14" rx="3" fill="#ea580c" opacity="0.52"/><text class="lab" x="28" y="255">9회차</text><text class="val" x="212" y="255">4개월</text>
+    <rect x="92" y="264" width="84"  height="14" rx="3" fill="#ea580c" opacity="0.46"/><text class="lab" x="28" y="275">10회차</text><text class="val" x="184" y="275">3개월</text>
+    <rect x="92" y="284" width="56"  height="14" rx="3" fill="#ea580c" opacity="0.40"/><text class="lab" x="28" y="295">11회차</text><text class="val" x="156" y="295">2개월</text>
+    <rect x="92" y="304" width="28"  height="14" rx="3" fill="#ea580c" opacity="0.34"/><text class="lab" x="28" y="315">12회차</text><text class="val" x="128" y="315">1개월</text>
+  </g>
+
+  <!-- 평균선 -->
+  <line x1="274" y1="76" x2="274" y2="326" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="t noteb" x="282" y="72">평균 6.5개월</text>
+
+  <!-- 하단 요약 -->
+  <rect x="28" y="348" width="664" height="46" rx="8" fill="#fff7ed" stroke="#fed7aa"/>
+  <text class="t note" x="46" y="368">12개월치를 다 더해 12로 나누면 <tspan font-weight="700">6.5개월</tspan> — 1년의 약 <tspan font-weight="700" fill="#9a3412">54%</tspan>입니다.</text>
+  <text class="t note" x="46" y="386">그래서 표면금리가 같아도 적금 이자는 예금의 절반 수준에서 시작합니다.</text>
+</svg>
