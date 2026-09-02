@@ -1,37 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img" aria-label="전월세 거래 중 월세 비중 추이 2022년 47.1퍼센트에서 2026년 68.3퍼센트">
-  <rect width="640" height="340" fill="#FDF6E3"/>
-  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">전월세 거래 중 월세 비중</text>
-  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">5년 연속 상승 · 세로축 40~70%</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="2026년 1월부터 7월 전월세 거래 중 월세 비중 68.3퍼센트, 전년 동기 대비 6.5퍼센트포인트 상승">
+  <rect width="640" height="300" fill="#FDF6E3"/>
+  <text x="32" y="44" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">전월세 거래 10건 중 약 7건이 월세</text>
+  <text x="32" y="66" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">2026년 1~7월 누계 · 전국</text>
 
-  <!-- y축 눈금: 40%=y270, 70%=y100 → 1%당 5.667px -->
-  <line x1="70" y1="270" x2="600" y2="270" stroke="#D8D2C0" stroke-width="1"/>
-  <line x1="70" y1="100" x2="70" y2="270" stroke="#D8D2C0" stroke-width="1"/>
-  <text x="60" y="274" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" fill="#9CA3AF">40%</text>
-  <text x="60" y="189" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" fill="#9CA3AF">55%</text>
-  <text x="60" y="104" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" fill="#9CA3AF">70%</text>
-  <line x1="70" y1="185" x2="600" y2="185" stroke="#EFE9D8" stroke-width="1"/>
+  <!-- 10칸 픽토그램: 6.83 → 7칸 채움(반올림) -->
+  <g>
+    <rect x="34"  y="96" width="48" height="64" rx="6" fill="#E8642F"/>
+    <rect x="94"  y="96" width="48" height="64" rx="6" fill="#E8642F"/>
+    <rect x="154" y="96" width="48" height="64" rx="6" fill="#E8642F"/>
+    <rect x="214" y="96" width="48" height="64" rx="6" fill="#E8642F"/>
+    <rect x="274" y="96" width="48" height="64" rx="6" fill="#E8642F"/>
+    <rect x="334" y="96" width="48" height="64" rx="6" fill="#E8642F"/>
+    <rect x="394" y="96" width="48" height="64" rx="6" fill="#F0B840"/>
+    <rect x="454" y="96" width="48" height="64" rx="6" fill="#D8D2C0"/>
+    <rect x="514" y="96" width="48" height="64" rx="6" fill="#D8D2C0"/>
+    <rect x="574" y="96" width="48" height="64" rx="6" fill="#D8D2C0"/>
+  </g>
+  <text x="34" y="182" font-family="system-ui, sans-serif" font-size="12" fill="#B4501F">■ 월세</text>
+  <text x="454" y="182" font-family="system-ui, sans-serif" font-size="12" fill="#8A8F98">■ 전세</text>
 
-  <!-- 데이터: 47.1 → y229.7 / 52.4 → y199.7 / 57.5 → y170.8 / 61.4 → y148.7 / 68.3 → y109.6 -->
-  <polyline points="120,229.7 235,199.7 350,170.8 465,148.7 570,109.6" fill="none" stroke="#E8642F" stroke-width="3" stroke-linejoin="round"/>
+  <text x="32" y="232" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="700" fill="#E8642F">68.3%</text>
+  <text x="170" y="224" font-family="system-ui, sans-serif" font-size="14" fill="#4B5563">전월세 거래 중 월세 비중</text>
+  <text x="170" y="244" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">전년 같은 기간보다 6.5%p 높습니다</text>
 
-  <circle cx="120" cy="229.7" r="5" fill="#E8642F"/>
-  <circle cx="235" cy="199.7" r="5" fill="#E8642F"/>
-  <circle cx="350" cy="170.8" r="5" fill="#E8642F"/>
-  <circle cx="465" cy="148.7" r="5" fill="#E8642F"/>
-  <circle cx="570" cy="109.6" r="6.5" fill="#E8642F" stroke="#FDF6E3" stroke-width="2"/>
-
-  <text x="120" y="219" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">47.1%</text>
-  <text x="235" y="189" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">52.4%</text>
-  <text x="350" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">57.5%</text>
-  <text x="465" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">61.4%</text>
-  <text x="570" y="97" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#E8642F">68.3%</text>
-
-  <text x="120" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">2022</text>
-  <text x="235" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">2023</text>
-  <text x="350" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">2024</text>
-  <text x="465" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">2025</text>
-  <text x="570" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">2026</text>
-  <text x="570" y="306" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#8A8F98">1~7월</text>
-
-  <text x="32" y="328" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">출처 · 국토교통부 실거래 자료 인용 보도(뉴시스·이투데이, 2026) · 2026년은 1~7월 누계</text>
+  <text x="32" y="282" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">기준 · 2026년 1~7월 누계, 전국 · 출처 · 국토교통부 자료 인용 보도(이투데이 2026) · 픽토그램은 반올림 표시</text>
 </svg>
