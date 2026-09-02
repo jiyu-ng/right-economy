@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="9월 수도권 분양 예정 물량 경기 11686가구 인천 8019가구 서울 244가구">
+  <rect width="640" height="300" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">9월 수도권 분양 예정 물량</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">막대 길이는 가구 수에 비례 · 0가구 = x120, 12,000가구 = x600</text>
+
+  <!-- 스케일: 0=x120, 12000=x600 → 1가구당 0.04px -->
+  <line x1="120" y1="88" x2="120" y2="248" stroke="#D8D2C0" stroke-width="1"/>
+
+  <!-- 경기 11,686 → 467.4px -->
+  <text x="110" y="118" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F2328">경기</text>
+  <rect x="120" y="100" width="467" height="26" rx="5" fill="#F0B840"/>
+  <text x="597" y="119" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#7A5C08">11,686</text>
+
+  <!-- 인천 8,019 → 320.8px -->
+  <text x="110" y="168" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F2328">인천</text>
+  <rect x="120" y="150" width="321" height="26" rx="5" fill="#F0B840"/>
+  <text x="451" y="169" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#7A5C08">8,019</text>
+
+  <!-- 서울 244 → 9.8px -->
+  <text x="110" y="218" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#E8642F">서울</text>
+  <rect x="120" y="200" width="10" height="26" rx="3" fill="#E8642F"/>
+  <text x="140" y="219" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#E8642F">244</text>
+  <text x="188" y="219" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">← 수도권 전체의 1.2%</text>
+
+  <text x="32" y="272" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">기준 · 2026년 9월 분양 예정 물량(임대 포함) · 출처 · 부동산114 집계 인용 보도(머니투데이 2026.9.1)</text>
+  <text x="32" y="290" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">세 지역 합계 19,949가구 = 수도권 총계와 일치</text>
+</svg>
