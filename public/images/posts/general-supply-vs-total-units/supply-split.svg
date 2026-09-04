@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="총 2852가구 중 일반분양은 1021가구, 나머지 1831가구는 조합원분 사전청약분 특별공급으로 빠진다">
+  <rect width="640" height="300" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">기사에 나오는 숫자와 청약할 수 있는 숫자</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">2026년 9월 둘째 주 전국 7개 단지 · 막대 길이는 가구수에 비례</text>
+
+  <!-- 스케일: 0=x150, 2852=x600 → 1가구당 0.1578px -->
+  <text x="140" y="112" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F2328">총 공급</text>
+  <rect x="150" y="92" width="450" height="30" rx="5" fill="#D8D2C0"/>
+  <text x="590" y="112" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#4B5563">2,852가구</text>
+
+  <text x="140" y="172" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#E8642F">일반분양</text>
+  <rect x="150" y="152" width="161" height="30" rx="5" fill="#E8642F"/>
+  <text x="321" y="172" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#E8642F">1,021가구 · 35.8%</text>
+
+  <!-- 빠지는 자리 -->
+  <text x="150" y="222" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">나머지 1,831가구가 빠지는 곳</text>
+  <text x="150" y="246" font-family="system-ui, sans-serif" font-size="12" fill="#4B5563">조합원분 · 사전청약 당첨분 · 특별공급</text>
+  <text x="150" y="266" font-family="system-ui, sans-serif" font-size="12" fill="#8A8F98">단지마다 구성이 달라 비율도 달라집니다</text>
+
+  <text x="32" y="290" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">출처 · 부동산R114 집계 인용 보도(조세금융신문 2026.9.4)</text>
+</svg>
