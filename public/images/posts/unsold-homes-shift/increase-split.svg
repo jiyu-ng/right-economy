@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="2026년 7월 전국 미분양은 753가구 늘었는데 그중 689가구, 91.5퍼센트가 수도권에서 늘었고 지방은 64가구 늘어 거의 제자리였다">
+  <rect width="640" height="300" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">늘어난 753가구가 어디서 늘었나</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">2026년 6월 말 → 7월 말 · 막대 길이는 증가 가구수에 비례</text>
+
+  <!-- 전체 증가 -->
+  <text x="140" y="112" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#1F2328">전국 증가</text>
+  <rect x="150" y="92" width="440" height="30" rx="5" fill="#D8D2C0"/>
+  <text x="580" y="112" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#4B5563">+753가구</text>
+
+  <!-- 수도권 -->
+  <text x="140" y="168" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#E8642F">수도권</text>
+  <rect x="150" y="148" width="403" height="30" rx="5" fill="#E8642F"/>
+  <text x="543" y="168" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">+689가구 · 91.5%</text>
+
+  <!-- 지방 -->
+  <text x="140" y="224" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#4B5563">지방</text>
+  <rect x="150" y="204" width="37" height="30" rx="5" fill="#B8B2A0"/>
+  <text x="197" y="224" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#4B5563">+64가구 · 8.5%</text>
+
+  <text x="150" y="258" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">지방은 거의 제자리였고, 늘어난 몫은 수도권에 몰렸어요</text>
+
+  <text x="32" y="286" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">국토교통부 2026년 7월 주택통계(2026.8.31 발표) · 미분양 물량은 전국 6만7,464 → 6만8,217가구</text>
+</svg>
