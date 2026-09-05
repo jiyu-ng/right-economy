@@ -45,4 +45,21 @@
   측정: 모든 dist HTML 에서 `/posts/<slug>/` 링크를 수집해 자기 자신 제외 후 inbound 0 인 글을 셈.
 - **h1 이 0개인 페이지 1건** → 🟢 `google9722f43dfe1b8a63.html` (구글 소유확인 파일). 정상.
 
+
+- **JSON-LD 의 `@type` 이 696개 전부 비어 있다** → 🟢 **오탐.** 최상위가 `@context` + **`@graph` 배열**
+  구조라 최상위에 `@type` 이 없는 게 정상이다. `@graph` 를 펼쳐 세면 Article 194 · BreadcrumbList 695 ·
+  CollectionPage 498 · ItemList 499 · Organization 196 이고 **Article 필수 필드 누락 0건**
+  (headline·datePublished·author·publisher·image·mainEntityOfPage·dateModified 전부 존재).
+- **`<title>` 이 65자를 넘는 글 2건** → 🟢 **오탐.** raw HTML 을 세서 `&#39;` (5자) 를 1자로 안 셌다.
+  실제 렌더 길이는 73→57 · 67→51 로 **둘 다 60자 이내**다. 📌 **문자 수를 셀 땐 엔티티를 먼저 푼다.**
+- **sitemap 과 실제 페이지 대조** → 🟢 **완전 일치** (2026-09-05, dist 699 HTML).
+  `sitemap URL 362 = robots meta 가 index 인 페이지 362`, **sitemap 에 실린 noindex 0 · index 인데 누락 0.**
+  ⚠️ 첫 측정에서 **양쪽이 똑같이 154** 로 나왔는데 그게 일치가 아니라 **고장**이었다 — sitemap 은
+  퍼센트 인코딩(`%EA%B2%BD…`)이고 파일명은 한글이라 `unquote` 없이 대조했다. **A/B 가 완벽히 같으면
+  일치가 아니라 도구 고장을 먼저 의심한다.**
+
+📌 **2026-09-05 감사 결론: 실질 이슈 0건.** 메타태그(중복 title 0 · 중복 description 0 · 누락 1건은
+구글 소유확인 파일) · canonical(698/699, 상대경로 0) · OG·트위터 이미지(698) · JSON-LD · sitemap 정합
+전부 통과. **이 슬롯에서 뜬 🔴 3건이 전부 측정 도구 문제였다** — 세 번째 반복이다.
+
 📌 **SEO 감사에서 🔴 이 뜨면 대상보다 내 측정 도구를 먼저 의심한다.** 2026-08-29 감사에서도 622페이지 실측 🔴 2건이 **둘 다 파서 오탐**이었다. 같은 패턴이 두 번 반복됐다.
