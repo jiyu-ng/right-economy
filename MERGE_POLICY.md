@@ -51,3 +51,20 @@
 3. `auto/<post|feat>-<slug>` 브랜치 커밋·push, `gh pr create` (base main)
 4. 이 정책으로 판단 → 자동머지 or 리뷰行
 5. 결과 대표님 DM 보고 (자동머지: 한 줄 / 리뷰행: 위 형식 / 할 것 없으면 조용히 패스)
+
+---
+
+## ⚠️ 머지가 막혔을 때 — 에러 문구로 원인을 정하지 않는다
+
+`GraphQL: Pull Request is not mergeable` 은 **충돌이라는 뜻이 아니다.** 체크가 아직 도는 중이어도 같은 문구가 난다.
+
+```
+확인 순서   gh pr view <번호> --json mergeable,mergeStateStatus
+            mergeable=MERGEABLE · status=UNSTABLE   → 판정 대기. 잠시 뒤 재시도
+            mergeable=CONFLICTING                    → 그때가 진짜 충돌
+```
+
+🔴 **뒤처졌다고 지레짐작해 리베이스부터 하지 않는다.** 포함 여부는 `git merge-base --is-ancestor origin/main HEAD` 로 확인한다.
+
+> 2026-09-06 시황 PR #332: "not mergeable" 을 보고 그 사이 머지된 다른 PR 때문이라 판단해 리베이스했는데,
+> `merge-base` 로 보니 **이미 포함돼 있었다.** 원인은 체크 진행 중이었고 재시도로 그냥 머지됐다. (꼬미)
