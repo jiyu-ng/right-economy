@@ -22,7 +22,14 @@
 - [x] 404 페이지
 - [ ] 다크모드
 - [ ] 폰트 로딩 최적화 (jsDelivr CDN → self-host 검토) — preconnect는 적용됨
-- [ ] 접근성 점검 — 1차 완료(본문 바로가기·:focus-visible·prefers-reduced-motion). 남음: 색 대비·aria·시맨틱 태그
+- [x] **접근성 점검 — 완료** (2026-09-06~07 실측). 본문 바로가기·`:focus-visible`·`prefers-reduced-motion`
+      + **색 대비 전 조합 AA 통과**(#337) + **aria·시맨틱 태그 실측 이상 0**.
+      ```
+      aria-label 1,862 · aria-hidden 3,606 · aria-current 725 · role 1,219
+      시맨틱(글 페이지)  header·nav·main·article·section·footer·time 전부 존재
+      접근 이름 없는 링크  0건 (빈 앵커·라벨 없는 링크 없음)
+      ```
+      ⚠️ `<aside>`·`<figure>` 0개는 **결함이 아니다** — 본문에 해당 구조가 없어서다. **없는 태그를 넣지 말 것.**
 
 ## 완료
 - [x] SEO 기반: sitemap · robots.txt · Article/WebSite JSON-LD · AdSense/GSC 배선 (PR #19)
@@ -98,5 +105,11 @@
   **한쪽이 통과했다고 다른 쪽도 통과라고 보지 말 것** — 팔레트가 다르다.
 - **접근성 기본** → 🟢 (2026-09-06). `lang="ko"` · skip link · `:focus-visible` · `prefers-reduced-motion` ·
   `<main>` 1개 · `theme-color` 전부 있음. **h1 은 722/723 이 정확히 1개**(0개인 1건은 구글 소유확인 파일).
+
+- **RSS 피드** → 🟢 정상 (2026-09-07). `rss.xml` item **203개 = 글 수와 일치** · 109KB ·
+  최신순 정렬 · autodiscovery `<link rel="alternate">` 있음 · title·link·description·pubDate·guid·category 전부.
+  📌 **전문(`content:encoded`)은 안 싣는다** — description 평균 101자만. 중복 콘텐츠 위험이 없으니 **전문을 넣지 말 것.**
+- **외부 링크 안전성** → 🟢 **위반 0건** (2026-09-07). `target="_blank"` 인데 `noopener` 없는 링크 0.
+  외부 호스트도 인스타그램·구글 광고설정 **2개뿐**이라 표면이 애초에 좁다.
 
 📌 **SEO 감사에서 🔴 이 뜨면 대상보다 내 측정 도구를 먼저 의심한다.** 2026-08-29 감사에서도 622페이지 실측 🔴 2건이 **둘 다 파서 오탐**이었다. 같은 패턴이 두 번 반복됐다.
