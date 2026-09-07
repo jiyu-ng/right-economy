@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="수도권 빌라 경매 59건의 사건 접수연도는 2026년 10건, 2025년 25건, 2024년 15건, 2023년 8건, 2022년 1건으로 2년 이상 경과한 사건이 24건 40.7퍼센트다">
+  <rect width="640" height="320" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">경매 물건의 나이</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">사건번호 앞 네 자리 = 접수 연도 · 수도권 빌라 59건 · 2026년 9월 7일 스캔</text>
+
+  <line x1="118" y1="252" x2="608" y2="252" stroke="#D8D2C0"/>
+
+  <!-- 막대: 25건 = 150px -->
+  <rect x="140" y="152" width="72" height="100" rx="4" fill="#1F7A3D"/>
+  <rect x="230" y="102" width="72" height="150" rx="4" fill="#4E9E6A"/>
+  <rect x="320" y="162" width="72" height="90"  rx="4" fill="#E8642F"/>
+  <rect x="410" y="204" width="72" height="48"  rx="4" fill="#B4501F"/>
+  <rect x="500" y="246" width="72" height="6"   rx="2" fill="#7A2E0E"/>
+
+  <text x="176" y="144" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F7A3D">10건</text>
+  <text x="266" y="94"  text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F7A3D">25건</text>
+  <text x="356" y="154" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#E8642F">15건</text>
+  <text x="446" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">8건</text>
+  <text x="536" y="238" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#7A2E0E">1건</text>
+
+  <text x="176" y="272" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F2328">2026타경</text>
+  <text x="266" y="272" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F2328">2025타경</text>
+  <text x="356" y="272" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F2328">2024타경</text>
+  <text x="446" y="272" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F2328">2023타경</text>
+  <text x="536" y="272" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1F2328">2022타경</text>
+
+  <text x="176" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">올해</text>
+  <text x="266" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">1년</text>
+  <text x="356" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">2년</text>
+  <text x="446" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">3년</text>
+  <text x="536" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">4년</text>
+
+  <line x1="316" y1="86" x2="316" y2="252" stroke="#B4501F" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="326" y="82" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">← 여기서부터 2년 이상 = 24건 · 40.7%</text>
+
+  <text x="32" y="312" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">다섯 칸 합 59건 = 100.0% · 「2년 이상」은 2024타경 이하(2024년 포함) 기준입니다</text>
+</svg>
