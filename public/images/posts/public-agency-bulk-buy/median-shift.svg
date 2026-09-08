@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="중랑구 2026년 7월 아파트 중앙 거래가는 전체 506건 기준 4억 5천만원인데 공공기관 매수 297건을 빼면 7억 2천만원으로 60.2퍼센트 높아진다">
+  <rect width="640" height="300" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">같은 중랑구, 같은 7월인데</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">중앙 거래가 · 무엇을 세느냐로 갈립니다</text>
+
+  <rect x="32" y="92" width="280" height="140" rx="10" fill="#FFFFFF" stroke="#E5E0D0"/>
+  <text x="52" y="120" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">전체 506건</text>
+  <text x="52" y="142" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">공공기관 매수 297건 포함</text>
+  <text x="52" y="186" font-family="system-ui, sans-serif" font-size="30" font-weight="700" fill="#4B5563">4.50억</text>
+  <text x="52" y="212" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">중앙 전용 36.7㎡</text>
+
+  <rect x="328" y="92" width="280" height="140" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="348" y="120" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">공공기관 빼고 209건</text>
+  <text x="348" y="142" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">개인·법인이 사고판 것만</text>
+  <text x="348" y="186" font-family="system-ui, sans-serif" font-size="30" font-weight="700" fill="#E8642F">7.20억</text>
+  <text x="348" y="212" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">중앙 전용 74.1㎡</text>
+
+  <text x="320" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#1F2328">차이 <tspan fill="#B4501F">+60.2%</tspan></text>
+  <text x="32" y="286" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">중앙값은 건수가 많은 쪽으로 끌립니다 · 297건이 전용 18㎡대 소형이라 가운데 값이 그쪽에 놓였어요</text>
+</svg>
