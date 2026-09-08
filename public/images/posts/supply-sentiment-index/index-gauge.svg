@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="2026년 9월 분양전망지수는 전국 86.3, 서울 93.9, 수도권 84.0, 비수도권 86.8로 모두 기준선 100 아래이며 서울이 기준선에 가장 가깝다">
+  <rect width="640" height="320" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">넷 다 기준선 아래예요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">2026년 9월 분양전망지수 · 100을 넘으면 긍정 사업자가 더 많다는 뜻</text>
+
+  <!-- 기준선 100 = x 560 · 눈금 60~100 -->
+  <line x1="560" y1="88" x2="560" y2="252" stroke="#B4501F" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="566" y="84" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#B4501F">100</text>
+
+  <!-- 서울 93.9 -->
+  <text x="112" y="112" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">서울</text>
+  <rect x="122" y="94" width="401" height="26" rx="4" fill="#E8642F"/>
+  <text x="533" y="113" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#E8642F">93.9</text>
+
+  <!-- 비수도권 86.8 -->
+  <text x="112" y="152" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#4B5563">비수도권</text>
+  <rect x="122" y="134" width="330" height="26" rx="4" fill="#B8B2A0"/>
+  <text x="462" y="153" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#4B5563">86.8</text>
+
+  <!-- 전국 86.3 -->
+  <text x="112" y="192" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">전국</text>
+  <rect x="122" y="174" width="325" height="26" rx="4" fill="#4B5563"/>
+  <text x="457" y="193" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">86.3</text>
+
+  <!-- 수도권 84.0 -->
+  <text x="112" y="232" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#4B5563">수도권</text>
+  <rect x="122" y="214" width="302" height="26" rx="4" fill="#D8D2C0"/>
+  <text x="434" y="233" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#8A6A18">84.0</text>
+
+  <line x1="32" y1="268" x2="608" y2="268" stroke="#E5E0D0"/>
+  <text x="32" y="290" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">서울이 기준선에 제일 가깝고, 수도권 전체는 제일 멉니다</text>
+  <text x="32" y="310" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">막대는 60을 시작점으로 그렸습니다 · 주택산업연구원 조사(2026.8.19~28) 인용 보도</text>
+</svg>

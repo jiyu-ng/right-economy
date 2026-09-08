@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="분양전망지수는 사업자에게 앞으로를 물은 심리 조사이고 청약 경쟁률은 수요자가 이미 넣은 행동 기록이라 재는 대상과 시점이 다르다">
+  <rect width="640" height="300" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">둘은 다른 걸 재고 있어요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">같은 시장인데 숫자가 반대로 가는 이유</text>
+
+  <rect x="32" y="92" width="280" height="150" rx="10" fill="#FFFFFF" stroke="#E5E0D0"/>
+  <text x="52" y="120" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F2328">분양전망지수</text>
+  <text x="52" y="150" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">누구를</text>
+  <text x="130" y="150" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">공급하는 회사</text>
+  <text x="52" y="176" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">무엇을</text>
+  <text x="130" y="176" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">앞으로의 예상</text>
+  <text x="52" y="202" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">방식</text>
+  <text x="130" y="202" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">설문 · 심리</text>
+  <text x="52" y="228" font-family="system-ui, sans-serif" font-size="12" fill="#B4501F" font-weight="700">= 아직 안 일어난 일</text>
+
+  <rect x="328" y="92" width="280" height="150" rx="10" fill="#FFFFFF" stroke="#E8642F" stroke-width="2"/>
+  <text x="348" y="120" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1F2328">청약 경쟁률</text>
+  <text x="348" y="150" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">누구를</text>
+  <text x="426" y="150" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">청약 넣은 사람</text>
+  <text x="348" y="176" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">무엇을</text>
+  <text x="426" y="176" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">이미 한 행동</text>
+  <text x="348" y="202" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">방식</text>
+  <text x="426" y="202" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">실제 접수 건수</text>
+  <text x="348" y="228" font-family="system-ui, sans-serif" font-size="12" fill="#1F7A3D" font-weight="700">= 이미 일어난 일</text>
+
+  <text x="320" y="268" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">파는 쪽의 예상과 사는 쪽의 행동은 따로 움직일 수 있습니다</text>
+  <text x="32" y="290" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">지수 조사 기간 2026.8.19~28 · 청약은 그 뒤에 접수된 건이라 시점도 다릅니다</text>
+</svg>
