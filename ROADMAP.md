@@ -65,6 +65,18 @@
   퍼센트 인코딩(`%EA%B2%BD…`)이고 파일명은 한글이라 `unquote` 없이 대조했다. **A/B 가 완벽히 같으면
   일치가 아니라 도구 고장을 먼저 의심한다.**
 
+- **커스텀 도메인 전환이 색인 경로에 반영됐나** → 🟢 **전부 반영됨** (2026-09-08 라이브 실측).
+  GitHub Pages 시절 GSC `couldn't fetch` 의 처방이 커스텀 도메인이었고, 그 전환이 실제로 끝났는지 본 것.
+  ```
+  astro.config site        https://right-economy.com
+  robots.txt (로컬·라이브)  Sitemap: https://right-economy.com/sitemap-index.xml
+  sitemap-0.xml            <loc> 384개 · 전부 right-economy.com · 옛 도메인 0
+  당일 발행 글             sitemap 에 즉시 포함됨
+  글 canonical             https://right-economy.com/posts/<slug>/ (절대 URL)
+  ```
+  ⚠️ **GSC 색인 상태 자체는 봇이 못 본다.** 여기서 확인한 건 「우리가 내보내는 입구」까지다.
+  📌 개수는 `grep -o "<loc>" | wc -l` 로 셌다 — sitemap 은 minify 된 한 줄이라 `grep -c` 는 무조건 1이다.
+
 📌 **2026-09-05 감사 결론: 실질 이슈 0건.** 메타태그(중복 title 0 · 중복 description 0 · 누락 1건은
 구글 소유확인 파일) · canonical(698/699, 상대경로 0) · OG·트위터 이미지(698) · JSON-LD · sitemap 정합
 전부 통과. **이 슬롯에서 뜬 🔴 3건이 전부 측정 도구 문제였다** — 세 번째 반복이다.
