@@ -387,14 +387,19 @@ a:hover {
 }
 .footer-nav {
   display: flex;
-  gap: 8px;
+  gap: 4px;
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
 }
+/* 푸터 링크는 전 페이지에 반복되고 개인정보·면책 같은 법적 고지로 가는 자리다.
+   패딩이 없어 높이가 22px 였고 WCAG 2.5.8(터치 대상 최소 24×24)에 2px 모자랐다
+   (2026-09-08 390×844 뷰포트 실측). 세로 패딩만 주고 gap 을 줄여 시각적 간격은 유지. */
 .footer-nav a {
   color: var(--muted);
   font-weight: 600;
+  display: inline-block;
+  padding: 4px 2px;
 }
 .footer-nav a:hover {
   color: var(--accent);
