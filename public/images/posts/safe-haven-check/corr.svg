@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 280" width="660" height="280" font-family="system-ui, -apple-system, 'Malgun Gothic', sans-serif" role="img" aria-label="일간 등락률 상관계수는 금 플러스 0.29 미국채 플러스 0.23 엔 마이너스 0.05 달러지수 마이너스 0.27로 금과 미국채는 주식과 같은 방향으로 움직였다">
+  <rect width="660" height="280" fill="#ffffff"/>
+  <text x="20" y="30" font-size="15" font-weight="700" fill="#1a2540">평소에는 금이 주식과 같은 방향으로 움직였습니다</text>
+  <text x="20" y="49" font-size="11" fill="#6b7280">S&amp;P500 일간 등락률과의 상관계수 · 2025년 9월~2026년 9월</text>
+
+  <line x1="330" y1="70" x2="330" y2="210" stroke="#374151" stroke-width="1.5"/>
+  <text x="330" y="228" font-size="10" fill="#374151" text-anchor="middle">0</text>
+  <text x="180" y="228" font-size="10" fill="#9ca3af" text-anchor="middle">-0.4</text>
+  <text x="480" y="228" font-size="10" fill="#9ca3af" text-anchor="middle">+0.4</text>
+  <text x="150" y="66" font-size="10" font-weight="700" fill="#1d4ed8">← 주식과 반대</text>
+  <text x="510" y="66" font-size="10" font-weight="700" fill="#b45309">주식과 같이 →</text>
+
+  <text x="20" y="94" font-size="12" font-weight="700" fill="#1a2540">금</text>
+  <rect x="330" y="82" width="109" height="18" fill="#f59e0b"/><text x="447" y="96" font-size="11" font-weight="700" fill="#b45309">+0.29</text>
+
+  <text x="20" y="126" font-size="12" fill="#374151">미국채 20년</text>
+  <rect x="330" y="114" width="86" height="18" fill="#f59e0b"/><text x="424" y="128" font-size="11" fill="#b45309">+0.23</text>
+
+  <text x="20" y="158" font-size="12" fill="#374151">엔</text>
+  <rect x="311" y="146" width="19" height="18" fill="#2563eb"/><text x="303" y="160" font-size="11" fill="#1d4ed8" text-anchor="end">-0.05</text>
+
+  <text x="20" y="190" font-size="12" font-weight="700" fill="#1a2540">달러지수</text>
+  <rect x="229" y="178" width="101" height="18" fill="#2563eb"/><text x="221" y="192" font-size="11" font-weight="700" fill="#1d4ed8" text-anchor="end">-0.27</text>
+
+  <text x="20" y="262" font-size="10" fill="#9ca3af">1.0에 가까울수록 같이, -1.0에 가까울수록 반대로 움직였다는 뜻입니다 · 자료: Yahoo Finance</text>
+</svg>
