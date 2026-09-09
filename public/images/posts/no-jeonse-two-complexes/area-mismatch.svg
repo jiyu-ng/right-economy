@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" role="img" aria-label="중랑 세이지움태릉입구역은 공공기관이 산 전용면적 18.4·36.7·38.6제곱미터와 임대차가 나온 24.0·49.0제곱미터가 하나도 겹치지 않고, 서초 호반써밋양재는 23.6제곱미터 하나가 겹친다">
+  <rect width="640" height="330" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">산 집과 세 놓은 집이 같은 집일까요</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">전용면적을 맞대보면 알 수 있어요 · 2026년 4~8월 · 국토교통부</text>
+
+  <!-- 중랑 -->
+  <rect x="32" y="88" width="576" height="98" rx="10" fill="#FFFFFF" stroke="#E5E0D0"/>
+  <text x="52" y="114" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">중랑 세이지움태릉입구역</text>
+  <text x="52" y="142" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">공공기관이 산 면적</text>
+  <text x="212" y="142" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">18.4 · 36.7 · 38.6㎡</text>
+  <text x="52" y="166" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">임대차가 나온 면적</text>
+  <text x="212" y="166" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">24.0 · 49.0㎡</text>
+  <text x="420" y="155" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#B4501F">겹치는 면적 없음</text>
+
+  <!-- 서초 -->
+  <rect x="32" y="198" width="576" height="98" rx="10" fill="#FFFFFF" stroke="#E5E0D0"/>
+  <text x="52" y="224" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">서초 호반써밋양재</text>
+  <text x="52" y="252" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">공공기관이 산 면적</text>
+  <text x="212" y="252" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">23.6㎡</text>
+  <text x="52" y="276" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">임대차가 나온 면적</text>
+  <text x="212" y="276" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">23.6 · 40.9 · 45.5 · 46.3 · 51.8 · 54.4㎡</text>
+  <text x="420" y="252" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F7A3D">23.6㎡ 하나만 겹침</text>
+
+  <text x="32" y="320" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">면적이 겹쳐도 같은 세대라는 뜻은 아닙니다 · 실거래 자료엔 매매와 임대차를 잇는 정보가 없어요</text>
+</svg>
