@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="세이지움태릉입구역 94건과 호반써밋양재 144건을 합한 임대차 238건이 모두 월세이고 전세는 0건이다">
+  <rect width="640" height="300" fill="#FDF6E3"/>
+  <text x="32" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#1F2328">두 단지 임대차 238건, 전세가 0건</text>
+  <text x="32" y="64" font-family="system-ui, sans-serif" font-size="12" fill="#6B7280">2026년 4~8월 아파트 전월세 실거래 · 국토교통부</text>
+
+  <text x="112" y="112" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">월세</text>
+  <rect x="122" y="94" width="440" height="28" rx="4" fill="#E8642F"/>
+  <text x="142" y="113" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">238건</text>
+  <text x="574" y="113" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#E8642F">100%</text>
+
+  <text x="112" y="152" text-anchor="end" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1F2328">전세</text>
+  <rect x="122" y="134" width="2" height="28" fill="#B8B2A0"/>
+  <text x="136" y="153" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#8A8F98">0건</text>
+
+  <line x1="32" y1="182" x2="608" y2="182" stroke="#E5E0D0"/>
+
+  <text x="32" y="208" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">단지별로 나눠도 마찬가지예요</text>
+  <text x="52" y="234" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">중랑 세이지움태릉입구역</text>
+  <text x="330" y="234" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">월세 94건 · 전세 0건</text>
+  <text x="52" y="258" font-family="system-ui, sans-serif" font-size="13" fill="#4B5563">서초 호반써밋양재</text>
+  <text x="330" y="258" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1F2328">월세 144건 · 전세 0건</text>
+
+  <text x="32" y="288" font-family="system-ui, sans-serif" font-size="11" fill="#8A8F98">두 단지만 센 값입니다 · 서울 전체나 신축 일반을 말하는 수치가 아닙니다</text>
+</svg>
